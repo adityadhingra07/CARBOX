@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		485C15941B6DFAEA00C583BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C15931B6DFAEA00C583BD /* AppDelegate.swift */; };
+		485C15971B6DFAEA00C583BD /* ride_me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 485C15951B6DFAEA00C583BD /* ride_me.xcdatamodeld */; };
+		485C15991B6DFAEA00C583BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C15981B6DFAEA00C583BD /* ViewController.swift */; };
+		485C159C1B6DFAEA00C583BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485C159A1B6DFAEA00C583BD /* Main.storyboard */; };
+		485C159E1B6DFAEA00C583BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C159D1B6DFAEA00C583BD /* Images.xcassets */; };
+		485C15A11B6DFAEA00C583BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485C159F1B6DFAEA00C583BD /* LaunchScreen.xib */; };
+		485C15AD1B6DFAEA00C583BD /* ride_meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C15AC1B6DFAEA00C583BD /* ride_meTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		485C15A71B6DFAEA00C583BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485C15861B6DFAEA00C583BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485C158D1B6DFAEA00C583BD;
+			remoteInfo = ride.me;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		485C158E1B6DFAEA00C583BD /* ride.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ride.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485C15921B6DFAEA00C583BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485C15931B6DFAEA00C583BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		485C15961B6DFAEA00C583BD /* ride_me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ride_me.xcdatamodel; sourceTree = "<group>"; };
+		485C15981B6DFAEA00C583BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		485C159B1B6DFAEA00C583BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		485C159D1B6DFAEA00C583BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		485C15A01B6DFAEA00C583BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		485C15A61B6DFAEA00C583BD /* ride.meTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ride.meTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485C15AB1B6DFAEA00C583BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485C15AC1B6DFAEA00C583BD /* ride_meTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ride_meTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485C158B1B6DFAEA00C583BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485C15A31B6DFAEA00C583BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485C15851B6DFAEA00C583BD = {
+			isa = PBXGroup;
+			children = (
+				485C15901B6DFAEA00C583BD /* ride.me */,
+				485C15A91B6DFAEA00C583BD /* ride.meTests */,
+				485C158F1B6DFAEA00C583BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		485C158F1B6DFAEA00C583BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				485C158E1B6DFAEA00C583BD /* ride.me.app */,
+				485C15A61B6DFAEA00C583BD /* ride.meTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		485C15901B6DFAEA00C583BD /* ride.me */ = {
+			isa = PBXGroup;
+			children = (
+				485C15931B6DFAEA00C583BD /* AppDelegate.swift */,
+				485C15981B6DFAEA00C583BD /* ViewController.swift */,
+				485C159A1B6DFAEA00C583BD /* Main.storyboard */,
+				485C159D1B6DFAEA00C583BD /* Images.xcassets */,
+				485C159F1B6DFAEA00C583BD /* LaunchScreen.xib */,
+				485C15951B6DFAEA00C583BD /* ride_me.xcdatamodeld */,
+				485C15911B6DFAEA00C583BD /* Supporting Files */,
+			);
+			path = ride.me;
+			sourceTree = "<group>";
+		};
+		485C15911B6DFAEA00C583BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				485C15921B6DFAEA00C583BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		485C15A91B6DFAEA00C583BD /* ride.meTests */ = {
+			isa = PBXGroup;
+			children = (
+				485C15AC1B6DFAEA00C583BD /* ride_meTests.swift */,
+				485C15AA1B6DFAEA00C583BD /* Supporting Files */,
+			);
+			path = ride.meTests;
+			sourceTree = "<group>";
+		};
+		485C15AA1B6DFAEA00C583BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				485C15AB1B6DFAEA00C583BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		485C158D1B6DFAEA00C583BD /* ride.me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485C15B01B6DFAEA00C583BD /* Build configuration list for PBXNativeTarget "ride.me" */;
+			buildPhases = (
+				485C158A1B6DFAEA00C583BD /* Sources */,
+				485C158B1B6DFAEA00C583BD /* Frameworks */,
+				485C158C1B6DFAEA00C583BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ride.me;
+			productName = ride.me;
+			productReference = 485C158E1B6DFAEA00C583BD /* ride.me.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485C15A51B6DFAEA00C583BD /* ride.meTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485C15B31B6DFAEA00C583BD /* Build configuration list for PBXNativeTarget "ride.meTests" */;
+			buildPhases = (
+				485C15A21B6DFAEA00C583BD /* Sources */,
+				485C15A31B6DFAEA00C583BD /* Frameworks */,
+				485C15A41B6DFAEA00C583BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485C15A81B6DFAEA00C583BD /* PBXTargetDependency */,
+			);
+			name = ride.meTests;
+			productName = ride.meTests;
+			productReference = 485C15A61B6DFAEA00C583BD /* ride.meTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485C15861B6DFAEA00C583BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Aditya Dhingra";
+				TargetAttributes = {
+					485C158D1B6DFAEA00C583BD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					485C15A51B6DFAEA00C583BD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 485C158D1B6DFAEA00C583BD;
+					};
+				};
+			};
+			buildConfigurationList = 485C15891B6DFAEA00C583BD /* Build configuration list for PBXProject "ride.me" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485C15851B6DFAEA00C583BD;
+			productRefGroup = 485C158F1B6DFAEA00C583BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				485C158D1B6DFAEA00C583BD /* ride.me */,
+				485C15A51B6DFAEA00C583BD /* ride.meTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		485C158C1B6DFAEA00C583BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485C159C1B6DFAEA00C583BD /* Main.storyboard in Resources */,
+				485C15A11B6DFAEA00C583BD /* LaunchScreen.xib in Resources */,
+				485C159E1B6DFAEA00C583BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485C15A41B6DFAEA00C583BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		485C158A1B6DFAEA00C583BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485C15991B6DFAEA00C583BD /* ViewController.swift in Sources */,
+				485C15941B6DFAEA00C583BD /* AppDelegate.swift in Sources */,
+				485C15971B6DFAEA00C583BD /* ride_me.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485C15A21B6DFAEA00C583BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485C15AD1B6DFAEA00C583BD /* ride_meTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		485C15A81B6DFAEA00C583BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485C158D1B6DFAEA00C583BD /* ride.me */;
+			targetProxy = 485C15A71B6DFAEA00C583BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		485C159A1B6DFAEA00C583BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485C159B1B6DFAEA00C583BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		485C159F1B6DFAEA00C583BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485C15A01B6DFAEA00C583BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		485C15AE1B6DFAEA00C583BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485C15AF1B6DFAEA00C583BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485C15B11B6DFAEA00C583BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ride.me/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		485C15B21B6DFAEA00C583BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ride.me/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		485C15B41B6DFAEA00C583BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ride.meTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ride.me.app/ride.me";
+			};
+			name = Debug;
+		};
+		485C15B51B6DFAEA00C583BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ride.meTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ride.me.app/ride.me";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		485C15891B6DFAEA00C583BD /* Build configuration list for PBXProject "ride.me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485C15AE1B6DFAEA00C583BD /* Debug */,
+				485C15AF1B6DFAEA00C583BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485C15B01B6DFAEA00C583BD /* Build configuration list for PBXNativeTarget "ride.me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485C15B11B6DFAEA00C583BD /* Debug */,
+				485C15B21B6DFAEA00C583BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		485C15B31B6DFAEA00C583BD /* Build configuration list for PBXNativeTarget "ride.meTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485C15B41B6DFAEA00C583BD /* Debug */,
+				485C15B51B6DFAEA00C583BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		485C15951B6DFAEA00C583BD /* ride_me.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				485C15961B6DFAEA00C583BD /* ride_me.xcdatamodel */,
+			);
+			currentVersion = 485C15961B6DFAEA00C583BD /* ride_me.xcdatamodel */;
+			path = ride_me.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 485C15861B6DFAEA00C583BD /* Project object */;
+}
