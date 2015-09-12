@@ -2293,7 +2293,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGs-jP-8rd">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="26" y="200" width="23" height="21"/>
@@ -2302,7 +2301,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQZ-Ha-DRu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="26" y="318" width="45" height="21"/>
@@ -2311,69 +2309,19 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where are you heading to?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cc-Ue-djc">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="141" width="368" height="22"/>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zipcode" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vsP-aT-xUI">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="287" y="391" width="67" height="30"/>
-                                </variation>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dZc-cK-KT7">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="347" width="328" height="30"/>
-                                </variation>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="U.S. State" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kHp-4a-jSz">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="391" width="253" height="30"/>
-                                </variation>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="U.S. State" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yCy-8a-ECM">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="275" width="253" height="30"/>
-                                </variation>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zipcode" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mjm-K9-F7E">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="287" y="275" width="67" height="30"/>
-                                </variation>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When are you leaving?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ClK-E9-HO6">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="429" width="368" height="47"/>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iDu-c6-M3X">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="229" width="328" height="30"/>
-                                </variation>
-                            </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wVR-bY-o6U">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
@@ -2447,29 +2395,82 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8OP-To-9FA">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="1" y="497" width="368" height="21"/>
                                 </variation>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="do9-xR-pPT" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="229" width="328" height="38"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bMC-nX-WuV" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="271" width="220" height="38"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8hD-DZ-60U" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="247" y="271" width="107" height="38"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NZC-uv-MC3" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="347" width="328" height="38"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p2H-U5-dns" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="247" y="393" width="107" height="38"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htD-eY-IBf" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="393" width="220" height="38"/>
+                                </variation>
+                            </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="cGs-jP-8rd"/>
                                 <exclude reference="aQZ-Ha-DRu"/>
                                 <exclude reference="9cc-Ue-djc"/>
-                                <exclude reference="vsP-aT-xUI"/>
-                                <exclude reference="dZc-cK-KT7"/>
-                                <exclude reference="kHp-4a-jSz"/>
-                                <exclude reference="yCy-8a-ECM"/>
-                                <exclude reference="mjm-K9-F7E"/>
                                 <exclude reference="ClK-E9-HO6"/>
-                                <exclude reference="iDu-c6-M3X"/>
                                 <exclude reference="wVR-bY-o6U"/>
                                 <exclude reference="byC-Nu-k3w"/>
                                 <exclude reference="8OP-To-9FA"/>
+                                <exclude reference="do9-xR-pPT"/>
+                                <exclude reference="bMC-nX-WuV"/>
+                                <exclude reference="8hD-DZ-60U"/>
+                                <exclude reference="NZC-uv-MC3"/>
+                                <exclude reference="p2H-U5-dns"/>
+                                <exclude reference="htD-eY-IBf"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -2477,27 +2478,27 @@
                                 <include reference="cGs-jP-8rd"/>
                                 <include reference="aQZ-Ha-DRu"/>
                                 <include reference="9cc-Ue-djc"/>
-                                <include reference="vsP-aT-xUI"/>
-                                <include reference="dZc-cK-KT7"/>
-                                <include reference="kHp-4a-jSz"/>
-                                <include reference="yCy-8a-ECM"/>
-                                <include reference="mjm-K9-F7E"/>
                                 <include reference="ClK-E9-HO6"/>
-                                <include reference="iDu-c6-M3X"/>
                                 <include reference="wVR-bY-o6U"/>
                                 <include reference="byC-Nu-k3w"/>
                                 <include reference="8OP-To-9FA"/>
+                                <include reference="do9-xR-pPT"/>
+                                <include reference="bMC-nX-WuV"/>
+                                <include reference="8hD-DZ-60U"/>
+                                <include reference="NZC-uv-MC3"/>
+                                <include reference="p2H-U5-dns"/>
+                                <include reference="htD-eY-IBf"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="cityfrom" destination="dZc-cK-KT7" id="D2L-1Y-cU4"/>
-                        <outlet property="cityto" destination="iDu-c6-M3X" id="WQZ-VW-3KB"/>
+                        <outlet property="cityfrom" destination="NZC-uv-MC3" id="YtC-Bn-y40"/>
+                        <outlet property="cityto" destination="do9-xR-pPT" id="JeG-vb-sYn"/>
                         <outlet property="datepick" destination="byC-Nu-k3w" id="vFZ-tR-e0L"/>
-                        <outlet property="statefrom" destination="kHp-4a-jSz" id="EJF-j4-Mt0"/>
-                        <outlet property="stateto" destination="yCy-8a-ECM" id="8aY-YP-gh9"/>
-                        <outlet property="zipfrom" destination="vsP-aT-xUI" id="4Xa-o8-RQm"/>
-                        <outlet property="zipto" destination="mjm-K9-F7E" id="L78-YV-W0W"/>
+                        <outlet property="statefrom" destination="htD-eY-IBf" id="UDE-Z2-gho"/>
+                        <outlet property="stateto" destination="bMC-nX-WuV" id="xLN-GW-qXg"/>
+                        <outlet property="zipfrom" destination="p2H-U5-dns" id="t2U-ST-gEB"/>
+                        <outlet property="zipto" destination="8hD-DZ-60U" id="be7-Zn-PCP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Abf-dt-Gzw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2532,7 +2533,7 @@
                                     <rect key="frame" x="-45" y="120" width="491" height="360"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="-46" y="220" width="492" height="360"/>
+                                    <rect key="frame" x="-44" y="220" width="491" height="360"/>
                                     <mask key="constraints">
                                         <include reference="yHj-Yb-3oB"/>
                                         <include reference="yrE-ae-zSH"/>
@@ -2559,7 +2560,7 @@
                                     <rect key="frame" x="114" y="361" width="171" height="59"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="113" y="461" width="171" height="59"/>
+                                    <rect key="frame" x="115" y="461" width="171" height="59"/>
                                     <mask key="constraints">
                                         <include reference="BB1-6n-giD"/>
                                         <include reference="rYF-MR-Co4"/>
@@ -2587,7 +2588,7 @@
                                     <rect key="frame" x="108" y="323" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="423" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="423" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="2lz-v0-eYe"/>
                                         <include reference="jRE-qU-P1n"/>
@@ -2615,7 +2616,7 @@
                                     <rect key="frame" x="108" y="247" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="347" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="347" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="86z-Hx-PhO"/>
                                         <include reference="x4z-qt-XJW"/>
@@ -2643,7 +2644,7 @@
                                     <rect key="frame" x="108" y="209" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="309" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="309" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="I8m-ym-wuf"/>
                                         <include reference="dxH-jx-yNr"/>
@@ -2671,7 +2672,7 @@
                                     <rect key="frame" x="108" y="285" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="385" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="385" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="iDx-Vg-KYi"/>
                                         <include reference="sVi-o1-zeN"/>
@@ -2701,7 +2702,7 @@
                                     <rect key="frame" x="171" y="428" width="57" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="170" y="528" width="57" height="30"/>
+                                    <rect key="frame" x="172" y="528" width="57" height="30"/>
                                     <mask key="constraints">
                                         <include reference="1nY-sD-09S"/>
                                         <include reference="OZL-cJ-cwR"/>
@@ -2864,7 +2865,7 @@
                                             <rect key="frame" x="21" y="90" width="46" height="34"/>
                                         </variation>
                                         <connections>
-                                            <segue destination="POf-oe-ZWh" kind="presentation" id="oUh-bw-Ncc"/>
+                                            <action selector="back:" destination="QaF-pL-ZBc" eventType="touchUpInside" id="F93-t8-vkm"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2888,7 +2889,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EdJ-92-cW7">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="26" y="196" width="23" height="21"/>
@@ -2897,7 +2897,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCS-xr-IO0">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="26" y="315" width="45" height="21"/>
@@ -2906,52 +2905,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where are you heading to?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bh0-MX-XqX">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="145" width="368" height="21"/>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZZS-lc-BKv">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="225" width="331" height="30"/>
-                                </variation>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zipcode" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7LG-7T-J74">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="290" y="385" width="67" height="30"/>
-                                </variation>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XB3-zV-2ba">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="344" width="331" height="30"/>
-                                </variation>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="U.S. State" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b1E-5c-Nrv">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="271" width="256" height="30"/>
-                                </variation>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Zipcode" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7gS-BA-p49">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="290" y="271" width="67" height="30"/>
-                                </variation>
-                            </textField>
                             <datePicker contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="HaL-Xf-l2P">
                                 <rect key="frame" x="-160" y="-81" width="320" height="162"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
@@ -2968,7 +2926,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2z-Nv-EER">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="495" width="368" height="21"/>
@@ -2977,37 +2934,82 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When are you leaving?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8K-au-Uat">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="428" width="368" height="47"/>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="U.S. State" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ee1-rb-Lm8">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MJc-qG-JM1" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="389" width="256" height="26"/>
+                                    <rect key="frame" x="26" y="231" width="328" height="38"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DYX-Yf-nZy" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="382" width="220" height="38"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jL7-6m-A4v" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="247" y="382" width="107" height="38"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4oo-LU-xs7" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="277" width="220" height="38"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ycJ-72-ChI" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="247" y="277" width="107" height="38"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mVA-jm-fQP" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="336" width="328" height="38"/>
                                 </variation>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="uef-ZU-suE"/>
                                 <exclude reference="EdJ-92-cW7"/>
                                 <exclude reference="HCS-xr-IO0"/>
                                 <exclude reference="bh0-MX-XqX"/>
-                                <exclude reference="ZZS-lc-BKv"/>
-                                <exclude reference="7LG-7T-J74"/>
-                                <exclude reference="XB3-zV-2ba"/>
-                                <exclude reference="b1E-5c-Nrv"/>
-                                <exclude reference="7gS-BA-p49"/>
                                 <exclude reference="HaL-Xf-l2P"/>
                                 <exclude reference="H2z-Nv-EER"/>
                                 <exclude reference="K8K-au-Uat"/>
-                                <exclude reference="ee1-rb-Lm8"/>
+                                <exclude reference="MJc-qG-JM1"/>
+                                <exclude reference="DYX-Yf-nZy"/>
+                                <exclude reference="jL7-6m-A4v"/>
+                                <exclude reference="4oo-LU-xs7"/>
+                                <exclude reference="ycJ-72-ChI"/>
+                                <exclude reference="mVA-jm-fQP"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -3016,26 +3018,26 @@
                                 <include reference="EdJ-92-cW7"/>
                                 <include reference="HCS-xr-IO0"/>
                                 <include reference="bh0-MX-XqX"/>
-                                <include reference="ZZS-lc-BKv"/>
-                                <include reference="7LG-7T-J74"/>
-                                <include reference="XB3-zV-2ba"/>
-                                <include reference="b1E-5c-Nrv"/>
-                                <include reference="7gS-BA-p49"/>
                                 <include reference="HaL-Xf-l2P"/>
                                 <include reference="H2z-Nv-EER"/>
                                 <include reference="K8K-au-Uat"/>
-                                <include reference="ee1-rb-Lm8"/>
+                                <include reference="MJc-qG-JM1"/>
+                                <include reference="DYX-Yf-nZy"/>
+                                <include reference="jL7-6m-A4v"/>
+                                <include reference="4oo-LU-xs7"/>
+                                <include reference="ycJ-72-ChI"/>
+                                <include reference="mVA-jm-fQP"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="cityfrom" destination="XB3-zV-2ba" id="pgV-HA-5zo"/>
-                        <outlet property="cityto" destination="ZZS-lc-BKv" id="D9j-mB-0kS"/>
+                        <outlet property="cityfrom" destination="mVA-jm-fQP" id="gxt-eX-2um"/>
+                        <outlet property="cityto" destination="MJc-qG-JM1" id="3pz-wr-QWn"/>
                         <outlet property="datepick" destination="HaL-Xf-l2P" id="Ljx-eI-xVi"/>
-                        <outlet property="statefrom" destination="ee1-rb-Lm8" id="EFM-Cb-oQj"/>
-                        <outlet property="stateto" destination="b1E-5c-Nrv" id="f4b-vS-Bkg"/>
-                        <outlet property="zipfrom" destination="7LG-7T-J74" id="qVy-Ah-7co"/>
-                        <outlet property="zipto" destination="7gS-BA-p49" id="OqI-MT-xPg"/>
+                        <outlet property="statefrom" destination="DYX-Yf-nZy" id="jiv-77-B24"/>
+                        <outlet property="stateto" destination="4oo-LU-xs7" id="1Yx-Qn-rxA"/>
+                        <outlet property="zipfrom" destination="jL7-6m-A4v" id="4mn-5X-Puh"/>
+                        <outlet property="zipto" destination="ycJ-72-ChI" id="zRW-Wa-AG7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ni5-WH-Sav" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3424,6 +3426,6 @@
         <image name="tick.png" width="254" height="254"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oUh-bw-Ncc"/>
+        <segue reference="jUM-OM-trx"/>
     </inferredMetricsTieBreakers>
 </document>

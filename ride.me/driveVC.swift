@@ -16,14 +16,14 @@ class driveVC: UIViewController, UITextFieldDelegate {
     
     // TO INPUTS
     
-    @IBOutlet var cityto: UITextField!
-    @IBOutlet var stateto: UITextField!
-    @IBOutlet var zipto: UITextField!
+    @IBOutlet var cityto: MKTextField!
+    @IBOutlet var stateto: MKTextField!
+    @IBOutlet var zipto: MKTextField!
     
     // FROM INPUTS
-    @IBOutlet var cityfrom: UITextField!
-    @IBOutlet var statefrom: UITextField!
-    @IBOutlet var zipfrom: UITextField!
+    @IBOutlet var cityfrom: MKTextField!
+    @IBOutlet var statefrom: MKTextField!
+    @IBOutlet var zipfrom: MKTextField!
     
     // DATE INPUT
     
@@ -94,6 +94,74 @@ class driveVC: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // No border, no shadow, floatingPlaceholderEnabled
+        cityto.layer.borderColor = UIColor.clearColor().CGColor
+        cityto.floatingPlaceholderEnabled = true
+        cityto.placeholder = "City.."
+        cityto.tintColor = UIColor.MKColor.Blue
+        cityto.rippleLocation = .Right
+        cityto.cornerRadius = 0
+        cityto.bottomBorderEnabled = true
+        cityto.attributedPlaceholder = NSAttributedString(string:"City..",
+            attributes:[NSForegroundColorAttributeName: UIColor.orangeColor()])
+        cityto.delegate = self
+        
+        stateto.layer.borderColor = UIColor.clearColor().CGColor
+        stateto.floatingPlaceholderEnabled = true
+        stateto.placeholder = "State.."
+        stateto.tintColor = UIColor.MKColor.Blue
+        stateto.rippleLocation = .Right
+        stateto.cornerRadius = 0
+        stateto.bottomBorderEnabled = true
+        stateto.attributedPlaceholder = NSAttributedString(string:"State..",
+            attributes:[NSForegroundColorAttributeName: UIColor.orangeColor()])
+        stateto.delegate = self
+        
+        zipto.layer.borderColor = UIColor.clearColor().CGColor
+        zipto.floatingPlaceholderEnabled = true
+        zipto.placeholder = "Zip.."
+        zipto.tintColor = UIColor.MKColor.Blue
+        zipto.rippleLocation = .Right
+        zipto.cornerRadius = 0
+        zipto.bottomBorderEnabled = true
+        zipto.attributedPlaceholder = NSAttributedString(string:"Zip..",
+            attributes:[NSForegroundColorAttributeName: UIColor.orangeColor()])
+        zipto.delegate = self
+        
+        cityfrom.layer.borderColor = UIColor.clearColor().CGColor
+        cityfrom.floatingPlaceholderEnabled = true
+        cityfrom.placeholder = "City.."
+        cityfrom.tintColor = UIColor.MKColor.Blue
+        cityfrom.rippleLocation = .Right
+        cityfrom.cornerRadius = 0
+        cityfrom.bottomBorderEnabled = true
+        cityfrom.attributedPlaceholder = NSAttributedString(string:"City..",
+            attributes:[NSForegroundColorAttributeName: UIColor.orangeColor()])
+        cityfrom.delegate = self
+        
+        statefrom.layer.borderColor = UIColor.clearColor().CGColor
+        statefrom.floatingPlaceholderEnabled = true
+        statefrom.placeholder = "State.."
+        statefrom.tintColor = UIColor.MKColor.Blue
+        statefrom.rippleLocation = .Right
+        statefrom.cornerRadius = 0
+        statefrom.bottomBorderEnabled = true
+        statefrom.attributedPlaceholder = NSAttributedString(string:"State..",
+            attributes:[NSForegroundColorAttributeName: UIColor.orangeColor()])
+        statefrom.delegate = self
+        
+        zipfrom.layer.borderColor = UIColor.clearColor().CGColor
+        zipfrom.floatingPlaceholderEnabled = true
+        zipfrom.placeholder = "Zip.."
+        zipfrom.tintColor = UIColor.MKColor.Blue
+        zipfrom.rippleLocation = .Right
+        zipfrom.cornerRadius = 0
+        zipfrom.bottomBorderEnabled = true
+        zipfrom.attributedPlaceholder = NSAttributedString(string:"Zip..",
+            attributes:[NSForegroundColorAttributeName: UIColor.orangeColor()])
+        zipfrom.delegate = self
+        
     }
     
     override func didReceiveMemoryWarning() {
