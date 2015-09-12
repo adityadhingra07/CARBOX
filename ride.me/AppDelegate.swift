@@ -20,7 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
        //FORWATCHKIT
-        //Parse.enableDataSharingWithApplicationGroupIdentifier(“group.com.parse.parseuidemo”)
+        Parse.enableLocalDatastore()
+        Parse.enableDataSharingWithApplicationGroupIdentifier("group.com.myexample.ride-me")
         
         Parse.setApplicationId("8HWVCwLAEWaLHmXBQ9hKl77YhmfHKPAoiZFJM4Ds", clientKey:"LbugyjO6Pr2GPM5m4JexSCahNMG5e4qjFBq85Yec")
         

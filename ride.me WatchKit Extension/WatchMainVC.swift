@@ -8,12 +8,17 @@
 
 import WatchKit
 import Foundation
-
+import Parse
 
 class WatchMainVC: WKInterfaceController {
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
+        
+        Parse.enableLocalDatastore()
+        Parse.enableDataSharingWithApplicationGroupIdentifier("group.com.myexample.ride-me", containingApplication: "com.myexample.ride-me")
+        
+        Parse.setApplicationId("8HWVCwLAEWaLHmXBQ9hKl77YhmfHKPAoiZFJM4Ds", clientKey:"LbugyjO6Pr2GPM5m4JexSCahNMG5e4qjFBq85Yec")
         // Configure interface objects here.
     }
     

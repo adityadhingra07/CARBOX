@@ -51,6 +51,19 @@
 		4227B8371BA4CE24001E6417 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B81B1BA4CE24001E6417 /* TransitionManager.swift */; };
 		4227B8381BA4CE24001E6417 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B81C1BA4CE24001E6417 /* TransitionZoom.swift */; };
 		4227B8391BA4CE24001E6417 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B81D1BA4CE24001E6417 /* UnwindSegue.swift */; };
+		4227B83B1BA4D9BC001E6417 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15F01B6E22FD00C583BD /* Parse.framework */; };
+		4227B83C1BA4D9C1001E6417 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15EF1B6E22FD00C583BD /* Bolts.framework */; };
+		4227B83E1BA4DCD8001E6417 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16131B6E23CE00C583BD /* libsqlite3.dylib */; };
+		4227B83F1BA4E31B001E6417 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15FF1B6E235500C583BD /* AudioToolbox.framework */; };
+		4227B8401BA4E323001E6417 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16011B6E236500C583BD /* CFNetwork.framework */; };
+		4227B8411BA4E330001E6417 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16031B6E236B00C583BD /* CoreGraphics.framework */; };
+		4227B8421BA4E336001E6417 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16051B6E237E00C583BD /* CoreLocation.framework */; };
+		4227B8431BA4E33E001E6417 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16111B6E23BC00C583BD /* libz.dylib */; };
+		4227B8451BA4E345001E6417 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227B8441BA4E345001E6417 /* MobileCoreServices.framework */; };
+		4227B8461BA4E34A001E6417 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16071B6E238400C583BD /* QuartzCore.framework */; };
+		4227B8471BA4E352001E6417 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16091B6E239000C583BD /* Security.framework */; };
+		4227B8491BA4E391001E6417 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227B8481BA4E391001E6417 /* StoreKit.framework */; };
+		4227B84A1BA4E398001E6417 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C160F1B6E23AA00C583BD /* SystemConfiguration.framework */; };
 		48143AD01B7FB1DD00330CFE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */; };
 		48143AD21B7FB1DD00330CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD11B7FB1DD00330CFE /* Images.xcassets */; };
 		48143AD61B7FB1DD00330CFE /* ride.me WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD51B7FB1DD00330CFE /* ride.me WatchKit App.app */; };
@@ -288,6 +301,10 @@
 		4227B81B1BA4CE24001E6417 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		4227B81C1BA4CE24001E6417 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		4227B81D1BA4CE24001E6417 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		4227B83D1BA4DAA0001E6417 /* ride.me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ride.me.entitlements; sourceTree = "<group>"; };
+		4227B8441BA4E345001E6417 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4227B8481BA4E391001E6417 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4227B84B1BA4E4A6001E6417 /* ride.me WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ride.me WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		48143ACB1B7FB1DC00330CFE /* ride.me WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ride.me WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48143ACE1B7FB1DD00330CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -453,6 +470,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4227B84A1BA4E398001E6417 /* SystemConfiguration.framework in Frameworks */,
+				4227B8491BA4E391001E6417 /* StoreKit.framework in Frameworks */,
+				4227B8471BA4E352001E6417 /* Security.framework in Frameworks */,
+				4227B8461BA4E34A001E6417 /* QuartzCore.framework in Frameworks */,
+				4227B8451BA4E345001E6417 /* MobileCoreServices.framework in Frameworks */,
+				4227B8431BA4E33E001E6417 /* libz.dylib in Frameworks */,
+				4227B8421BA4E336001E6417 /* CoreLocation.framework in Frameworks */,
+				4227B8411BA4E330001E6417 /* CoreGraphics.framework in Frameworks */,
+				4227B8401BA4E323001E6417 /* CFNetwork.framework in Frameworks */,
+				4227B83F1BA4E31B001E6417 /* AudioToolbox.framework in Frameworks */,
+				4227B83E1BA4DCD8001E6417 /* libsqlite3.dylib in Frameworks */,
+				4227B83B1BA4D9BC001E6417 /* Parse.framework in Frameworks */,
+				4227B83C1BA4D9C1001E6417 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +573,7 @@
 		48143ACC1B7FB1DC00330CFE /* ride.me WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				4227B84B1BA4E4A6001E6417 /* ride.me WatchKit Extension.entitlements */,
 				48143AED1B7FC29C00330CFE /* basicSwiftFile.swift */,
 				48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */,
 				48143AEB1B7FC25700330CFE /* WatchMainVC.swift */,
@@ -581,6 +612,8 @@
 		485C15851B6DFAEA00C583BD = {
 			isa = PBXGroup;
 			children = (
+				4227B8481BA4E391001E6417 /* StoreKit.framework */,
+				4227B8441BA4E345001E6417 /* MobileCoreServices.framework */,
 				485C15901B6DFAEA00C583BD /* ride.me */,
 				485C15A91B6DFAEA00C583BD /* ride.meTests */,
 				48143ACC1B7FB1DC00330CFE /* ride.me WatchKit Extension */,
@@ -603,6 +636,7 @@
 		485C15901B6DFAEA00C583BD /* ride.me */ = {
 			isa = PBXGroup;
 			children = (
+				4227B83D1BA4DAA0001E6417 /* ride.me.entitlements */,
 				4227B7F21BA43506001E6417 /* TimelineViewController.swift */,
 				4227B7F41BA43694001E6417 /* TimelineCell.swift */,
 				4885C02D1BA41F1200020C4C /* Bass_Drop_04.wav */,
@@ -918,6 +952,15 @@
 				TargetAttributes = {
 					48143ACA1B7FB1DC00330CFE = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7A9LG5LNH6;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					48143AD41B7FB1DD00330CFE = {
 						CreatedOnToolsVersion = 6.4;
@@ -927,11 +970,14 @@
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = 7A9LG5LNH6;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.InAppPurchase = {
 								enabled = 0;
 							};
 							com.apple.Keychain = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -1245,6 +1291,13 @@
 		48143AE41B7FB1DD00330CFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ride.me WatchKit Extension/ride.me WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ride.me",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1252,6 +1305,7 @@
 				INFOPLIST_FILE = "ride.me WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1259,9 +1313,17 @@
 		48143AE51B7FB1DD00330CFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ride.me WatchKit Extension/ride.me WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ride.me",
+				);
 				INFOPLIST_FILE = "ride.me WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1387,6 +1449,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ride.me/ride.me.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ride.me",
@@ -1395,6 +1460,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1403,6 +1469,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ride.me/ride.me.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ride.me",
@@ -1411,6 +1480,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
