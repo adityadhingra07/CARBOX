@@ -112,6 +112,7 @@
 		4885BFE11BA3A86200020C4C /* RoadwayLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFBD1BA3A86200020C4C /* RoadwayLoginView.swift */; };
 		4885BFE21BA3A86200020C4C /* settingsVC.coreanimator in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFBE1BA3A86200020C4C /* settingsVC.coreanimator */; };
 		4885BFE31BA3A86200020C4C /* SettingsVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFBF1BA3A86200020C4C /* SettingsVCView.swift */; };
+		4885BFE71BA3D3CB00020C4C /* animatedMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFE61BA3D3CB00020C4C /* animatedMainVC.swift */; };
 		48C815091B7E52EB005489E1 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815051B7E52EB005489E1 /* cross.png */; };
 		48C8150A1B7E52EB005489E1 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815061B7E52EB005489E1 /* cross@2x.png */; };
 		48C8150B1B7E52EB005489E1 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815071B7E52EB005489E1 /* tick.png */; };
@@ -123,10 +124,8 @@
 		48C8151A1B7E6682005489E1 /* phonesetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815141B7E6682005489E1 /* phonesetting@2x.png */; };
 		48C8151B1B7E6682005489E1 /* usernamesetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815151B7E6682005489E1 /* usernamesetting.png */; };
 		48C8151C1B7E6682005489E1 /* usernamesetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815161B7E6682005489E1 /* usernamesetting@2x.png */; };
-		48D6B76D1B73422C001DDDD6 /* animatedMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D6B76C1B73422C001DDDD6 /* animatedMainVC.swift */; };
 		48D6B76F1B73483A001DDDD6 /* loginbtnblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 48D6B76E1B73483A001DDDD6 /* loginbtnblack.png */; };
 		48D6B7711B73484C001DDDD6 /* signupbtnblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 48D6B7701B73484C001DDDD6 /* signupbtnblack.png */; };
-		48DA764F1B6FA5DE005441EA /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48DA764E1B6FA5DE005441EA /* Entitlements.plist */; };
 		48DAA3AF1B723F710072B459 /* animatedSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DAA3AE1B723F710072B459 /* animatedSignUpVC.swift */; };
 		48DAA3B11B724F050072B459 /* animatedLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DAA3B01B724F050072B459 /* animatedLoginVC.swift */; };
 		48FF76881B7B23A7004DC193 /* settingsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF76871B7B23A7004DC193 /* settingsicon.png */; };
@@ -183,7 +182,6 @@
 		48143ADF1B7FB1DD00330CFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		48143AEB1B7FC25700330CFE /* WatchMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchMainVC.swift; sourceTree = "<group>"; };
 		48143AED1B7FC29C00330CFE /* basicSwiftFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = basicSwiftFile.swift; sourceTree = "<group>"; };
-		48143AEF1B7FC4EB00330CFE /* ride.me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ride.me.entitlements; sourceTree = "<group>"; };
 		4814D65B1B7089D0008F98D9 /* loginbgwhite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginbgwhite.jpg; sourceTree = "<group>"; };
 		4814D65D1B708BBC008F98D9 /* apploginbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apploginbtn.png; sourceTree = "<group>"; };
 		4814D65E1B708BBC008F98D9 /* appsignupbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appsignupbtn.png; sourceTree = "<group>"; };
@@ -285,6 +283,7 @@
 		4885BFBD1BA3A86200020C4C /* RoadwayLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadwayLoginView.swift; sourceTree = "<group>"; };
 		4885BFBE1BA3A86200020C4C /* settingsVC.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = settingsVC.coreanimator; sourceTree = "<group>"; };
 		4885BFBF1BA3A86200020C4C /* SettingsVCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVCView.swift; sourceTree = "<group>"; };
+		4885BFE61BA3D3CB00020C4C /* animatedMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animatedMainVC.swift; sourceTree = "<group>"; };
 		48C815051B7E52EB005489E1 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		48C815061B7E52EB005489E1 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
 		48C815071B7E52EB005489E1 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
@@ -296,10 +295,8 @@
 		48C815141B7E6682005489E1 /* phonesetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phonesetting@2x.png"; sourceTree = "<group>"; };
 		48C815151B7E6682005489E1 /* usernamesetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usernamesetting.png; sourceTree = "<group>"; };
 		48C815161B7E6682005489E1 /* usernamesetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usernamesetting@2x.png"; sourceTree = "<group>"; };
-		48D6B76C1B73422C001DDDD6 /* animatedMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = animatedMainVC.swift; path = ../../../roadsignlogin/animatedMainVC.swift; sourceTree = "<group>"; };
 		48D6B76E1B73483A001DDDD6 /* loginbtnblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbtnblack.png; sourceTree = "<group>"; };
 		48D6B7701B73484C001DDDD6 /* signupbtnblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupbtnblack.png; sourceTree = "<group>"; };
-		48DA764E1B6FA5DE005441EA /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		48DAA3AE1B723F710072B459 /* animatedSignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animatedSignUpVC.swift; sourceTree = "<group>"; };
 		48DAA3B01B724F050072B459 /* animatedLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = animatedLoginVC.swift; path = ../animatedLoginVC.swift; sourceTree = "<group>"; };
 		48FF76871B7B23A7004DC193 /* settingsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsicon.png; sourceTree = "<group>"; };
@@ -391,7 +388,6 @@
 		485C15851B6DFAEA00C583BD = {
 			isa = PBXGroup;
 			children = (
-				48DA764E1B6FA5DE005441EA /* Entitlements.plist */,
 				485C15901B6DFAEA00C583BD /* ride.me */,
 				485C15A91B6DFAEA00C583BD /* ride.meTests */,
 				48143ACC1B7FB1DC00330CFE /* ride.me WatchKit Extension */,
@@ -414,13 +410,12 @@
 		485C15901B6DFAEA00C583BD /* ride.me */ = {
 			isa = PBXGroup;
 			children = (
-				48143AEF1B7FC4EB00330CFE /* ride.me.entitlements */,
 				485C15931B6DFAEA00C583BD /* AppDelegate.swift */,
 				485C16151B6E24C000C583BD /* loginvc.swift */,
 				485C16171B6E24D300C583BD /* signupvc.swift */,
 				48DAA3B01B724F050072B459 /* animatedLoginVC.swift */,
 				48DAA3AE1B723F710072B459 /* animatedSignUpVC.swift */,
-				48D6B76C1B73422C001DDDD6 /* animatedMainVC.swift */,
+				4885BFE61BA3D3CB00020C4C /* animatedMainVC.swift */,
 				488152681B77900D00E34D32 /* usermenu.swift */,
 				482956561B7912C200A26830 /* driveVC.swift */,
 				48FF768B1B7B33DE004DC193 /* rideVC.swift */,
@@ -761,7 +756,6 @@
 				485C15E61B6DFBDB00C583BD /* twittericon.png in Resources */,
 				485C15D41B6DFBDB00C583BD /* friend.png in Resources */,
 				4885BFCD1BA3A86200020C4C /* phonesetting@2x.png in Resources */,
-				48DA764F1B6FA5DE005441EA /* Entitlements.plist in Resources */,
 				4885BFCB1BA3A86200020C4C /* logout.jpg in Resources */,
 				48C815191B7E6682005489E1 /* phonesetting.png in Resources */,
 				48C8150A1B7E52EB005489E1 /* cross@2x.png in Resources */,
@@ -844,6 +838,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4885BFE71BA3D3CB00020C4C /* animatedMainVC.swift in Sources */,
 				488152691B77900D00E34D32 /* usermenu.swift in Sources */,
 				4885BFDD1BA3A86200020C4C /* MainviewView.swift in Sources */,
 				483C86D21B7A1745001527DE /* mainViewController.swift in Sources */,
@@ -859,7 +854,6 @@
 				482956571B7912C200A26830 /* driveVC.swift in Sources */,
 				4885BFE31BA3A86200020C4C /* SettingsVCView.swift in Sources */,
 				48FF768C1B7B33DE004DC193 /* rideVC.swift in Sources */,
-				48D6B76D1B73422C001DDDD6 /* animatedMainVC.swift in Sources */,
 				485C16181B6E24D300C583BD /* signupvc.swift in Sources */,
 				485C15971B6DFAEA00C583BD /* ride_me.xcdatamodeld in Sources */,
 				48C8150E1B7E55F8005489E1 /* materialSignupVC.swift in Sources */,
@@ -1068,7 +1062,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ride.me",
@@ -1085,7 +1079,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ride.me",
