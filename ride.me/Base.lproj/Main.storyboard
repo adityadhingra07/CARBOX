@@ -633,7 +633,7 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.59999999999999998" blue="0.80000000000000004" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
-                                <state key="normal" image="SignUpLight">
+                                <state key="normal" image="signupclassicbtn">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -651,7 +651,7 @@
                                     <constraint firstAttribute="height" constant="66" id="tod-66-CSy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
-                                <state key="normal" image="LoginLight">
+                                <state key="normal" image="loginclassicbtn">
                                     <color key="titleColor" white="0.5" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
@@ -4009,16 +4009,16 @@
     </scenes>
     <resources>
         <image name="CARBOX.png" width="1074" height="217"/>
-        <image name="LoginLight" width="378" height="117"/>
-        <image name="SignUpLight" width="378" height="117"/>
         <image name="car.jpg" width="3000" height="2017"/>
         <image name="circle.png" width="300" height="300"/>
         <image name="cross" width="254" height="254"/>
         <image name="loginbtnblack.png" width="300" height="100"/>
+        <image name="loginclassicbtn" width="361" height="106"/>
         <image name="plusicon.png" width="300" height="300"/>
         <image name="ridemelogo.png" width="500" height="250"/>
         <image name="settingsicon.png" width="600" height="184"/>
         <image name="signupbtnblack.png" width="300" height="100"/>
+        <image name="signupclassicbtn" width="361" height="106"/>
         <image name="tick" width="254" height="254"/>
         <image name="tick.png" width="254" height="254"/>
     </resources>
