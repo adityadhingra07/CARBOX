@@ -52,16 +52,18 @@ class driveVC: UIViewController, UITextFieldDelegate {
     }
     
     func post_drive(){
-        
-        var currentUser = PFUser.currentUser()?.username
+        var message = "Going from " + cityfrom.text! + " to " +  cityto.text! + " anyone need a ride?"
+        var currentUserName = PFUser.currentUser()?.username
         var driveuser = PFObject(className:"Person")
-        driveuser["username"] = currentUser
+        driveuser["username"] = PFUser.currentUser()?.username
+        driveuser["text"] = message
+        driveuser["startTime"] = CFAbsoluteTimeGetCurrent()
         driveuser["date"] = Day as NSDate
-        driveuser["cityto"] = cityto.text!
-        driveuser["stateto"] = stateto.text!
+        //driveuser["cityto"] = cityto.text!
+        //driveuser["stateto"] = stateto.text!
         driveuser["zipto"] = zipto.text!
-        driveuser["cityfrom"] = cityfrom.text!
-        driveuser["statefrom"] = statefrom.text!
+       // driveuser["cityfrom"] = cityfrom.text!
+        //driveuser["statefrom"] = statefrom.text!
         driveuser["zipfrom"] = zipfrom.text!
         
         driveuser.saveInBackgroundWithBlock {
@@ -80,7 +82,9 @@ class driveVC: UIViewController, UITextFieldDelegate {
                     //                        iOSPush.sendPushInBackground()
                     //
                     //                    }
+                    self.performSegueWithIdentifier("posted1", sender: self)
                     println("Posted!")
+                    
                 } else {
                     println("Couldn't post!")
                     SCLAlertView().showWarning("Error Posting", subTitle: "Check Your Internet Connection.")

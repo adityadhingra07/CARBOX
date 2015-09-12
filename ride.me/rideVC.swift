@@ -56,17 +56,45 @@ class rideVC: UIViewController, UITextFieldDelegate {
     }
     
     func post_ride(){
-        
-        var currentUser = PFUser.currentUser()?.username
-        var driveuser = PFObject(className:"ride")
-        driveuser["username"] = currentUser
+        var message = "Need to go from " + cityfrom.text! + " to " +  cityto.text! + " is anyone going?"
+        var currentUserName = PFUser.currentUser()?.username
+        var driveuser = PFObject(className:"Person")
+        driveuser["username"] = PFUser.currentUser()?.username
+        driveuser["text"] = message
+        driveuser["startTime"] = CFAbsoluteTimeGetCurrent()
         driveuser["date"] = Day as NSDate
-        driveuser["cityto"] = cityto.text!
-        driveuser["stateto"] = stateto.text!
+        //driveuser["cityto"] = cityto.text!
+        //driveuser["stateto"] = stateto.text!
         driveuser["zipto"] = zipto.text!
-        driveuser["cityfrom"] = cityfrom.text!
-        driveuser["statefrom"] = statefrom.text!
+        // driveuser["cityfrom"] = cityfrom.text!
+        //driveuser["statefrom"] = statefrom.text!
         driveuser["zipfrom"] = zipfrom.text!
+        
+        driveuser.saveInBackgroundWithBlock {
+            (success: Bool, error: NSError?) -> Void in
+            if (success) {
+                //self.retrieve()
+                //                    let query = PFInstallation.query()
+                //                    if let query = query { // non intrusive
+                //                        //query.whereKey("channels", equalTo: "suitcaseOwners")
+                //                        query.whereKey("deviceType", equalTo: "ios")
+                //                        query.whereKey("")
+                //                        let iOSPush = PFPush()
+                //                        iOSPush.setMessage("General: " + self.commentTxtView.text)
+                //                        //iOSPush.setChannel("suitcaseOwners")
+                //                        iOSPush.setQuery(query)
+                //                        iOSPush.sendPushInBackground()
+                //
+                //                    }
+                self.performSegueWithIdentifier("posted2", sender: self)
+                println("Posted!")
+                
+            } else {
+                println("Couldn't post!")
+                SCLAlertView().showWarning("Error Posting", subTitle: "Check Your Internet Connection.")
+            }
+        }
+        
         
     }
 

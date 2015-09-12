@@ -168,7 +168,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
                             self.messages.append(object["text"] as! String)
                             
                             self.userArray.append(currentProfileUser)
-                            self.score.append(object["score"] as! Int)
+                            //self.score.append(object["score"] as! Int)
                             let elapsedTime = CFAbsoluteTimeGetCurrent() - (object["startTime"] as! CFAbsoluteTime)
                             self.duration = Int(elapsedTime/60)
                             self.createdAt.append(self.duration)

@@ -38,8 +38,7 @@ class MaterialSignupVC: UIViewController{
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
             
-            }
-    
+    }
     
     func SignUp(){
         var usrname = self.usernameTF.text
