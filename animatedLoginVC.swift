@@ -88,8 +88,8 @@ class ANMTDloginViewController: UIViewController, UITextFieldDelegate, RoadwayLo
                 (User: PFUser?, Error: NSError?) -> Void in
                 
                 if Error == nil{
-                    var alert = UIAlertView(title: "Woohoo!", message:"Logged in Successfully", delegate: self, cancelButtonTitle: "OK")
-                    alert.show()
+//                    var alert = UIAlertView(title: "Woohoo!", message:"Logged in Successfully", delegate: self, cancelButtonTitle: "OK")
+//                    alert.show()
                     //Need to connect the main view controller here after login
                     dispatch_async(dispatch_get_main_queue()){
                         var Storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -100,7 +100,7 @@ class ANMTDloginViewController: UIViewController, UITextFieldDelegate, RoadwayLo
                 else{
                    // var alert = UIAlertView(title: "Something went wrong...", message:"Invalid usernameTF or passwordTF.", delegate: self, cancelButtonTitle: "OK")
                     // alert.show()
-                    SCLAlertView().showWarning("Something went wrong...", subTitle: "Something went wrong...giInvalid usernameTF or passwordTF.")
+                    SCLAlertView().showWarning("Something went wrong...", subTitle: "Something went wrong... Invalid username or password.")
                 }
             })}
     }

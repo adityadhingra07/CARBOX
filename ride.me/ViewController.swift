@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        moviePlayer!.stop()
+        //moviePlayer!.stop()
     }
 
     override func viewDidLoad() {
