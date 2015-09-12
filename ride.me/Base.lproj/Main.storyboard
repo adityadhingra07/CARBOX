@@ -60,7 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Plf-wY-mqg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1212" y="-1041"/>
+            <point key="canvasLocation" x="-1098" y="-769.5"/>
         </scene>
         <!--loginanimatedVC-->
         <scene sceneID="55K-Hj-aod">
@@ -302,7 +302,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rvI-Xx-vUY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-69" y="-706.5"/>
+            <point key="canvasLocation" x="234" y="-754.5"/>
         </scene>
         <!--signupanimatedVC-->
         <scene sceneID="uqt-6f-Tgg">
@@ -679,7 +679,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1146" y="203.25"/>
+            <point key="canvasLocation" x="-1440" y="173.25"/>
         </scene>
         <!--loginview-->
         <scene sceneID="WOO-gJ-mjs">
@@ -909,7 +909,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p8X-u8-eA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Jc7-HH-KCq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1015.5" y="-1041"/>
+            <point key="canvasLocation" x="-493.5" y="-1036.5"/>
         </scene>
         <!--mainViewController-->
         <scene sceneID="R0H-88-K38">
@@ -1835,7 +1835,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gyc-RQ-iUt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-781.5" y="700.5"/>
+            <point key="canvasLocation" x="-688.5" y="873"/>
         </scene>
         <!--settingsVC-->
         <scene sceneID="KOZ-Oz-Rfp">
@@ -3030,7 +3030,7 @@
                                     <rect key="frame" x="-45" y="120" width="491" height="360"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="-46" y="220" width="492" height="360"/>
+                                    <rect key="frame" x="-44" y="220" width="491" height="360"/>
                                     <mask key="constraints">
                                         <include reference="yHj-Yb-3oB"/>
                                         <include reference="yrE-ae-zSH"/>
@@ -3057,7 +3057,7 @@
                                     <rect key="frame" x="114" y="361" width="171" height="59"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="113" y="461" width="171" height="59"/>
+                                    <rect key="frame" x="115" y="461" width="171" height="59"/>
                                     <mask key="constraints">
                                         <include reference="BB1-6n-giD"/>
                                         <include reference="rYF-MR-Co4"/>
@@ -3085,7 +3085,7 @@
                                     <rect key="frame" x="108" y="323" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="423" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="423" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="2lz-v0-eYe"/>
                                         <include reference="jRE-qU-P1n"/>
@@ -3113,7 +3113,7 @@
                                     <rect key="frame" x="108" y="247" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="347" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="347" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="86z-Hx-PhO"/>
                                         <include reference="x4z-qt-XJW"/>
@@ -3141,7 +3141,7 @@
                                     <rect key="frame" x="108" y="209" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="309" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="309" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="I8m-ym-wuf"/>
                                         <include reference="dxH-jx-yNr"/>
@@ -3169,7 +3169,7 @@
                                     <rect key="frame" x="108" y="285" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="385" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="385" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="iDx-Vg-KYi"/>
                                         <include reference="sVi-o1-zeN"/>
@@ -3199,7 +3199,7 @@
                                     <rect key="frame" x="171" y="428" width="57" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="170" y="528" width="57" height="30"/>
+                                    <rect key="frame" x="172" y="528" width="57" height="30"/>
                                     <mask key="constraints">
                                         <include reference="1nY-sD-09S"/>
                                         <include reference="OZL-cJ-cwR"/>

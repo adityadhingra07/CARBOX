@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Parse
 
-class mainViewController: UIViewController, ButtonsloadViewDelegate, BWWalkthroughViewControllerDelegate {
+class mainViewController: UIViewController, ButtonsloadViewDelegate {
     
     @IBOutlet weak var usernameSTS: UILabel!
     @IBOutlet weak var emailSTS: UILabel!
@@ -41,54 +41,9 @@ class mainViewController: UIViewController, ButtonsloadViewDelegate, BWWalkthrou
         alert.show()
     }
     
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        
-        if !userDefaults.boolForKey("walkthroughPresented") {
-        //if !shown {
-            showWalkthrough()
-       // }
-        userDefaults.setBool(true, forKey: "walkthroughPresented")
-        userDefaults.synchronize()
-        }
-    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    }
-    
-    @IBAction func showWalkthrough(){
-        
-        // Get view controllers and build the walkthrough
-        let stb = UIStoryboard(name: "Walkthrough", bundle: nil)
-        let walkthrough = stb.instantiateViewControllerWithIdentifier("walk") as! BWWalkthroughViewController
-        let page_zero = stb.instantiateViewControllerWithIdentifier("walk0") as! UIViewController
-        let page_one = stb.instantiateViewControllerWithIdentifier("walk1") as! UIViewController
-        let page_two = stb.instantiateViewControllerWithIdentifier("walk2")as! UIViewController
-        let page_three = stb.instantiateViewControllerWithIdentifier("walk3") as! UIViewController
-        
-        // Attach the pages to the master
-        walkthrough.delegate = self
-        walkthrough.addViewController(page_zero)
-        walkthrough.addViewController(page_one)
-        walkthrough.addViewController(page_two)
-        walkthrough.addViewController(page_three)
-        
-        
-        self.presentViewController(walkthrough, animated: true, completion: nil)
-    }
-    
-    
-    // MARK: - Walkthrough delegate -
-    
-    func walkthroughPageDidChange(pageNumber: Int) {
-        println("Current Page \(pageNumber)")
-    }
-    
-    func walkthroughCloseButtonPressed() {
-        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewDidLoad() {
