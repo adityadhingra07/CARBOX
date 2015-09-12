@@ -16,8 +16,9 @@ class rideVC: UIViewController {
     
     // TO INPUTS
     
-    @IBAction func resignKeyboard(sender: AnyObject) {
-        sender.resignFirstResponder()
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     
     @IBOutlet var addto: UITextField!

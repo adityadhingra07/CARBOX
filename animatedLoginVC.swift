@@ -14,8 +14,9 @@ class ANMTDloginViewController: UIViewController, UITextFieldDelegate, RoadwayLo
     
     
     @IBOutlet var roadsign: RoadwayLoginView!
-    @IBAction func resignKeyboard(sender: AnyObject) {
-        sender.resignFirstResponder()
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     //For hiding keyboard
     

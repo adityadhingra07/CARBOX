@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Parse
 
-class driveVC: UIViewController,UITextFieldDelegate {
+class driveVC: UIViewController, UITextFieldDelegate {
     
     var Day = NSDate()
     
@@ -44,14 +44,15 @@ class driveVC: UIViewController,UITextFieldDelegate {
       
     }
     
-    @IBAction func resignKeyboard(sender: AnyObject) {
-        sender.resignFirstResponder()
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     
     func post_drive(){
         
         var currentUser = PFUser.currentUser()?.username
-        var driveuser = PFObject(className:"drive")
+        var driveuser = PFObject(className:"Person")
         driveuser["username"] = currentUser
         driveuser["date"] = Day as NSDate
         driveuser["addto"] = addto.text!
