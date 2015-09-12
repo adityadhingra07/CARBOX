@@ -22,7 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        //FORWATCHKIT
         //Parse.enableDataSharingWithApplicationGroupIdentifier(“group.com.parse.parseuidemo”)
         
-        Parse.setApplicationId("b1O6l2Ur9ZSIu4X89IUAhtWyPoDC1GJa29HmHiij", clientKey: "hLJ9GIlyXtwoANU5ebgwMq500KgcwrJx2cXOE8mf")
+        Parse.setApplicationId("8HWVCwLAEWaLHmXBQ9hKl77YhmfHKPAoiZFJM4Ds", clientKey:"LbugyjO6Pr2GPM5m4JexSCahNMG5e4qjFBq85Yec")
+        
+        //Parse.setApplicationId("b1O6l2Ur9ZSIu4X89IUAhtWyPoDC1GJa29HmHiij", clientKey: "hLJ9GIlyXtwoANU5ebgwMq500KgcwrJx2cXOE8mf")
         
         return true
     }

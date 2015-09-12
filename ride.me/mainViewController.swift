@@ -10,14 +10,9 @@ import Foundation
 import UIKit
 import Parse
 
-class mainViewController: UIViewController, ButtonsloadViewDelegate {
+class mainViewController: UIViewController {
     
-    @IBOutlet weak var usernameSTS: UILabel!
-    @IBOutlet weak var emailSTS: UILabel!
     @IBOutlet weak var username: UILabel!
-    @IBOutlet weak var buttons: ButtonsloadView!
-    
-    var shown = false
     
     func logoutPressed(logout: UIButton){
         PFUser.logOut()
@@ -30,16 +25,7 @@ class mainViewController: UIViewController, ButtonsloadViewDelegate {
             }
         }
     }
-    
-    func helpPressed(help: UIButton){
-        var alert = UIAlertView(title: "Oops!", message: "We are currently working on this feature.", delegate: self, cancelButtonTitle: "Done")
-        alert.show()
-    }
-    
-    func feedbackPressed(feedback: UIButton){
-        var alert = UIAlertView(title: "Oops!", message: "We are currently working on this feature.", delegate: self, cancelButtonTitle: "Done")
-        alert.show()
-    }
+ 
     
     
     override func didReceiveMemoryWarning() {
@@ -49,19 +35,15 @@ class mainViewController: UIViewController, ButtonsloadViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        buttons.buttonsloadViewDelegate = self
-        buttons.addButtonsloadAnimation()
         
         //USER INFO FOR STATS
         var currentusername = PFUser.currentUser()?.username
         var email = PFUser.currentUser()?.email
         
-        var currentUser: AnyObject? = PFUser.currentUser()?["fullname"]
+        var currentUser: AnyObject? = PFUser.currentUser()?.username
         if currentUser != nil{
             var name = currentUser as? String
             self.username.text = "Hey, " + name!
-            self.usernameSTS.text = "Username: " + currentusername!
-            self.emailSTS.text = "Email ID: " + email!
         }
         else{
             dispatch_async(dispatch_get_main_queue()){

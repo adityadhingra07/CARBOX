@@ -16,6 +16,13 @@
 		4227B7EB1BA405A4001E6417 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7E31BA405A4001E6417 /* MKColor.swift */; };
 		4227B7EC1BA405A4001E6417 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7E41BA405A4001E6417 /* MKTextField.swift */; };
 		4227B7EF1BA407B4001E6417 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7EE1BA407B4001E6417 /* SCLAlertView.swift */; };
+		4227B7F11BA4300B001E6417 /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7F01BA4300B001E6417 /* AvatarImageView.swift */; };
+		4227B7F31BA43506001E6417 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7F21BA43506001E6417 /* TimelineViewController.swift */; };
+		4227B7F51BA43694001E6417 /* TimelineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7F41BA43694001E6417 /* TimelineCell.swift */; };
+		4227B7F71BA43C6D001E6417 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7F61BA43C6D001E6417 /* SwiftSpinner.swift */; };
+		4227B7F91BA43C8C001E6417 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7F81BA43C8C001E6417 /* PullToRefreshView.swift */; };
+		4227B7FC1BA43C9A001E6417 /* PullToRefreshOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7FA1BA43C99001E6417 /* PullToRefreshOption.swift */; };
+		4227B7FD1BA43C9A001E6417 /* pulltorefresharrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4227B7FB1BA43C9A001E6417 /* pulltorefresharrow.png */; };
 		48143AD01B7FB1DD00330CFE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */; };
 		48143AD21B7FB1DD00330CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD11B7FB1DD00330CFE /* Images.xcassets */; };
 		48143AD61B7FB1DD00330CFE /* ride.me WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD51B7FB1DD00330CFE /* ride.me WatchKit App.app */; };
@@ -218,6 +225,13 @@
 		4227B7E31BA405A4001E6417 /* MKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKColor.swift; sourceTree = "<group>"; };
 		4227B7E41BA405A4001E6417 /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
 		4227B7EE1BA407B4001E6417 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		4227B7F01BA4300B001E6417 /* AvatarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
+		4227B7F21BA43506001E6417 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		4227B7F41BA43694001E6417 /* TimelineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineCell.swift; sourceTree = "<group>"; };
+		4227B7F61BA43C6D001E6417 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
+		4227B7F81BA43C8C001E6417 /* PullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
+		4227B7FA1BA43C99001E6417 /* PullToRefreshOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshOption.swift; sourceTree = "<group>"; };
+		4227B7FB1BA43C9A001E6417 /* pulltorefresharrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pulltorefresharrow.png; sourceTree = "<group>"; };
 		48143ACB1B7FB1DC00330CFE /* ride.me WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ride.me WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48143ACE1B7FB1DD00330CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -498,6 +512,8 @@
 		485C15901B6DFAEA00C583BD /* ride.me */ = {
 			isa = PBXGroup;
 			children = (
+				4227B7F21BA43506001E6417 /* TimelineViewController.swift */,
+				4227B7F41BA43694001E6417 /* TimelineCell.swift */,
 				4885C02D1BA41F1200020C4C /* Bass_Drop_04.wav */,
 				4885C02B1BA4062400020C4C /* bgvideo.mov */,
 				485C15931B6DFAEA00C583BD /* AppDelegate.swift */,
@@ -512,9 +528,9 @@
 				483C86D11B7A1745001527DE /* mainViewController.swift */,
 				48FF76891B7B2B15004DC193 /* settingsVC.swift */,
 				485C15981B6DFAEA00C583BD /* ViewController.swift */,
-				485C159A1B6DFAEA00C583BD /* Main.storyboard */,
 				4885C0201BA3E8E100020C4C /* bootVC.swift */,
 				48C8150D1B7E55F8005489E1 /* materialSignupVC.swift */,
+				485C159A1B6DFAEA00C583BD /* Main.storyboard */,
 				485C159D1B6DFAEA00C583BD /* Images.xcassets */,
 				485C159F1B6DFAEA00C583BD /* LaunchScreen.xib */,
 				485C15951B6DFAEA00C583BD /* ride_me.xcdatamodeld */,
@@ -526,6 +542,11 @@
 		485C15911B6DFAEA00C583BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4227B7F81BA43C8C001E6417 /* PullToRefreshView.swift */,
+				4227B7FA1BA43C99001E6417 /* PullToRefreshOption.swift */,
+				4227B7FB1BA43C9A001E6417 /* pulltorefresharrow.png */,
+				4227B7F01BA4300B001E6417 /* AvatarImageView.swift */,
+				4227B7F61BA43C6D001E6417 /* SwiftSpinner.swift */,
 				4227B7EE1BA407B4001E6417 /* SCLAlertView.swift */,
 				4227B7ED1BA405AA001E6417 /* MaterialKit */,
 				4885BFEA1BA3E8B100020C4C /* Bootscreen Images */,
@@ -933,6 +954,7 @@
 				4885C00A1BA3E8B100020C4C /* boot.coreanimator in Resources */,
 				4885BFD61BA3A86200020C4C /* text2.png in Resources */,
 				4885C0151BA3E8B100020C4C /* Line@2x.png in Resources */,
+				4227B7FD1BA43C9A001E6417 /* pulltorefresharrow.png in Resources */,
 				4885BFD51BA3A86200020C4C /* text1.png in Resources */,
 				485C15D91B6DFBDB00C583BD /* midsection.jpg in Resources */,
 				485C15E01B6DFBDB00C583BD /* ridemelogo.psd in Resources */,
@@ -1014,9 +1036,11 @@
 				4885BFDB1BA3A86200020C4C /* LoadmenuView.swift in Sources */,
 				485C15991B6DFAEA00C583BD /* ViewController.swift in Sources */,
 				4227B7E81BA405A4001E6417 /* MKImageView.swift in Sources */,
+				4227B7F71BA43C6D001E6417 /* SwiftSpinner.swift in Sources */,
 				4227B7E51BA405A4001E6417 /* TextFieldViewController.swift in Sources */,
 				4885C00B1BA3E8B100020C4C /* BootView.swift in Sources */,
 				4885BFC21BA3A86200020C4C /* ButtonsloadView.swift in Sources */,
+				4227B7F11BA4300B001E6417 /* AvatarImageView.swift in Sources */,
 				4885BFE01BA3A86200020C4C /* RoadsignSignupView.swift in Sources */,
 				4227B7EB1BA405A4001E6417 /* MKColor.swift in Sources */,
 				4227B7E61BA405A4001E6417 /* MKTableViewCell.swift in Sources */,
@@ -1026,12 +1050,16 @@
 				4227B7EA1BA405A4001E6417 /* MKLayer.swift in Sources */,
 				485C16161B6E24C000C583BD /* loginvc.swift in Sources */,
 				48DAA3AF1B723F710072B459 /* animatedSignUpVC.swift in Sources */,
+				4227B7F31BA43506001E6417 /* TimelineViewController.swift in Sources */,
 				4227B7EC1BA405A4001E6417 /* MKTextField.swift in Sources */,
 				482956571B7912C200A26830 /* driveVC.swift in Sources */,
+				4227B7FC1BA43C9A001E6417 /* PullToRefreshOption.swift in Sources */,
 				4885BFE31BA3A86200020C4C /* SettingsVCView.swift in Sources */,
 				4227B7E91BA405A4001E6417 /* MKButton.swift in Sources */,
 				48FF768C1B7B33DE004DC193 /* rideVC.swift in Sources */,
 				485C16181B6E24D300C583BD /* signupvc.swift in Sources */,
+				4227B7F51BA43694001E6417 /* TimelineCell.swift in Sources */,
+				4227B7F91BA43C8C001E6417 /* PullToRefreshView.swift in Sources */,
 				485C15971B6DFAEA00C583BD /* ride_me.xcdatamodeld in Sources */,
 				48C8150E1B7E55F8005489E1 /* materialSignupVC.swift in Sources */,
 				48DAA3B11B724F050072B459 /* animatedLoginVC.swift in Sources */,

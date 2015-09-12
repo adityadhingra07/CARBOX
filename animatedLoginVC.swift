@@ -79,7 +79,7 @@ class ANMTDloginViewController: UIViewController, UITextFieldDelegate, RoadwayLo
             
             //var alert = UIAlertView(title: "Invalid", message: "usernameTF must be greater than 5 and passwordTF must be greater then 6", delegate: self, cancelButtonTitle: "OK")
             //alert.show()
-            SCLAlertView().showWarning("Invalid", subTitle: "usernameTF must be greater than 5 and passwordTF must be greater then 6")
+            SCLAlertView().showWarning("Invalid", subTitle: "username must be greater than 5 and password must be greater then 6")
             
         }
         else{
