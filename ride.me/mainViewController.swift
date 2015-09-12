@@ -14,6 +14,8 @@ class mainViewController: UIViewController {
     
     @IBOutlet weak var username: UILabel!
     
+    @IBOutlet weak var userPhoto: AvatarImageView!
+    
     func logoutPressed(logout: UIButton){
         PFUser.logOut()
         var currentUser = PFUser.currentUser()
@@ -25,7 +27,37 @@ class mainViewController: UIViewController {
             }
         }
     }
- 
+    override func viewWillAppear(animated: Bool) {
+        //logOutBtn.set
+        var currentUser = PFUser.currentUser()
+        var tempName = (currentUser?.username)!
+        tempName.replaceRange(tempName.startIndex...tempName.startIndex, with: String(tempName[tempName.startIndex]).capitalizedString)
+       // usernameLabel.text = tempName
+        // set this image at time of signup / signin
+        var queryUser = PFUser.query() as PFQuery?
+        queryUser!.findObjectsInBackgroundWithBlock {
+            (users: [AnyObject]?, error: NSError?) -> Void in
+            if error == nil {
+                if let users = users as? [PFObject] {
+                    for user in users {
+                        var user2:PFUser = user as! PFUser
+                        if user2.username == currentUser?.username
+                        {
+                            var userPhotoFile = user2["ProfilePicture"] as! PFFile
+                            userPhotoFile.getDataInBackgroundWithBlock { (data, error) -> Void in
+                                
+                                if let downloadedImage = UIImage(data: data!) {
+                                    self.userPhoto.image  = downloadedImage
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     
     
     override func didReceiveMemoryWarning() {

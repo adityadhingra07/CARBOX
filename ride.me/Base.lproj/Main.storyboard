@@ -552,7 +552,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gXh-CB-7uK" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="WH6-Ld-2ro" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-2070" y="182.25"/>
+            <point key="canvasLocation" x="-2940" y="-6.75"/>
         </scene>
         <!--mainview-->
         <scene sceneID="tne-QT-ifu">
@@ -745,7 +745,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1440" y="173.25"/>
+            <point key="canvasLocation" x="-1524" y="255.75"/>
         </scene>
         <!--loginview-->
         <scene sceneID="WOO-gJ-mjs">
@@ -992,7 +992,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oud-er-3AQ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="profile-pic-1" translatesAutoresizingMaskIntoConstraints="NO" id="Q5C-Tp-TW6" userLabel="AvatarImage" customClass="AvatarImageView" customModule="ride_me" customModuleProvider="target">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q5C-Tp-TW6" userLabel="AvatarImage" customClass="AvatarImageView" customModule="ride_me" customModuleProvider="target">
                                         <rect key="frame" x="96" y="14" width="58" height="58"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="69" id="OlB-so-MJU"/>
@@ -1114,9 +1114,23 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Okg-63-yR9">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="NEXT">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="YKl-MA-Sku"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="View Rides-&gt;">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="YKl-MA-Sku"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="YKl-MA-Sku"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <segue destination="dwM-Do-NJY" kind="show" identifier="social" id="rvg-65-5nq"/>
                                 </connections>
@@ -1127,14 +1141,15 @@
                             <constraint firstItem="bCb-vE-MFK" firstAttribute="leading" secondItem="1SP-rx-69g" secondAttribute="leading" id="3xr-6c-9fh"/>
                             <constraint firstItem="Oud-er-3AQ" firstAttribute="top" secondItem="Ti8-DZ-ANj" secondAttribute="topMargin" id="4N6-Wm-pvN"/>
                             <constraint firstItem="1SP-rx-69g" firstAttribute="top" secondItem="Oud-er-3AQ" secondAttribute="bottom" constant="8" id="6Ns-e5-WHD"/>
+                            <constraint firstItem="Okg-63-yR9" firstAttribute="top" secondItem="1SP-rx-69g" secondAttribute="bottom" constant="68" id="AHb-bI-7FB"/>
                             <constraint firstItem="HTJ-HV-Psx" firstAttribute="top" secondItem="bCb-vE-MFK" secondAttribute="bottom" constant="8" symbolic="YES" id="Ggk-b6-s7j"/>
                             <constraint firstItem="HTJ-HV-Psx" firstAttribute="top" secondItem="PKh-lA-EUY" secondAttribute="bottom" constant="20" id="QBn-Tc-t4V"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1SP-rx-69g" secondAttribute="trailing" id="Ucy-9d-Uke"/>
-                            <constraint firstItem="Okg-63-yR9" firstAttribute="top" secondItem="1SP-rx-69g" secondAttribute="bottom" constant="72" id="glI-dV-gWz"/>
-                            <constraint firstItem="Okg-63-yR9" firstAttribute="leading" secondItem="Ti8-DZ-ANj" secondAttribute="leading" constant="177" id="q4E-HI-W9Y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Okg-63-yR9" secondAttribute="trailing" constant="47" id="lx9-WM-KSW"/>
                             <constraint firstItem="Oud-er-3AQ" firstAttribute="leading" secondItem="Ti8-DZ-ANj" secondAttribute="leadingMargin" id="sye-nQ-NBk"/>
                             <constraint firstItem="1SP-rx-69g" firstAttribute="leading" secondItem="Ti8-DZ-ANj" secondAttribute="leadingMargin" id="uEX-Ke-kR3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Oud-er-3AQ" secondAttribute="trailing" id="vIV-Gh-eMm"/>
+                            <constraint firstItem="Okg-63-yR9" firstAttribute="leading" secondItem="Ti8-DZ-ANj" secondAttribute="leadingMargin" constant="43" id="wXq-l6-BaP"/>
                             <constraint firstItem="PKh-lA-EUY" firstAttribute="trailing" secondItem="Ti8-DZ-ANj" secondAttribute="trailingMargin" id="xk5-7q-0er"/>
                         </constraints>
                         <variation key="default">
@@ -1151,8 +1166,9 @@
                                 <exclude reference="uEX-Ke-kR3"/>
                                 <exclude reference="Ggk-b6-s7j"/>
                                 <exclude reference="QBn-Tc-t4V"/>
-                                <exclude reference="glI-dV-gWz"/>
-                                <exclude reference="q4E-HI-W9Y"/>
+                                <exclude reference="AHb-bI-7FB"/>
+                                <exclude reference="lx9-WM-KSW"/>
+                                <exclude reference="wXq-l6-BaP"/>
                                 <exclude reference="xk5-7q-0er"/>
                                 <exclude reference="3xr-6c-9fh"/>
                                 <exclude reference="4N6-Wm-pvN"/>
@@ -1174,8 +1190,9 @@
                                 <include reference="uEX-Ke-kR3"/>
                                 <include reference="Ggk-b6-s7j"/>
                                 <include reference="QBn-Tc-t4V"/>
-                                <include reference="glI-dV-gWz"/>
-                                <include reference="q4E-HI-W9Y"/>
+                                <include reference="AHb-bI-7FB"/>
+                                <include reference="lx9-WM-KSW"/>
+                                <include reference="wXq-l6-BaP"/>
                                 <include reference="xk5-7q-0er"/>
                                 <include reference="3xr-6c-9fh"/>
                                 <include reference="4N6-Wm-pvN"/>
@@ -1185,12 +1202,13 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="userPhoto" destination="Q5C-Tp-TW6" id="Ri9-dO-NTJ"/>
                         <outlet property="username" destination="1SP-rx-69g" id="fdl-ab-tHD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LMx-Ea-put" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="40.5" y="873"/>
+            <point key="canvasLocation" x="178.5" y="763.5"/>
         </scene>
         <!--materialSignupVC-->
         <scene sceneID="rxQ-cj-LaU">
@@ -1383,7 +1401,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gyc-RQ-iUt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-688.5" y="873"/>
+            <point key="canvasLocation" x="-807" y="751.5"/>
         </scene>
         <!--settingsVC-->
         <scene sceneID="KOZ-Oz-Rfp">
@@ -1772,7 +1790,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YgE-V4-qam" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="657" y="577.5"/>
+            <point key="canvasLocation" x="2127" y="907.5"/>
         </scene>
         <!--UsermenuVC-->
         <scene sceneID="hta-Yu-lfm">
@@ -2181,7 +2199,7 @@
                                     <rect key="frame" x="-45" y="120" width="491" height="360"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="-46" y="220" width="492" height="360"/>
+                                    <rect key="frame" x="-44" y="220" width="491" height="360"/>
                                     <mask key="constraints">
                                         <include reference="yHj-Yb-3oB"/>
                                         <include reference="yrE-ae-zSH"/>
@@ -2208,7 +2226,7 @@
                                     <rect key="frame" x="114" y="361" width="171" height="59"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="113" y="461" width="171" height="59"/>
+                                    <rect key="frame" x="115" y="461" width="171" height="59"/>
                                     <mask key="constraints">
                                         <include reference="BB1-6n-giD"/>
                                         <include reference="rYF-MR-Co4"/>
@@ -2236,7 +2254,7 @@
                                     <rect key="frame" x="108" y="323" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="423" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="423" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="2lz-v0-eYe"/>
                                         <include reference="jRE-qU-P1n"/>
@@ -2264,7 +2282,7 @@
                                     <rect key="frame" x="108" y="247" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="347" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="347" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="86z-Hx-PhO"/>
                                         <include reference="x4z-qt-XJW"/>
@@ -2292,7 +2310,7 @@
                                     <rect key="frame" x="108" y="209" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="309" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="309" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="I8m-ym-wuf"/>
                                         <include reference="dxH-jx-yNr"/>
@@ -2320,7 +2338,7 @@
                                     <rect key="frame" x="108" y="285" width="183" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="107" y="385" width="183" height="30"/>
+                                    <rect key="frame" x="109" y="385" width="183" height="30"/>
                                     <mask key="constraints">
                                         <include reference="iDx-Vg-KYi"/>
                                         <include reference="sVi-o1-zeN"/>
@@ -2350,7 +2368,7 @@
                                     <rect key="frame" x="171" y="428" width="57" height="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="170" y="528" width="57" height="30"/>
+                                    <rect key="frame" x="172" y="528" width="57" height="30"/>
                                     <mask key="constraints">
                                         <include reference="1nY-sD-09S"/>
                                         <include reference="OZL-cJ-cwR"/>
@@ -3037,7 +3055,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1674.75" y="298.875"/>
+            <point key="canvasLocation" x="987.75" y="783.375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NmS-sM-Ab2">
@@ -3067,7 +3085,6 @@
         <image name="loginbtnblack.png" width="300" height="100"/>
         <image name="loginclassicbtn" width="361" height="106"/>
         <image name="plusicon.png" width="300" height="300"/>
-        <image name="profile-pic-1" width="296" height="296"/>
         <image name="ridemelogo.png" width="500" height="250"/>
         <image name="settingsicon.png" width="600" height="184"/>
         <image name="signupbtnblack.png" width="300" height="100"/>
@@ -3076,7 +3093,7 @@
         <image name="tick.png" width="254" height="254"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="rvg-65-5nq"/>
         <segue reference="U2k-Ja-oHK"/>
-        <segue reference="GtX-CB-2ZD"/>
     </inferredMetricsTieBreakers>
 </document>
