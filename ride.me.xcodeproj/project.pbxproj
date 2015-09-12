@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48143AD01B7FB1DD00330CFE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */; };
+		48143AD21B7FB1DD00330CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD11B7FB1DD00330CFE /* Images.xcassets */; };
+		48143AD61B7FB1DD00330CFE /* ride.me WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD51B7FB1DD00330CFE /* ride.me WatchKit App.app */; };
+		48143ADE1B7FB1DD00330CFE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48143ADC1B7FB1DD00330CFE /* Interface.storyboard */; };
+		48143AE01B7FB1DD00330CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48143ADF1B7FB1DD00330CFE /* Images.xcassets */; };
+		48143AE31B7FB1DD00330CFE /* ride.me WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 48143ACB1B7FB1DC00330CFE /* ride.me WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48143AEC1B7FC25700330CFE /* WatchMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48143AEB1B7FC25700330CFE /* WatchMainVC.swift */; };
+		48143AEE1B7FC29C00330CFE /* basicSwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48143AED1B7FC29C00330CFE /* basicSwiftFile.swift */; };
+		4814D65C1B7089D0008F98D9 /* loginbgwhite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4814D65B1B7089D0008F98D9 /* loginbgwhite.jpg */; };
+		4814D65F1B708BBC008F98D9 /* apploginbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4814D65D1B708BBC008F98D9 /* apploginbtn.png */; };
+		4814D6601B708BBC008F98D9 /* appsignupbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4814D65E1B708BBC008F98D9 /* appsignupbtn.png */; };
+		4814D6621B7094E6008F98D9 /* circleblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 4814D6611B7094E6008F98D9 /* circleblack.png */; };
+		482956531B78AA6500A26830 /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 482956521B78AA6500A26830 /* car.jpg */; };
+		482956571B7912C200A26830 /* driveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482956561B7912C200A26830 /* driveVC.swift */; };
+		483C86D21B7A1745001527DE /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483C86D11B7A1745001527DE /* mainViewController.swift */; };
 		485C15941B6DFAEA00C583BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C15931B6DFAEA00C583BD /* AppDelegate.swift */; };
 		485C15971B6DFAEA00C583BD /* ride_me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 485C15951B6DFAEA00C583BD /* ride_me.xcdatamodeld */; };
 		485C15991B6DFAEA00C583BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C15981B6DFAEA00C583BD /* ViewController.swift */; };
@@ -14,9 +29,126 @@
 		485C159E1B6DFAEA00C583BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485C159D1B6DFAEA00C583BD /* Images.xcassets */; };
 		485C15A11B6DFAEA00C583BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485C159F1B6DFAEA00C583BD /* LaunchScreen.xib */; };
 		485C15AD1B6DFAEA00C583BD /* ride_meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C15AC1B6DFAEA00C583BD /* ride_meTests.swift */; };
+		485C15CF1B6DFBDB00C583BD /* buttonmainpage.psd in Resources */ = {isa = PBXBuildFile; fileRef = 485C15B71B6DFBDB00C583BD /* buttonmainpage.psd */; };
+		485C15D01B6DFBDB00C583BD /* developer.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15B81B6DFBDB00C583BD /* developer.png */; };
+		485C15D11B6DFBDB00C583BD /* environmental-pollution-from-cars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 485C15B91B6DFBDB00C583BD /* environmental-pollution-from-cars.jpg */; };
+		485C15D21B6DFBDB00C583BD /* facebook-4-512.gif in Resources */ = {isa = PBXBuildFile; fileRef = 485C15BA1B6DFBDB00C583BD /* facebook-4-512.gif */; };
+		485C15D31B6DFBDB00C583BD /* facebookicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15BB1B6DFBDB00C583BD /* facebookicon.png */; };
+		485C15D41B6DFBDB00C583BD /* friend.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15BC1B6DFBDB00C583BD /* friend.png */; };
+		485C15D51B6DFBDB00C583BD /* g+icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15BD1B6DFBDB00C583BD /* g+icon.png */; };
+		485C15D61B6DFBDB00C583BD /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15BE1B6DFBDB00C583BD /* google-plus.png */; };
+		485C15D71B6DFBDB00C583BD /* holding-money.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 485C15BF1B6DFBDB00C583BD /* holding-money.jpg */; };
+		485C15D81B6DFBDB00C583BD /* loginbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15C01B6DFBDB00C583BD /* loginbutton.png */; };
+		485C15D91B6DFBDB00C583BD /* midsection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 485C15C11B6DFBDB00C583BD /* midsection.jpg */; };
+		485C15DA1B6DFBDB00C583BD /* midsection.psd in Resources */ = {isa = PBXBuildFile; fileRef = 485C15C21B6DFBDB00C583BD /* midsection.psd */; };
+		485C15DB1B6DFBDB00C583BD /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15C31B6DFBDB00C583BD /* money.png */; };
+		485C15DC1B6DFBDB00C583BD /* moneysave.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15C41B6DFBDB00C583BD /* moneysave.png */; };
+		485C15DD1B6DFBDB00C583BD /* new_york_manhattan_street_cars_people_busy_30750_960x544.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 485C15C51B6DFBDB00C583BD /* new_york_manhattan_street_cars_people_busy_30750_960x544.jpg */; };
+		485C15DE1B6DFBDB00C583BD /* rideme webpage.web in Resources */ = {isa = PBXBuildFile; fileRef = 485C15C61B6DFBDB00C583BD /* rideme webpage.web */; };
+		485C15DF1B6DFBDB00C583BD /* ridemelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15C71B6DFBDB00C583BD /* ridemelogo.png */; };
+		485C15E01B6DFBDB00C583BD /* ridemelogo.psd in Resources */ = {isa = PBXBuildFile; fileRef = 485C15C81B6DFBDB00C583BD /* ridemelogo.psd */; };
+		485C15E11B6DFBDB00C583BD /* Save-Money-1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 485C15C91B6DFBDB00C583BD /* Save-Money-1024x1024.jpg */; };
+		485C15E21B6DFBDB00C583BD /* signupbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15CA1B6DFBDB00C583BD /* signupbutton.png */; };
+		485C15E31B6DFBDB00C583BD /* signuprideme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 485C15CB1B6DFBDB00C583BD /* signuprideme.jpg */; };
+		485C15E41B6DFBDB00C583BD /* socialicon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 485C15CC1B6DFBDB00C583BD /* socialicon.psd */; };
+		485C15E51B6DFBDB00C583BD /* twitter-bird-dark-bgs.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15CD1B6DFBDB00C583BD /* twitter-bird-dark-bgs.png */; };
+		485C15E61B6DFBDB00C583BD /* twittericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15CE1B6DFBDB00C583BD /* twittericon.png */; };
+		485C15E81B6E132A00C583BD /* loginbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15E71B6E132A00C583BD /* loginbg.png */; };
+		485C15EA1B6E17F200C583BD /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 485C15E91B6E17F200C583BD /* circle.png */; };
+		485C15F51B6E22FD00C583BD /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15EF1B6E22FD00C583BD /* Bolts.framework */; };
+		485C15F61B6E22FD00C583BD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15F01B6E22FD00C583BD /* Parse.framework */; };
+		485C15F71B6E22FD00C583BD /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15F11B6E22FD00C583BD /* ParseCrashReporting.framework */; };
+		485C15F81B6E22FD00C583BD /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15F21B6E22FD00C583BD /* ParseFacebookUtils.framework */; };
+		485C15F91B6E22FD00C583BD /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15F31B6E22FD00C583BD /* ParseFacebookUtilsV4.framework */; };
+		485C15FA1B6E22FD00C583BD /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15F41B6E22FD00C583BD /* ParseUI.framework */; };
+		485C15FE1B6E234C00C583BD /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15FD1B6E234C00C583BD /* Accounts.framework */; };
+		485C16001B6E235500C583BD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C15FF1B6E235500C583BD /* AudioToolbox.framework */; };
+		485C16021B6E236500C583BD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16011B6E236500C583BD /* CFNetwork.framework */; };
+		485C16041B6E236B00C583BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16031B6E236B00C583BD /* CoreGraphics.framework */; };
+		485C16061B6E237E00C583BD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16051B6E237E00C583BD /* CoreLocation.framework */; };
+		485C16081B6E238400C583BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16071B6E238400C583BD /* QuartzCore.framework */; };
+		485C160A1B6E239000C583BD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16091B6E239000C583BD /* Security.framework */; };
+		485C160C1B6E239600C583BD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C160B1B6E239600C583BD /* Social.framework */; };
+		485C160E1B6E23A300C583BD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C160D1B6E23A200C583BD /* StoreKit.framework */; };
+		485C16101B6E23AA00C583BD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C160F1B6E23AA00C583BD /* SystemConfiguration.framework */; };
+		485C16121B6E23BC00C583BD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16111B6E23BC00C583BD /* libz.dylib */; };
+		485C16141B6E23CE00C583BD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16131B6E23CE00C583BD /* libsqlite3.dylib */; };
+		485C16161B6E24C000C583BD /* loginvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C16151B6E24C000C583BD /* loginvc.swift */; };
+		485C16181B6E24D300C583BD /* signupvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C16171B6E24D300C583BD /* signupvc.swift */; };
+		488152441B778BC700E34D32 /* plusicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 488152431B778BC700E34D32 /* plusicon.png */; };
+		488152691B77900D00E34D32 /* usermenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488152681B77900D00E34D32 /* usermenu.swift */; };
+		4885BFC11BA3A86200020C4C /* buttonsload.coreanimator in Resources */ = {isa = PBXBuildFile; fileRef = 4885BF9C1BA3A86200020C4C /* buttonsload.coreanimator */; };
+		4885BFC21BA3A86200020C4C /* ButtonsloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BF9D1BA3A86200020C4C /* ButtonsloadView.swift */; };
+		4885BFC31BA3A86200020C4C /* drive.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BF9F1BA3A86200020C4C /* drive.png */; };
+		4885BFC41BA3A86200020C4C /* emailsetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFA01BA3A86200020C4C /* emailsetting.png */; };
+		4885BFC51BA3A86200020C4C /* emailsetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFA11BA3A86200020C4C /* emailsetting@2x.png */; };
+		4885BFC61BA3A86200020C4C /* feedback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFA21BA3A86200020C4C /* feedback.jpg */; };
+		4885BFC71BA3A86200020C4C /* help.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFA31BA3A86200020C4C /* help.jpg */; };
+		4885BFC81BA3A86200020C4C /* loginbgnew.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFA41BA3A86200020C4C /* loginbgnew.png */; };
+		4885BFC91BA3A86200020C4C /* loginbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFA51BA3A86200020C4C /* loginbtn.png */; };
+		4885BFCA1BA3A86200020C4C /* loginbtnroadway.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFA61BA3A86200020C4C /* loginbtnroadway.png */; };
+		4885BFCB1BA3A86200020C4C /* logout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFA71BA3A86200020C4C /* logout.jpg */; };
+		4885BFCC1BA3A86200020C4C /* phonesetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFA81BA3A86200020C4C /* phonesetting.png */; };
+		4885BFCD1BA3A86200020C4C /* phonesetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFA91BA3A86200020C4C /* phonesetting@2x.png */; };
+		4885BFCE1BA3A86200020C4C /* ride.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFAA1BA3A86200020C4C /* ride.png */; };
+		4885BFCF1BA3A86200020C4C /* ridemelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFAB1BA3A86200020C4C /* ridemelogo.png */; };
+		4885BFD01BA3A86200020C4C /* roadsignmain.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFAC1BA3A86200020C4C /* roadsignmain.png */; };
+		4885BFD11BA3A86200020C4C /* roadwaybuttonsignup.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFAD1BA3A86200020C4C /* roadwaybuttonsignup.png */; };
+		4885BFD21BA3A86200020C4C /* rod.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFAE1BA3A86200020C4C /* rod.png */; };
+		4885BFD31BA3A86200020C4C /* signupbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFAF1BA3A86200020C4C /* signupbtn.png */; };
+		4885BFD41BA3A86200020C4C /* steering.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFB01BA3A86200020C4C /* steering.png */; };
+		4885BFD51BA3A86200020C4C /* text1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFB11BA3A86200020C4C /* text1.png */; };
+		4885BFD61BA3A86200020C4C /* text2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFB21BA3A86200020C4C /* text2.png */; };
+		4885BFD71BA3A86200020C4C /* usernamesetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFB31BA3A86200020C4C /* usernamesetting.png */; };
+		4885BFD81BA3A86200020C4C /* usernamesetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFB41BA3A86200020C4C /* usernamesetting@2x.png */; };
+		4885BFD91BA3A86200020C4C /* whitepolygon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFB51BA3A86200020C4C /* whitepolygon.png */; };
+		4885BFDA1BA3A86200020C4C /* loadmenu.coreanimator in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFB61BA3A86200020C4C /* loadmenu.coreanimator */; };
+		4885BFDB1BA3A86200020C4C /* LoadmenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFB71BA3A86200020C4C /* LoadmenuView.swift */; };
+		4885BFDC1BA3A86200020C4C /* mainview.coreanimator in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFB81BA3A86200020C4C /* mainview.coreanimator */; };
+		4885BFDD1BA3A86200020C4C /* MainviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFB91BA3A86200020C4C /* MainviewView.swift */; };
+		4885BFDE1BA3A86200020C4C /* roadsignlogin.coreanimator in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFBA1BA3A86200020C4C /* roadsignlogin.coreanimator */; };
+		4885BFDF1BA3A86200020C4C /* roadsignSignup.coreanimator in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFBB1BA3A86200020C4C /* roadsignSignup.coreanimator */; };
+		4885BFE01BA3A86200020C4C /* RoadsignSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFBC1BA3A86200020C4C /* RoadsignSignupView.swift */; };
+		4885BFE11BA3A86200020C4C /* RoadwayLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFBD1BA3A86200020C4C /* RoadwayLoginView.swift */; };
+		4885BFE21BA3A86200020C4C /* settingsVC.coreanimator in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFBE1BA3A86200020C4C /* settingsVC.coreanimator */; };
+		4885BFE31BA3A86200020C4C /* SettingsVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFBF1BA3A86200020C4C /* SettingsVCView.swift */; };
+		48C815091B7E52EB005489E1 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815051B7E52EB005489E1 /* cross.png */; };
+		48C8150A1B7E52EB005489E1 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815061B7E52EB005489E1 /* cross@2x.png */; };
+		48C8150B1B7E52EB005489E1 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815071B7E52EB005489E1 /* tick.png */; };
+		48C8150C1B7E52EB005489E1 /* tick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815081B7E52EB005489E1 /* tick@2x.png */; };
+		48C8150E1B7E55F8005489E1 /* materialSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8150D1B7E55F8005489E1 /* materialSignupVC.swift */; };
+		48C815171B7E6682005489E1 /* emailsetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815111B7E6682005489E1 /* emailsetting.png */; };
+		48C815181B7E6682005489E1 /* emailsetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815121B7E6682005489E1 /* emailsetting@2x.png */; };
+		48C815191B7E6682005489E1 /* phonesetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815131B7E6682005489E1 /* phonesetting.png */; };
+		48C8151A1B7E6682005489E1 /* phonesetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815141B7E6682005489E1 /* phonesetting@2x.png */; };
+		48C8151B1B7E6682005489E1 /* usernamesetting.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815151B7E6682005489E1 /* usernamesetting.png */; };
+		48C8151C1B7E6682005489E1 /* usernamesetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815161B7E6682005489E1 /* usernamesetting@2x.png */; };
+		48D6B76D1B73422C001DDDD6 /* animatedMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D6B76C1B73422C001DDDD6 /* animatedMainVC.swift */; };
+		48D6B76F1B73483A001DDDD6 /* loginbtnblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 48D6B76E1B73483A001DDDD6 /* loginbtnblack.png */; };
+		48D6B7711B73484C001DDDD6 /* signupbtnblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 48D6B7701B73484C001DDDD6 /* signupbtnblack.png */; };
+		48DA764F1B6FA5DE005441EA /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48DA764E1B6FA5DE005441EA /* Entitlements.plist */; };
+		48DAA3AF1B723F710072B459 /* animatedSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DAA3AE1B723F710072B459 /* animatedSignUpVC.swift */; };
+		48DAA3B11B724F050072B459 /* animatedLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DAA3B01B724F050072B459 /* animatedLoginVC.swift */; };
+		48FF76881B7B23A7004DC193 /* settingsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 48FF76871B7B23A7004DC193 /* settingsicon.png */; };
+		48FF768A1B7B2B15004DC193 /* settingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF76891B7B2B15004DC193 /* settingsVC.swift */; };
+		48FF768C1B7B33DE004DC193 /* rideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF768B1B7B33DE004DC193 /* rideVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		48143AD71B7FB1DD00330CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485C15861B6DFAEA00C583BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48143AD41B7FB1DD00330CFE;
+			remoteInfo = "ride.me WatchKit App";
+		};
+		48143AE11B7FB1DD00330CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485C15861B6DFAEA00C583BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48143ACA1B7FB1DC00330CFE;
+			remoteInfo = "ride.me WatchKit Extension";
+		};
 		485C15A71B6DFAEA00C583BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 485C15861B6DFAEA00C583BD /* Project object */;
@@ -26,7 +158,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		48143AEA1B7FB1DD00330CFE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				48143AE31B7FB1DD00330CFE /* ride.me WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		48143ACB1B7FB1DC00330CFE /* ride.me WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ride.me WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48143ACE1B7FB1DD00330CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		48143AD11B7FB1DD00330CFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48143AD51B7FB1DD00330CFE /* ride.me WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ride.me WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48143ADB1B7FB1DD00330CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48143ADD1B7FB1DD00330CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		48143ADF1B7FB1DD00330CFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48143AEB1B7FC25700330CFE /* WatchMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchMainVC.swift; sourceTree = "<group>"; };
+		48143AED1B7FC29C00330CFE /* basicSwiftFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = basicSwiftFile.swift; sourceTree = "<group>"; };
+		48143AEF1B7FC4EB00330CFE /* ride.me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ride.me.entitlements; sourceTree = "<group>"; };
+		4814D65B1B7089D0008F98D9 /* loginbgwhite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginbgwhite.jpg; sourceTree = "<group>"; };
+		4814D65D1B708BBC008F98D9 /* apploginbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apploginbtn.png; sourceTree = "<group>"; };
+		4814D65E1B708BBC008F98D9 /* appsignupbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appsignupbtn.png; sourceTree = "<group>"; };
+		4814D6611B7094E6008F98D9 /* circleblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleblack.png; sourceTree = "<group>"; };
+		482956521B78AA6500A26830 /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpg; sourceTree = "<group>"; };
+		482956561B7912C200A26830 /* driveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = driveVC.swift; sourceTree = "<group>"; };
+		483C86D11B7A1745001527DE /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		485C158E1B6DFAEA00C583BD /* ride.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ride.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C15921B6DFAEA00C583BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485C15931B6DFAEA00C583BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,13 +202,141 @@
 		485C15A61B6DFAEA00C583BD /* ride.meTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ride.meTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C15AB1B6DFAEA00C583BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485C15AC1B6DFAEA00C583BD /* ride_meTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ride_meTests.swift; sourceTree = "<group>"; };
+		485C15B71B6DFBDB00C583BD /* buttonmainpage.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = buttonmainpage.psd; sourceTree = "<group>"; };
+		485C15B81B6DFBDB00C583BD /* developer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = developer.png; sourceTree = "<group>"; };
+		485C15B91B6DFBDB00C583BD /* environmental-pollution-from-cars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "environmental-pollution-from-cars.jpg"; sourceTree = "<group>"; };
+		485C15BA1B6DFBDB00C583BD /* facebook-4-512.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "facebook-4-512.gif"; sourceTree = "<group>"; };
+		485C15BB1B6DFBDB00C583BD /* facebookicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookicon.png; sourceTree = "<group>"; };
+		485C15BC1B6DFBDB00C583BD /* friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friend.png; sourceTree = "<group>"; };
+		485C15BD1B6DFBDB00C583BD /* g+icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "g+icon.png"; sourceTree = "<group>"; };
+		485C15BE1B6DFBDB00C583BD /* google-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-plus.png"; sourceTree = "<group>"; };
+		485C15BF1B6DFBDB00C583BD /* holding-money.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "holding-money.jpg"; sourceTree = "<group>"; };
+		485C15C01B6DFBDB00C583BD /* loginbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbutton.png; sourceTree = "<group>"; };
+		485C15C11B6DFBDB00C583BD /* midsection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = midsection.jpg; sourceTree = "<group>"; };
+		485C15C21B6DFBDB00C583BD /* midsection.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = midsection.psd; sourceTree = "<group>"; };
+		485C15C31B6DFBDB00C583BD /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
+		485C15C41B6DFBDB00C583BD /* moneysave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneysave.png; sourceTree = "<group>"; };
+		485C15C51B6DFBDB00C583BD /* new_york_manhattan_street_cars_people_busy_30750_960x544.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_york_manhattan_street_cars_people_busy_30750_960x544.jpg; sourceTree = "<group>"; };
+		485C15C61B6DFBDB00C583BD /* rideme webpage.web */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rideme webpage.web"; sourceTree = "<group>"; };
+		485C15C71B6DFBDB00C583BD /* ridemelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ridemelogo.png; sourceTree = "<group>"; };
+		485C15C81B6DFBDB00C583BD /* ridemelogo.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = ridemelogo.psd; sourceTree = "<group>"; };
+		485C15C91B6DFBDB00C583BD /* Save-Money-1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Save-Money-1024x1024.jpg"; sourceTree = "<group>"; };
+		485C15CA1B6DFBDB00C583BD /* signupbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupbutton.png; sourceTree = "<group>"; };
+		485C15CB1B6DFBDB00C583BD /* signuprideme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = signuprideme.jpg; sourceTree = "<group>"; };
+		485C15CC1B6DFBDB00C583BD /* socialicon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = socialicon.psd; sourceTree = "<group>"; };
+		485C15CD1B6DFBDB00C583BD /* twitter-bird-dark-bgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-bird-dark-bgs.png"; sourceTree = "<group>"; };
+		485C15CE1B6DFBDB00C583BD /* twittericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twittericon.png; sourceTree = "<group>"; };
+		485C15E71B6E132A00C583BD /* loginbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbg.png; sourceTree = "<group>"; };
+		485C15E91B6E17F200C583BD /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		485C15EF1B6E22FD00C583BD /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		485C15F01B6E22FD00C583BD /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		485C15F11B6E22FD00C583BD /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		485C15F21B6E22FD00C583BD /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		485C15F31B6E22FD00C583BD /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		485C15F41B6E22FD00C583BD /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		485C15FD1B6E234C00C583BD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		485C15FF1B6E235500C583BD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		485C16011B6E236500C583BD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		485C16031B6E236B00C583BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		485C16051B6E237E00C583BD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		485C16071B6E238400C583BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		485C16091B6E239000C583BD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		485C160B1B6E239600C583BD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		485C160D1B6E23A200C583BD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		485C160F1B6E23AA00C583BD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		485C16111B6E23BC00C583BD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		485C16131B6E23CE00C583BD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		485C16151B6E24C000C583BD /* loginvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginvc.swift; sourceTree = "<group>"; };
+		485C16171B6E24D300C583BD /* signupvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupvc.swift; sourceTree = "<group>"; };
+		488152431B778BC700E34D32 /* plusicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusicon.png; sourceTree = "<group>"; };
+		488152681B77900D00E34D32 /* usermenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usermenu.swift; sourceTree = "<group>"; };
+		4885BF9C1BA3A86200020C4C /* buttonsload.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = buttonsload.coreanimator; sourceTree = "<group>"; };
+		4885BF9D1BA3A86200020C4C /* ButtonsloadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsloadView.swift; sourceTree = "<group>"; };
+		4885BF9F1BA3A86200020C4C /* drive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drive.png; sourceTree = "<group>"; };
+		4885BFA01BA3A86200020C4C /* emailsetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emailsetting.png; sourceTree = "<group>"; };
+		4885BFA11BA3A86200020C4C /* emailsetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emailsetting@2x.png"; sourceTree = "<group>"; };
+		4885BFA21BA3A86200020C4C /* feedback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feedback.jpg; sourceTree = "<group>"; };
+		4885BFA31BA3A86200020C4C /* help.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = help.jpg; sourceTree = "<group>"; };
+		4885BFA41BA3A86200020C4C /* loginbgnew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbgnew.png; sourceTree = "<group>"; };
+		4885BFA51BA3A86200020C4C /* loginbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbtn.png; sourceTree = "<group>"; };
+		4885BFA61BA3A86200020C4C /* loginbtnroadway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbtnroadway.png; sourceTree = "<group>"; };
+		4885BFA71BA3A86200020C4C /* logout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logout.jpg; sourceTree = "<group>"; };
+		4885BFA81BA3A86200020C4C /* phonesetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phonesetting.png; sourceTree = "<group>"; };
+		4885BFA91BA3A86200020C4C /* phonesetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phonesetting@2x.png"; sourceTree = "<group>"; };
+		4885BFAA1BA3A86200020C4C /* ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ride.png; sourceTree = "<group>"; };
+		4885BFAB1BA3A86200020C4C /* ridemelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ridemelogo.png; sourceTree = "<group>"; };
+		4885BFAC1BA3A86200020C4C /* roadsignmain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roadsignmain.png; sourceTree = "<group>"; };
+		4885BFAD1BA3A86200020C4C /* roadwaybuttonsignup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roadwaybuttonsignup.png; sourceTree = "<group>"; };
+		4885BFAE1BA3A86200020C4C /* rod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rod.png; sourceTree = "<group>"; };
+		4885BFAF1BA3A86200020C4C /* signupbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupbtn.png; sourceTree = "<group>"; };
+		4885BFB01BA3A86200020C4C /* steering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steering.png; sourceTree = "<group>"; };
+		4885BFB11BA3A86200020C4C /* text1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text1.png; sourceTree = "<group>"; };
+		4885BFB21BA3A86200020C4C /* text2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text2.png; sourceTree = "<group>"; };
+		4885BFB31BA3A86200020C4C /* usernamesetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usernamesetting.png; sourceTree = "<group>"; };
+		4885BFB41BA3A86200020C4C /* usernamesetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usernamesetting@2x.png"; sourceTree = "<group>"; };
+		4885BFB51BA3A86200020C4C /* whitepolygon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitepolygon.png; sourceTree = "<group>"; };
+		4885BFB61BA3A86200020C4C /* loadmenu.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = loadmenu.coreanimator; sourceTree = "<group>"; };
+		4885BFB71BA3A86200020C4C /* LoadmenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadmenuView.swift; sourceTree = "<group>"; };
+		4885BFB81BA3A86200020C4C /* mainview.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = mainview.coreanimator; sourceTree = "<group>"; };
+		4885BFB91BA3A86200020C4C /* MainviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainviewView.swift; sourceTree = "<group>"; };
+		4885BFBA1BA3A86200020C4C /* roadsignlogin.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = roadsignlogin.coreanimator; sourceTree = "<group>"; };
+		4885BFBB1BA3A86200020C4C /* roadsignSignup.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = roadsignSignup.coreanimator; sourceTree = "<group>"; };
+		4885BFBC1BA3A86200020C4C /* RoadsignSignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadsignSignupView.swift; sourceTree = "<group>"; };
+		4885BFBD1BA3A86200020C4C /* RoadwayLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadwayLoginView.swift; sourceTree = "<group>"; };
+		4885BFBE1BA3A86200020C4C /* settingsVC.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = settingsVC.coreanimator; sourceTree = "<group>"; };
+		4885BFBF1BA3A86200020C4C /* SettingsVCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVCView.swift; sourceTree = "<group>"; };
+		48C815051B7E52EB005489E1 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		48C815061B7E52EB005489E1 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		48C815071B7E52EB005489E1 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		48C815081B7E52EB005489E1 /* tick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tick@2x.png"; sourceTree = "<group>"; };
+		48C8150D1B7E55F8005489E1 /* materialSignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = materialSignupVC.swift; sourceTree = "<group>"; };
+		48C815111B7E6682005489E1 /* emailsetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emailsetting.png; sourceTree = "<group>"; };
+		48C815121B7E6682005489E1 /* emailsetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emailsetting@2x.png"; sourceTree = "<group>"; };
+		48C815131B7E6682005489E1 /* phonesetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phonesetting.png; sourceTree = "<group>"; };
+		48C815141B7E6682005489E1 /* phonesetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phonesetting@2x.png"; sourceTree = "<group>"; };
+		48C815151B7E6682005489E1 /* usernamesetting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usernamesetting.png; sourceTree = "<group>"; };
+		48C815161B7E6682005489E1 /* usernamesetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usernamesetting@2x.png"; sourceTree = "<group>"; };
+		48D6B76C1B73422C001DDDD6 /* animatedMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = animatedMainVC.swift; path = ../../../roadsignlogin/animatedMainVC.swift; sourceTree = "<group>"; };
+		48D6B76E1B73483A001DDDD6 /* loginbtnblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbtnblack.png; sourceTree = "<group>"; };
+		48D6B7701B73484C001DDDD6 /* signupbtnblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupbtnblack.png; sourceTree = "<group>"; };
+		48DA764E1B6FA5DE005441EA /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		48DAA3AE1B723F710072B459 /* animatedSignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animatedSignUpVC.swift; sourceTree = "<group>"; };
+		48DAA3B01B724F050072B459 /* animatedLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = animatedLoginVC.swift; path = ../animatedLoginVC.swift; sourceTree = "<group>"; };
+		48FF76871B7B23A7004DC193 /* settingsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsicon.png; sourceTree = "<group>"; };
+		48FF76891B7B2B15004DC193 /* settingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settingsVC.swift; path = ../settingsVC.swift; sourceTree = "<group>"; };
+		48FF768B1B7B33DE004DC193 /* rideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rideVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		48143AC81B7FB1DC00330CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		485C158B1B6DFAEA00C583BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485C16141B6E23CE00C583BD /* libsqlite3.dylib in Frameworks */,
+				485C16121B6E23BC00C583BD /* libz.dylib in Frameworks */,
+				485C16101B6E23AA00C583BD /* SystemConfiguration.framework in Frameworks */,
+				485C160E1B6E23A300C583BD /* StoreKit.framework in Frameworks */,
+				485C160C1B6E239600C583BD /* Social.framework in Frameworks */,
+				485C160A1B6E239000C583BD /* Security.framework in Frameworks */,
+				485C16081B6E238400C583BD /* QuartzCore.framework in Frameworks */,
+				485C16061B6E237E00C583BD /* CoreLocation.framework in Frameworks */,
+				485C16041B6E236B00C583BD /* CoreGraphics.framework in Frameworks */,
+				485C16021B6E236500C583BD /* CFNetwork.framework in Frameworks */,
+				485C16001B6E235500C583BD /* AudioToolbox.framework in Frameworks */,
+				485C15FE1B6E234C00C583BD /* Accounts.framework in Frameworks */,
+				485C15FA1B6E22FD00C583BD /* ParseUI.framework in Frameworks */,
+				485C15F61B6E22FD00C583BD /* Parse.framework in Frameworks */,
+				485C15F71B6E22FD00C583BD /* ParseCrashReporting.framework in Frameworks */,
+				485C15F81B6E22FD00C583BD /* ParseFacebookUtils.framework in Frameworks */,
+				485C15F51B6E22FD00C583BD /* Bolts.framework in Frameworks */,
+				485C15F91B6E22FD00C583BD /* ParseFacebookUtilsV4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +350,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48143ACC1B7FB1DC00330CFE /* ride.me WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				48143AED1B7FC29C00330CFE /* basicSwiftFile.swift */,
+				48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */,
+				48143AEB1B7FC25700330CFE /* WatchMainVC.swift */,
+				48143AD11B7FB1DD00330CFE /* Images.xcassets */,
+				48143ACD1B7FB1DD00330CFE /* Supporting Files */,
+			);
+			path = "ride.me WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		48143ACD1B7FB1DD00330CFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48143ACE1B7FB1DD00330CFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48143AD91B7FB1DD00330CFE /* ride.me WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				48143ADC1B7FB1DD00330CFE /* Interface.storyboard */,
+				48143ADF1B7FB1DD00330CFE /* Images.xcassets */,
+				48143ADA1B7FB1DD00330CFE /* Supporting Files */,
+			);
+			path = "ride.me WatchKit App";
+			sourceTree = "<group>";
+		};
+		48143ADA1B7FB1DD00330CFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48143ADB1B7FB1DD00330CFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		485C15851B6DFAEA00C583BD = {
 			isa = PBXGroup;
 			children = (
+				48DA764E1B6FA5DE005441EA /* Entitlements.plist */,
 				485C15901B6DFAEA00C583BD /* ride.me */,
 				485C15A91B6DFAEA00C583BD /* ride.meTests */,
+				48143ACC1B7FB1DC00330CFE /* ride.me WatchKit Extension */,
+				48143AD91B7FB1DD00330CFE /* ride.me WatchKit App */,
 				485C158F1B6DFAEA00C583BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +405,8 @@
 			children = (
 				485C158E1B6DFAEA00C583BD /* ride.me.app */,
 				485C15A61B6DFAEA00C583BD /* ride.meTests.xctest */,
+				48143ACB1B7FB1DC00330CFE /* ride.me WatchKit Extension.appex */,
+				48143AD51B7FB1DD00330CFE /* ride.me WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,9 +414,21 @@
 		485C15901B6DFAEA00C583BD /* ride.me */ = {
 			isa = PBXGroup;
 			children = (
+				48143AEF1B7FC4EB00330CFE /* ride.me.entitlements */,
 				485C15931B6DFAEA00C583BD /* AppDelegate.swift */,
+				485C16151B6E24C000C583BD /* loginvc.swift */,
+				485C16171B6E24D300C583BD /* signupvc.swift */,
+				48DAA3B01B724F050072B459 /* animatedLoginVC.swift */,
+				48DAA3AE1B723F710072B459 /* animatedSignUpVC.swift */,
+				48D6B76C1B73422C001DDDD6 /* animatedMainVC.swift */,
+				488152681B77900D00E34D32 /* usermenu.swift */,
+				482956561B7912C200A26830 /* driveVC.swift */,
+				48FF768B1B7B33DE004DC193 /* rideVC.swift */,
+				483C86D11B7A1745001527DE /* mainViewController.swift */,
+				48FF76891B7B2B15004DC193 /* settingsVC.swift */,
 				485C15981B6DFAEA00C583BD /* ViewController.swift */,
 				485C159A1B6DFAEA00C583BD /* Main.storyboard */,
+				48C8150D1B7E55F8005489E1 /* materialSignupVC.swift */,
 				485C159D1B6DFAEA00C583BD /* Images.xcassets */,
 				485C159F1B6DFAEA00C583BD /* LaunchScreen.xib */,
 				485C15951B6DFAEA00C583BD /* ride_me.xcdatamodeld */,
@@ -93,6 +440,15 @@
 		485C15911B6DFAEA00C583BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				48C815111B7E6682005489E1 /* emailsetting.png */,
+				48C815121B7E6682005489E1 /* emailsetting@2x.png */,
+				48C815131B7E6682005489E1 /* phonesetting.png */,
+				48C815141B7E6682005489E1 /* phonesetting@2x.png */,
+				48C815151B7E6682005489E1 /* usernamesetting.png */,
+				48C815161B7E6682005489E1 /* usernamesetting@2x.png */,
+				4885BF9A1BA3A86200020C4C /* roadsignlogin */,
+				485C15FC1B6E231000C583BD /* Frameworks */,
+				485C15B61B6DFBDA00C583BD /* RideME FILES */,
 				485C15921B6DFAEA00C583BD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -115,9 +471,163 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		485C15B61B6DFBDA00C583BD /* RideME FILES */ = {
+			isa = PBXGroup;
+			children = (
+				48C815051B7E52EB005489E1 /* cross.png */,
+				48C815061B7E52EB005489E1 /* cross@2x.png */,
+				48C815071B7E52EB005489E1 /* tick.png */,
+				48C815081B7E52EB005489E1 /* tick@2x.png */,
+				48FF76871B7B23A7004DC193 /* settingsicon.png */,
+				482956521B78AA6500A26830 /* car.jpg */,
+				488152431B778BC700E34D32 /* plusicon.png */,
+				48D6B76E1B73483A001DDDD6 /* loginbtnblack.png */,
+				48D6B7701B73484C001DDDD6 /* signupbtnblack.png */,
+				4814D6611B7094E6008F98D9 /* circleblack.png */,
+				4814D65D1B708BBC008F98D9 /* apploginbtn.png */,
+				4814D65E1B708BBC008F98D9 /* appsignupbtn.png */,
+				4814D65B1B7089D0008F98D9 /* loginbgwhite.jpg */,
+				485C15E91B6E17F200C583BD /* circle.png */,
+				485C15E71B6E132A00C583BD /* loginbg.png */,
+				485C15B71B6DFBDB00C583BD /* buttonmainpage.psd */,
+				485C15B81B6DFBDB00C583BD /* developer.png */,
+				485C15B91B6DFBDB00C583BD /* environmental-pollution-from-cars.jpg */,
+				485C15BA1B6DFBDB00C583BD /* facebook-4-512.gif */,
+				485C15BB1B6DFBDB00C583BD /* facebookicon.png */,
+				485C15BC1B6DFBDB00C583BD /* friend.png */,
+				485C15BD1B6DFBDB00C583BD /* g+icon.png */,
+				485C15BE1B6DFBDB00C583BD /* google-plus.png */,
+				485C15BF1B6DFBDB00C583BD /* holding-money.jpg */,
+				485C15C01B6DFBDB00C583BD /* loginbutton.png */,
+				485C15C11B6DFBDB00C583BD /* midsection.jpg */,
+				485C15C21B6DFBDB00C583BD /* midsection.psd */,
+				485C15C31B6DFBDB00C583BD /* money.png */,
+				485C15C41B6DFBDB00C583BD /* moneysave.png */,
+				485C15C51B6DFBDB00C583BD /* new_york_manhattan_street_cars_people_busy_30750_960x544.jpg */,
+				485C15C61B6DFBDB00C583BD /* rideme webpage.web */,
+				485C15C71B6DFBDB00C583BD /* ridemelogo.png */,
+				485C15C81B6DFBDB00C583BD /* ridemelogo.psd */,
+				485C15C91B6DFBDB00C583BD /* Save-Money-1024x1024.jpg */,
+				485C15CA1B6DFBDB00C583BD /* signupbutton.png */,
+				485C15CB1B6DFBDB00C583BD /* signuprideme.jpg */,
+				485C15CC1B6DFBDB00C583BD /* socialicon.psd */,
+				485C15CD1B6DFBDB00C583BD /* twitter-bird-dark-bgs.png */,
+				485C15CE1B6DFBDB00C583BD /* twittericon.png */,
+			);
+			path = "RideME FILES";
+			sourceTree = "<group>";
+		};
+		485C15FC1B6E231000C583BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				485C16131B6E23CE00C583BD /* libsqlite3.dylib */,
+				485C16111B6E23BC00C583BD /* libz.dylib */,
+				485C160F1B6E23AA00C583BD /* SystemConfiguration.framework */,
+				485C160D1B6E23A200C583BD /* StoreKit.framework */,
+				485C160B1B6E239600C583BD /* Social.framework */,
+				485C16091B6E239000C583BD /* Security.framework */,
+				485C16071B6E238400C583BD /* QuartzCore.framework */,
+				485C16051B6E237E00C583BD /* CoreLocation.framework */,
+				485C16031B6E236B00C583BD /* CoreGraphics.framework */,
+				485C16011B6E236500C583BD /* CFNetwork.framework */,
+				485C15FF1B6E235500C583BD /* AudioToolbox.framework */,
+				485C15FD1B6E234C00C583BD /* Accounts.framework */,
+				485C15EF1B6E22FD00C583BD /* Bolts.framework */,
+				485C15F01B6E22FD00C583BD /* Parse.framework */,
+				485C15F11B6E22FD00C583BD /* ParseCrashReporting.framework */,
+				485C15F21B6E22FD00C583BD /* ParseFacebookUtils.framework */,
+				485C15F31B6E22FD00C583BD /* ParseFacebookUtilsV4.framework */,
+				485C15F41B6E22FD00C583BD /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4885BF9A1BA3A86200020C4C /* roadsignlogin */ = {
+			isa = PBXGroup;
+			children = (
+				4885BF9C1BA3A86200020C4C /* buttonsload.coreanimator */,
+				4885BF9D1BA3A86200020C4C /* ButtonsloadView.swift */,
+				4885BF9E1BA3A86200020C4C /* images */,
+				4885BFB61BA3A86200020C4C /* loadmenu.coreanimator */,
+				4885BFB71BA3A86200020C4C /* LoadmenuView.swift */,
+				4885BFB81BA3A86200020C4C /* mainview.coreanimator */,
+				4885BFB91BA3A86200020C4C /* MainviewView.swift */,
+				4885BFBA1BA3A86200020C4C /* roadsignlogin.coreanimator */,
+				4885BFBB1BA3A86200020C4C /* roadsignSignup.coreanimator */,
+				4885BFBC1BA3A86200020C4C /* RoadsignSignupView.swift */,
+				4885BFBD1BA3A86200020C4C /* RoadwayLoginView.swift */,
+				4885BFBE1BA3A86200020C4C /* settingsVC.coreanimator */,
+				4885BFBF1BA3A86200020C4C /* SettingsVCView.swift */,
+			);
+			path = roadsignlogin;
+			sourceTree = "<group>";
+		};
+		4885BF9E1BA3A86200020C4C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4885BF9F1BA3A86200020C4C /* drive.png */,
+				4885BFA01BA3A86200020C4C /* emailsetting.png */,
+				4885BFA11BA3A86200020C4C /* emailsetting@2x.png */,
+				4885BFA21BA3A86200020C4C /* feedback.jpg */,
+				4885BFA31BA3A86200020C4C /* help.jpg */,
+				4885BFA41BA3A86200020C4C /* loginbgnew.png */,
+				4885BFA51BA3A86200020C4C /* loginbtn.png */,
+				4885BFA61BA3A86200020C4C /* loginbtnroadway.png */,
+				4885BFA71BA3A86200020C4C /* logout.jpg */,
+				4885BFA81BA3A86200020C4C /* phonesetting.png */,
+				4885BFA91BA3A86200020C4C /* phonesetting@2x.png */,
+				4885BFAA1BA3A86200020C4C /* ride.png */,
+				4885BFAB1BA3A86200020C4C /* ridemelogo.png */,
+				4885BFAC1BA3A86200020C4C /* roadsignmain.png */,
+				4885BFAD1BA3A86200020C4C /* roadwaybuttonsignup.png */,
+				4885BFAE1BA3A86200020C4C /* rod.png */,
+				4885BFAF1BA3A86200020C4C /* signupbtn.png */,
+				4885BFB01BA3A86200020C4C /* steering.png */,
+				4885BFB11BA3A86200020C4C /* text1.png */,
+				4885BFB21BA3A86200020C4C /* text2.png */,
+				4885BFB31BA3A86200020C4C /* usernamesetting.png */,
+				4885BFB41BA3A86200020C4C /* usernamesetting@2x.png */,
+				4885BFB51BA3A86200020C4C /* whitepolygon.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		48143ACA1B7FB1DC00330CFE /* ride.me WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48143AE91B7FB1DD00330CFE /* Build configuration list for PBXNativeTarget "ride.me WatchKit Extension" */;
+			buildPhases = (
+				48143AC71B7FB1DC00330CFE /* Sources */,
+				48143AC81B7FB1DC00330CFE /* Frameworks */,
+				48143AC91B7FB1DC00330CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48143AD81B7FB1DD00330CFE /* PBXTargetDependency */,
+			);
+			name = "ride.me WatchKit Extension";
+			productName = "ride.me WatchKit Extension";
+			productReference = 48143ACB1B7FB1DC00330CFE /* ride.me WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		48143AD41B7FB1DD00330CFE /* ride.me WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48143AE81B7FB1DD00330CFE /* Build configuration list for PBXNativeTarget "ride.me WatchKit App" */;
+			buildPhases = (
+				48143AD31B7FB1DD00330CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ride.me WatchKit App";
+			productName = "ride.me WatchKit App";
+			productReference = 48143AD51B7FB1DD00330CFE /* ride.me WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		485C158D1B6DFAEA00C583BD /* ride.me */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 485C15B01B6DFAEA00C583BD /* Build configuration list for PBXNativeTarget "ride.me" */;
@@ -125,10 +635,12 @@
 				485C158A1B6DFAEA00C583BD /* Sources */,
 				485C158B1B6DFAEA00C583BD /* Frameworks */,
 				485C158C1B6DFAEA00C583BD /* Resources */,
+				48143AEA1B7FB1DD00330CFE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				48143AE21B7FB1DD00330CFE /* PBXTargetDependency */,
 			);
 			name = ride.me;
 			productName = ride.me;
@@ -162,8 +674,20 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Aditya Dhingra";
 				TargetAttributes = {
+					48143ACA1B7FB1DC00330CFE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					48143AD41B7FB1DD00330CFE = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					485C158D1B6DFAEA00C583BD = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2S3D8J8M3T;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 					485C15A51B6DFAEA00C583BD = {
 						CreatedOnToolsVersion = 6.4;
@@ -186,18 +710,113 @@
 			targets = (
 				485C158D1B6DFAEA00C583BD /* ride.me */,
 				485C15A51B6DFAEA00C583BD /* ride.meTests */,
+				48143ACA1B7FB1DC00330CFE /* ride.me WatchKit Extension */,
+				48143AD41B7FB1DD00330CFE /* ride.me WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		48143AC91B7FB1DC00330CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48143AD21B7FB1DD00330CFE /* Images.xcassets in Resources */,
+				48143AD61B7FB1DD00330CFE /* ride.me WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48143AD31B7FB1DD00330CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48143ADE1B7FB1DD00330CFE /* Interface.storyboard in Resources */,
+				48143AE01B7FB1DD00330CFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		485C158C1B6DFAEA00C583BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C815091B7E52EB005489E1 /* cross.png in Resources */,
+				4885BFD31BA3A86200020C4C /* signupbtn.png in Resources */,
+				4885BFCE1BA3A86200020C4C /* ride.png in Resources */,
+				4814D65F1B708BBC008F98D9 /* apploginbtn.png in Resources */,
+				482956531B78AA6500A26830 /* car.jpg in Resources */,
+				4814D6621B7094E6008F98D9 /* circleblack.png in Resources */,
+				485C15D01B6DFBDB00C583BD /* developer.png in Resources */,
+				4885BFC81BA3A86200020C4C /* loginbgnew.png in Resources */,
+				4885BFC41BA3A86200020C4C /* emailsetting.png in Resources */,
+				4885BFD81BA3A86200020C4C /* usernamesetting@2x.png in Resources */,
+				488152441B778BC700E34D32 /* plusicon.png in Resources */,
+				485C15DE1B6DFBDB00C583BD /* rideme webpage.web in Resources */,
+				48D6B7711B73484C001DDDD6 /* signupbtnblack.png in Resources */,
+				48C8151C1B7E6682005489E1 /* usernamesetting@2x.png in Resources */,
 				485C159C1B6DFAEA00C583BD /* Main.storyboard in Resources */,
+				485C15D11B6DFBDB00C583BD /* environmental-pollution-from-cars.jpg in Resources */,
+				485C15DA1B6DFBDB00C583BD /* midsection.psd in Resources */,
+				485C15DB1B6DFBDB00C583BD /* money.png in Resources */,
+				48C8150B1B7E52EB005489E1 /* tick.png in Resources */,
+				485C15E61B6DFBDB00C583BD /* twittericon.png in Resources */,
+				485C15D41B6DFBDB00C583BD /* friend.png in Resources */,
+				4885BFCD1BA3A86200020C4C /* phonesetting@2x.png in Resources */,
+				48DA764F1B6FA5DE005441EA /* Entitlements.plist in Resources */,
+				4885BFCB1BA3A86200020C4C /* logout.jpg in Resources */,
+				48C815191B7E6682005489E1 /* phonesetting.png in Resources */,
+				48C8150A1B7E52EB005489E1 /* cross@2x.png in Resources */,
+				485C15E21B6DFBDB00C583BD /* signupbutton.png in Resources */,
+				4885BFCC1BA3A86200020C4C /* phonesetting.png in Resources */,
+				485C15CF1B6DFBDB00C583BD /* buttonmainpage.psd in Resources */,
+				48D6B76F1B73483A001DDDD6 /* loginbtnblack.png in Resources */,
+				4885BFDC1BA3A86200020C4C /* mainview.coreanimator in Resources */,
+				485C15D21B6DFBDB00C583BD /* facebook-4-512.gif in Resources */,
+				485C15D71B6DFBDB00C583BD /* holding-money.jpg in Resources */,
+				4885BFDA1BA3A86200020C4C /* loadmenu.coreanimator in Resources */,
+				485C15D51B6DFBDB00C583BD /* g+icon.png in Resources */,
+				4885BFE21BA3A86200020C4C /* settingsVC.coreanimator in Resources */,
+				4814D6601B708BBC008F98D9 /* appsignupbtn.png in Resources */,
+				485C15D61B6DFBDB00C583BD /* google-plus.png in Resources */,
+				4885BFD21BA3A86200020C4C /* rod.png in Resources */,
+				4885BFD11BA3A86200020C4C /* roadwaybuttonsignup.png in Resources */,
+				485C15DF1B6DFBDB00C583BD /* ridemelogo.png in Resources */,
+				48FF76881B7B23A7004DC193 /* settingsicon.png in Resources */,
+				485C15DD1B6DFBDB00C583BD /* new_york_manhattan_street_cars_people_busy_30750_960x544.jpg in Resources */,
+				4885BFC71BA3A86200020C4C /* help.jpg in Resources */,
 				485C15A11B6DFAEA00C583BD /* LaunchScreen.xib in Resources */,
+				4885BFD61BA3A86200020C4C /* text2.png in Resources */,
+				4885BFD51BA3A86200020C4C /* text1.png in Resources */,
+				485C15D91B6DFBDB00C583BD /* midsection.jpg in Resources */,
+				485C15E01B6DFBDB00C583BD /* ridemelogo.psd in Resources */,
+				485C15E41B6DFBDB00C583BD /* socialicon.psd in Resources */,
+				4814D65C1B7089D0008F98D9 /* loginbgwhite.jpg in Resources */,
+				4885BFC11BA3A86200020C4C /* buttonsload.coreanimator in Resources */,
+				485C15E51B6DFBDB00C583BD /* twitter-bird-dark-bgs.png in Resources */,
+				4885BFC31BA3A86200020C4C /* drive.png in Resources */,
+				4885BFD71BA3A86200020C4C /* usernamesetting.png in Resources */,
+				485C15D31B6DFBDB00C583BD /* facebookicon.png in Resources */,
+				48C8151B1B7E6682005489E1 /* usernamesetting.png in Resources */,
+				48C8151A1B7E6682005489E1 /* phonesetting@2x.png in Resources */,
+				485C15E31B6DFBDB00C583BD /* signuprideme.jpg in Resources */,
+				48C815171B7E6682005489E1 /* emailsetting.png in Resources */,
+				4885BFD91BA3A86200020C4C /* whitepolygon.png in Resources */,
+				4885BFDE1BA3A86200020C4C /* roadsignlogin.coreanimator in Resources */,
+				4885BFC51BA3A86200020C4C /* emailsetting@2x.png in Resources */,
+				4885BFC91BA3A86200020C4C /* loginbtn.png in Resources */,
+				4885BFDF1BA3A86200020C4C /* roadsignSignup.coreanimator in Resources */,
+				485C15E11B6DFBDB00C583BD /* Save-Money-1024x1024.jpg in Resources */,
+				4885BFCF1BA3A86200020C4C /* ridemelogo.png in Resources */,
+				485C15EA1B6E17F200C583BD /* circle.png in Resources */,
+				48C815181B7E6682005489E1 /* emailsetting@2x.png in Resources */,
+				4885BFC61BA3A86200020C4C /* feedback.jpg in Resources */,
+				485C15E81B6E132A00C583BD /* loginbg.png in Resources */,
+				485C15D81B6DFBDB00C583BD /* loginbutton.png in Resources */,
+				48C8150C1B7E52EB005489E1 /* tick@2x.png in Resources */,
 				485C159E1B6DFAEA00C583BD /* Images.xcassets in Resources */,
+				4885BFD41BA3A86200020C4C /* steering.png in Resources */,
+				4885BFCA1BA3A86200020C4C /* loginbtnroadway.png in Resources */,
+				485C15DC1B6DFBDB00C583BD /* moneysave.png in Resources */,
+				4885BFD01BA3A86200020C4C /* roadsignmain.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,13 +830,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		48143AC71B7FB1DC00330CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48143AEE1B7FC29C00330CFE /* basicSwiftFile.swift in Sources */,
+				48143AD01B7FB1DD00330CFE /* InterfaceController.swift in Sources */,
+				48143AEC1B7FC25700330CFE /* WatchMainVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		485C158A1B6DFAEA00C583BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488152691B77900D00E34D32 /* usermenu.swift in Sources */,
+				4885BFDD1BA3A86200020C4C /* MainviewView.swift in Sources */,
+				483C86D21B7A1745001527DE /* mainViewController.swift in Sources */,
+				4885BFE11BA3A86200020C4C /* RoadwayLoginView.swift in Sources */,
+				4885BFDB1BA3A86200020C4C /* LoadmenuView.swift in Sources */,
 				485C15991B6DFAEA00C583BD /* ViewController.swift in Sources */,
+				4885BFC21BA3A86200020C4C /* ButtonsloadView.swift in Sources */,
+				4885BFE01BA3A86200020C4C /* RoadsignSignupView.swift in Sources */,
+				48FF768A1B7B2B15004DC193 /* settingsVC.swift in Sources */,
 				485C15941B6DFAEA00C583BD /* AppDelegate.swift in Sources */,
+				485C16161B6E24C000C583BD /* loginvc.swift in Sources */,
+				48DAA3AF1B723F710072B459 /* animatedSignUpVC.swift in Sources */,
+				482956571B7912C200A26830 /* driveVC.swift in Sources */,
+				4885BFE31BA3A86200020C4C /* SettingsVCView.swift in Sources */,
+				48FF768C1B7B33DE004DC193 /* rideVC.swift in Sources */,
+				48D6B76D1B73422C001DDDD6 /* animatedMainVC.swift in Sources */,
+				485C16181B6E24D300C583BD /* signupvc.swift in Sources */,
 				485C15971B6DFAEA00C583BD /* ride_me.xcdatamodeld in Sources */,
+				48C8150E1B7E55F8005489E1 /* materialSignupVC.swift in Sources */,
+				48DAA3B11B724F050072B459 /* animatedLoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +878,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		48143AD81B7FB1DD00330CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48143AD41B7FB1DD00330CFE /* ride.me WatchKit App */;
+			targetProxy = 48143AD71B7FB1DD00330CFE /* PBXContainerItemProxy */;
+		};
+		48143AE21B7FB1DD00330CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48143ACA1B7FB1DC00330CFE /* ride.me WatchKit Extension */;
+			targetProxy = 48143AE11B7FB1DD00330CFE /* PBXContainerItemProxy */;
+		};
 		485C15A81B6DFAEA00C583BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 485C158D1B6DFAEA00C583BD /* ride.me */;
@@ -240,6 +896,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		48143ADC1B7FB1DD00330CFE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48143ADD1B7FB1DD00330CFE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		485C159A1B6DFAEA00C583BD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,6 +923,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		48143AE41B7FB1DD00330CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ride.me WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		48143AE51B7FB1DD00330CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				INFOPLIST_FILE = "ride.me WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		48143AE61B7FB1DD00330CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ride_me_WatchKit_Extension;
+				INFOPLIST_FILE = "ride.me WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		48143AE71B7FB1DD00330CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = ride_me_WatchKit_Extension;
+				INFOPLIST_FILE = "ride.me WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		485C15AE1B6DFAEA00C583BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -346,11 +1068,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ride.me",
+				);
 				INFOPLIST_FILE = ride.me/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,11 +1085,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ride.me",
+				);
 				INFOPLIST_FILE = ride.me/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -403,6 +1135,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		48143AE81B7FB1DD00330CFE /* Build configuration list for PBXNativeTarget "ride.me WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48143AE61B7FB1DD00330CFE /* Debug */,
+				48143AE71B7FB1DD00330CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48143AE91B7FB1DD00330CFE /* Build configuration list for PBXNativeTarget "ride.me WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48143AE41B7FB1DD00330CFE /* Debug */,
+				48143AE51B7FB1DD00330CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		485C15891B6DFAEA00C583BD /* Build configuration list for PBXProject "ride.me" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -419,6 +1169,7 @@
 				485C15B21B6DFAEA00C583BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		485C15B31B6DFAEA00C583BD /* Build configuration list for PBXNativeTarget "ride.meTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +1178,7 @@
 				485C15B51B6DFAEA00C583BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
