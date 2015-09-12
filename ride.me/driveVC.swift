@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Parse
 
-class driveVC: UIViewController {
+class driveVC: UIViewController,UITextFieldDelegate {
     
     var Day = NSDate()
     
@@ -44,6 +44,10 @@ class driveVC: UIViewController {
       
     }
     
+    @IBAction func resignKeyboard(sender: AnyObject) {
+        sender.resignFirstResponder()
+    }
+    
     func post_drive(){
         
         var currentUser = PFUser.currentUser()?.username
@@ -58,6 +62,30 @@ class driveVC: UIViewController {
         driveuser["cityfrom"] = cityfrom.text!
         driveuser["statefrom"] = statefrom.text!
         driveuser["zipfrom"] = zipfrom.text!
+        
+        driveuser.saveInBackgroundWithBlock {
+                (success: Bool, error: NSError?) -> Void in
+                if (success) {
+                    //self.retrieve()
+                    //                    let query = PFInstallation.query()
+                    //                    if let query = query { // non intrusive
+                    //                        //query.whereKey("channels", equalTo: "suitcaseOwners")
+                    //                        query.whereKey("deviceType", equalTo: "ios")
+                    //                        query.whereKey("")
+                    //                        let iOSPush = PFPush()
+                    //                        iOSPush.setMessage("General: " + self.commentTxtView.text)
+                    //                        //iOSPush.setChannel("suitcaseOwners")
+                    //                        iOSPush.setQuery(query)
+                    //                        iOSPush.sendPushInBackground()
+                    //
+                    //                    }
+                    println("Posted!")
+                } else {
+                    println("Couldn't post!")
+                    SCLAlertView().showWarning("Error Posting", subTitle: "Check Your Internet Connection.")
+                }
+        }
+
         
     }
     

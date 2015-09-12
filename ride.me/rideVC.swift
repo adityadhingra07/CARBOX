@@ -16,6 +16,10 @@ class rideVC: UIViewController {
     
     // TO INPUTS
     
+    @IBAction func resignKeyboard(sender: AnyObject) {
+        sender.resignFirstResponder()
+    }
+    
     @IBOutlet var addto: UITextField!
     @IBOutlet var cityto: UITextField!
     @IBOutlet var stateto: UITextField!

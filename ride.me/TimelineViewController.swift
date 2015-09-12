@@ -68,6 +68,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
     override func viewWillAppear(animated: Bool) {
        // self.navigationController!.navigationBar.hidden = false
         //self.navigationController?.setNavigationBarHidden(false, animated: true)
+        SwiftSpinner.show("Loading feed...")
         if let currentUser = PFUser.currentUser()!.username {
             currentUserId = PFUser.currentUser()?.objectId
         } else {
@@ -95,7 +96,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         tableView.backgroundColor = UIColor.clearColor()
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.estimatedRowHeight = 100.0;
+        tableView.estimatedRowHeight = 90.0;
         tableView.rowHeight = UITableViewAutomaticDimension;
         tableView.separatorStyle = UITableViewCellSeparatorStyle.None
         var currentUser = PFUser.currentUser()?.username
@@ -125,7 +126,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         //            }
         //        }
         
-        SwiftSpinner.show("Connecting to Group...")
+        
         
         retrieve()
         
