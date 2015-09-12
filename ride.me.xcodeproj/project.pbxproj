@@ -112,6 +112,34 @@
 		4885BFE21BA3A86200020C4C /* settingsVC.coreanimator in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFBE1BA3A86200020C4C /* settingsVC.coreanimator */; };
 		4885BFE31BA3A86200020C4C /* SettingsVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFBF1BA3A86200020C4C /* SettingsVCView.swift */; };
 		4885BFE71BA3D3CB00020C4C /* animatedMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFE61BA3D3CB00020C4C /* animatedMainVC.swift */; };
+		4885BFE91BA3E7C300020C4C /* bgvideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFE81BA3DD9400020C4C /* bgvideo.mp4 */; };
+		4885C0061BA3E8B100020C4C /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFEB1BA3E8B100020C4C /* b1.png */; };
+		4885C0071BA3E8B100020C4C /* b1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFEC1BA3E8B100020C4C /* b1@2x.png */; };
+		4885C0081BA3E8B100020C4C /* b2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFED1BA3E8B100020C4C /* b2.png */; };
+		4885C0091BA3E8B100020C4C /* b2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFEE1BA3E8B100020C4C /* b2@2x.png */; };
+		4885C00A1BA3E8B100020C4C /* boot.coreanimator in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFEF1BA3E8B100020C4C /* boot.coreanimator */; };
+		4885C00B1BA3E8B100020C4C /* BootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885BFF01BA3E8B100020C4C /* BootView.swift */; };
+		4885C00C1BA3E8B100020C4C /* CARBOX.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFF11BA3E8B100020C4C /* CARBOX.png */; };
+		4885C00D1BA3E8B100020C4C /* CARBOX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFF21BA3E8B100020C4C /* CARBOX@2x.png */; };
+		4885C00E1BA3E8B100020C4C /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFF41BA3E8B100020C4C /* b1.png */; };
+		4885C00F1BA3E8B100020C4C /* b1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFF51BA3E8B100020C4C /* b1@2x.png */; };
+		4885C0101BA3E8B100020C4C /* b2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFF61BA3E8B100020C4C /* b2.png */; };
+		4885C0111BA3E8B100020C4C /* b2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFF71BA3E8B100020C4C /* b2@2x.png */; };
+		4885C0121BA3E8B100020C4C /* CARBOX.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFF81BA3E8B100020C4C /* CARBOX.png */; };
+		4885C0131BA3E8B100020C4C /* CARBOX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFF91BA3E8B100020C4C /* CARBOX@2x.png */; };
+		4885C0141BA3E8B100020C4C /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFFA1BA3E8B100020C4C /* Line.png */; };
+		4885C0151BA3E8B100020C4C /* Line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFFB1BA3E8B100020C4C /* Line@2x.png */; };
+		4885C0161BA3E8B100020C4C /* r1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFFC1BA3E8B100020C4C /* r1.png */; };
+		4885C0171BA3E8B100020C4C /* r1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFFD1BA3E8B100020C4C /* r1@2x.png */; };
+		4885C0181BA3E8B100020C4C /* r2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFFE1BA3E8B100020C4C /* r2.png */; };
+		4885C0191BA3E8B100020C4C /* r2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885BFFF1BA3E8B100020C4C /* r2@2x.png */; };
+		4885C01A1BA3E8B100020C4C /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885C0001BA3E8B100020C4C /* Line.png */; };
+		4885C01B1BA3E8B100020C4C /* Line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885C0011BA3E8B100020C4C /* Line@2x.png */; };
+		4885C01C1BA3E8B100020C4C /* r1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885C0021BA3E8B100020C4C /* r1.png */; };
+		4885C01D1BA3E8B100020C4C /* r1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885C0031BA3E8B100020C4C /* r1@2x.png */; };
+		4885C01E1BA3E8B100020C4C /* r2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885C0041BA3E8B100020C4C /* r2.png */; };
+		4885C01F1BA3E8B100020C4C /* r2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885C0051BA3E8B100020C4C /* r2@2x.png */; };
+		4885C0211BA3E8E100020C4C /* bootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885C0201BA3E8E100020C4C /* bootVC.swift */; };
 		48C815091B7E52EB005489E1 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815051B7E52EB005489E1 /* cross.png */; };
 		48C8150A1B7E52EB005489E1 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815061B7E52EB005489E1 /* cross@2x.png */; };
 		48C8150B1B7E52EB005489E1 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815071B7E52EB005489E1 /* tick.png */; };
@@ -282,6 +310,34 @@
 		4885BFBE1BA3A86200020C4C /* settingsVC.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = settingsVC.coreanimator; sourceTree = "<group>"; };
 		4885BFBF1BA3A86200020C4C /* SettingsVCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVCView.swift; sourceTree = "<group>"; };
 		4885BFE61BA3D3CB00020C4C /* animatedMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animatedMainVC.swift; sourceTree = "<group>"; };
+		4885BFE81BA3DD9400020C4C /* bgvideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgvideo.mp4; sourceTree = "<group>"; };
+		4885BFEB1BA3E8B100020C4C /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
+		4885BFEC1BA3E8B100020C4C /* b1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b1@2x.png"; sourceTree = "<group>"; };
+		4885BFED1BA3E8B100020C4C /* b2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2.png; sourceTree = "<group>"; };
+		4885BFEE1BA3E8B100020C4C /* b2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b2@2x.png"; sourceTree = "<group>"; };
+		4885BFEF1BA3E8B100020C4C /* boot.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = boot.coreanimator; sourceTree = "<group>"; };
+		4885BFF01BA3E8B100020C4C /* BootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootView.swift; sourceTree = "<group>"; };
+		4885BFF11BA3E8B100020C4C /* CARBOX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CARBOX.png; sourceTree = "<group>"; };
+		4885BFF21BA3E8B100020C4C /* CARBOX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CARBOX@2x.png"; sourceTree = "<group>"; };
+		4885BFF41BA3E8B100020C4C /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
+		4885BFF51BA3E8B100020C4C /* b1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b1@2x.png"; sourceTree = "<group>"; };
+		4885BFF61BA3E8B100020C4C /* b2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2.png; sourceTree = "<group>"; };
+		4885BFF71BA3E8B100020C4C /* b2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b2@2x.png"; sourceTree = "<group>"; };
+		4885BFF81BA3E8B100020C4C /* CARBOX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CARBOX.png; sourceTree = "<group>"; };
+		4885BFF91BA3E8B100020C4C /* CARBOX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CARBOX@2x.png"; sourceTree = "<group>"; };
+		4885BFFA1BA3E8B100020C4C /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
+		4885BFFB1BA3E8B100020C4C /* Line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line@2x.png"; sourceTree = "<group>"; };
+		4885BFFC1BA3E8B100020C4C /* r1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r1.png; sourceTree = "<group>"; };
+		4885BFFD1BA3E8B100020C4C /* r1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "r1@2x.png"; sourceTree = "<group>"; };
+		4885BFFE1BA3E8B100020C4C /* r2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r2.png; sourceTree = "<group>"; };
+		4885BFFF1BA3E8B100020C4C /* r2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "r2@2x.png"; sourceTree = "<group>"; };
+		4885C0001BA3E8B100020C4C /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
+		4885C0011BA3E8B100020C4C /* Line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line@2x.png"; sourceTree = "<group>"; };
+		4885C0021BA3E8B100020C4C /* r1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r1.png; sourceTree = "<group>"; };
+		4885C0031BA3E8B100020C4C /* r1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "r1@2x.png"; sourceTree = "<group>"; };
+		4885C0041BA3E8B100020C4C /* r2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r2.png; sourceTree = "<group>"; };
+		4885C0051BA3E8B100020C4C /* r2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "r2@2x.png"; sourceTree = "<group>"; };
+		4885C0201BA3E8E100020C4C /* bootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bootVC.swift; sourceTree = "<group>"; };
 		48C815051B7E52EB005489E1 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		48C815061B7E52EB005489E1 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
 		48C815071B7E52EB005489E1 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
@@ -407,6 +463,7 @@
 		485C15901B6DFAEA00C583BD /* ride.me */ = {
 			isa = PBXGroup;
 			children = (
+				4885BFE81BA3DD9400020C4C /* bgvideo.mp4 */,
 				485C15931B6DFAEA00C583BD /* AppDelegate.swift */,
 				485C16151B6E24C000C583BD /* loginvc.swift */,
 				485C16171B6E24D300C583BD /* signupvc.swift */,
@@ -420,6 +477,7 @@
 				48FF76891B7B2B15004DC193 /* settingsVC.swift */,
 				485C15981B6DFAEA00C583BD /* ViewController.swift */,
 				485C159A1B6DFAEA00C583BD /* Main.storyboard */,
+				4885C0201BA3E8E100020C4C /* bootVC.swift */,
 				48C8150D1B7E55F8005489E1 /* materialSignupVC.swift */,
 				485C159D1B6DFAEA00C583BD /* Images.xcassets */,
 				485C159F1B6DFAEA00C583BD /* LaunchScreen.xib */,
@@ -432,6 +490,7 @@
 		485C15911B6DFAEA00C583BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4885BFEA1BA3E8B100020C4C /* Bootscreen Images */,
 				48C815111B7E6682005489E1 /* emailsetting.png */,
 				48C815121B7E6682005489E1 /* emailsetting@2x.png */,
 				48C815131B7E6682005489E1 /* phonesetting.png */,
@@ -579,6 +638,47 @@
 				4885BFB31BA3A86200020C4C /* usernamesetting.png */,
 				4885BFB41BA3A86200020C4C /* usernamesetting@2x.png */,
 				4885BFB51BA3A86200020C4C /* whitepolygon.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		4885BFEA1BA3E8B100020C4C /* Bootscreen Images */ = {
+			isa = PBXGroup;
+			children = (
+				4885BFEB1BA3E8B100020C4C /* b1.png */,
+				4885BFEC1BA3E8B100020C4C /* b1@2x.png */,
+				4885BFED1BA3E8B100020C4C /* b2.png */,
+				4885BFEE1BA3E8B100020C4C /* b2@2x.png */,
+				4885BFEF1BA3E8B100020C4C /* boot.coreanimator */,
+				4885BFF01BA3E8B100020C4C /* BootView.swift */,
+				4885BFF11BA3E8B100020C4C /* CARBOX.png */,
+				4885BFF21BA3E8B100020C4C /* CARBOX@2x.png */,
+				4885BFF31BA3E8B100020C4C /* images */,
+				4885C0001BA3E8B100020C4C /* Line.png */,
+				4885C0011BA3E8B100020C4C /* Line@2x.png */,
+				4885C0021BA3E8B100020C4C /* r1.png */,
+				4885C0031BA3E8B100020C4C /* r1@2x.png */,
+				4885C0041BA3E8B100020C4C /* r2.png */,
+				4885C0051BA3E8B100020C4C /* r2@2x.png */,
+			);
+			path = "Bootscreen Images";
+			sourceTree = "<group>";
+		};
+		4885BFF31BA3E8B100020C4C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4885BFF41BA3E8B100020C4C /* b1.png */,
+				4885BFF51BA3E8B100020C4C /* b1@2x.png */,
+				4885BFF61BA3E8B100020C4C /* b2.png */,
+				4885BFF71BA3E8B100020C4C /* b2@2x.png */,
+				4885BFF81BA3E8B100020C4C /* CARBOX.png */,
+				4885BFF91BA3E8B100020C4C /* CARBOX@2x.png */,
+				4885BFFA1BA3E8B100020C4C /* Line.png */,
+				4885BFFB1BA3E8B100020C4C /* Line@2x.png */,
+				4885BFFC1BA3E8B100020C4C /* r1.png */,
+				4885BFFD1BA3E8B100020C4C /* r1@2x.png */,
+				4885BFFE1BA3E8B100020C4C /* r2.png */,
+				4885BFFF1BA3E8B100020C4C /* r2@2x.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -751,23 +851,33 @@
 				48C8151C1B7E6682005489E1 /* usernamesetting@2x.png in Resources */,
 				485C159C1B6DFAEA00C583BD /* Main.storyboard in Resources */,
 				485C15D11B6DFBDB00C583BD /* environmental-pollution-from-cars.jpg in Resources */,
+				4885BFE91BA3E7C300020C4C /* bgvideo.mp4 in Resources */,
 				485C15DA1B6DFBDB00C583BD /* midsection.psd in Resources */,
 				485C15DB1B6DFBDB00C583BD /* money.png in Resources */,
+				4885C01A1BA3E8B100020C4C /* Line.png in Resources */,
 				48C8150B1B7E52EB005489E1 /* tick.png in Resources */,
 				485C15E61B6DFBDB00C583BD /* twittericon.png in Resources */,
 				485C15D41B6DFBDB00C583BD /* friend.png in Resources */,
 				4885BFCD1BA3A86200020C4C /* phonesetting@2x.png in Resources */,
 				4885BFCB1BA3A86200020C4C /* logout.jpg in Resources */,
+				4885C0171BA3E8B100020C4C /* r1@2x.png in Resources */,
 				48C815191B7E6682005489E1 /* phonesetting.png in Resources */,
+				4885C01D1BA3E8B100020C4C /* r1@2x.png in Resources */,
+				4885C0071BA3E8B100020C4C /* b1@2x.png in Resources */,
 				48C8150A1B7E52EB005489E1 /* cross@2x.png in Resources */,
 				485C15E21B6DFBDB00C583BD /* signupbutton.png in Resources */,
+				4885C0181BA3E8B100020C4C /* r2.png in Resources */,
 				4885BFCC1BA3A86200020C4C /* phonesetting.png in Resources */,
 				485C15CF1B6DFBDB00C583BD /* buttonmainpage.psd in Resources */,
 				48D6B76F1B73483A001DDDD6 /* loginbtnblack.png in Resources */,
 				4885BFDC1BA3A86200020C4C /* mainview.coreanimator in Resources */,
+				4885C0121BA3E8B100020C4C /* CARBOX.png in Resources */,
 				485C15D21B6DFBDB00C583BD /* facebook-4-512.gif in Resources */,
 				485C15D71B6DFBDB00C583BD /* holding-money.jpg in Resources */,
+				4885C00F1BA3E8B100020C4C /* b1@2x.png in Resources */,
 				4885BFDA1BA3A86200020C4C /* loadmenu.coreanimator in Resources */,
+				4885C01C1BA3E8B100020C4C /* r1.png in Resources */,
+				4885C01F1BA3E8B100020C4C /* r2@2x.png in Resources */,
 				485C15D51B6DFBDB00C583BD /* g+icon.png in Resources */,
 				4885BFE21BA3A86200020C4C /* settingsVC.coreanimator in Resources */,
 				4814D6601B708BBC008F98D9 /* appsignupbtn.png in Resources */,
@@ -779,27 +889,40 @@
 				485C15DD1B6DFBDB00C583BD /* new_york_manhattan_street_cars_people_busy_30750_960x544.jpg in Resources */,
 				4885BFC71BA3A86200020C4C /* help.jpg in Resources */,
 				485C15A11B6DFAEA00C583BD /* LaunchScreen.xib in Resources */,
+				4885C00E1BA3E8B100020C4C /* b1.png in Resources */,
+				4885C01B1BA3E8B100020C4C /* Line@2x.png in Resources */,
+				4885C0081BA3E8B100020C4C /* b2.png in Resources */,
+				4885C00A1BA3E8B100020C4C /* boot.coreanimator in Resources */,
 				4885BFD61BA3A86200020C4C /* text2.png in Resources */,
+				4885C0151BA3E8B100020C4C /* Line@2x.png in Resources */,
 				4885BFD51BA3A86200020C4C /* text1.png in Resources */,
 				485C15D91B6DFBDB00C583BD /* midsection.jpg in Resources */,
 				485C15E01B6DFBDB00C583BD /* ridemelogo.psd in Resources */,
 				485C15E41B6DFBDB00C583BD /* socialicon.psd in Resources */,
 				4814D65C1B7089D0008F98D9 /* loginbgwhite.jpg in Resources */,
+				4885C0161BA3E8B100020C4C /* r1.png in Resources */,
 				4885BFC11BA3A86200020C4C /* buttonsload.coreanimator in Resources */,
 				485C15E51B6DFBDB00C583BD /* twitter-bird-dark-bgs.png in Resources */,
 				4885BFC31BA3A86200020C4C /* drive.png in Resources */,
 				4885BFD71BA3A86200020C4C /* usernamesetting.png in Resources */,
+				4885C00D1BA3E8B100020C4C /* CARBOX@2x.png in Resources */,
 				485C15D31B6DFBDB00C583BD /* facebookicon.png in Resources */,
 				48C8151B1B7E6682005489E1 /* usernamesetting.png in Resources */,
+				4885C0191BA3E8B100020C4C /* r2@2x.png in Resources */,
+				4885C0061BA3E8B100020C4C /* b1.png in Resources */,
 				48C8151A1B7E6682005489E1 /* phonesetting@2x.png in Resources */,
 				485C15E31B6DFBDB00C583BD /* signuprideme.jpg in Resources */,
 				48C815171B7E6682005489E1 /* emailsetting.png in Resources */,
+				4885C01E1BA3E8B100020C4C /* r2.png in Resources */,
 				4885BFD91BA3A86200020C4C /* whitepolygon.png in Resources */,
+				4885C0091BA3E8B100020C4C /* b2@2x.png in Resources */,
+				4885C0101BA3E8B100020C4C /* b2.png in Resources */,
 				4885BFDE1BA3A86200020C4C /* roadsignlogin.coreanimator in Resources */,
 				4885BFC51BA3A86200020C4C /* emailsetting@2x.png in Resources */,
 				4885BFC91BA3A86200020C4C /* loginbtn.png in Resources */,
 				4885BFDF1BA3A86200020C4C /* roadsignSignup.coreanimator in Resources */,
 				485C15E11B6DFBDB00C583BD /* Save-Money-1024x1024.jpg in Resources */,
+				4885C0111BA3E8B100020C4C /* b2@2x.png in Resources */,
 				4885BFCF1BA3A86200020C4C /* ridemelogo.png in Resources */,
 				485C15EA1B6E17F200C583BD /* circle.png in Resources */,
 				48C815181B7E6682005489E1 /* emailsetting@2x.png in Resources */,
@@ -809,9 +932,12 @@
 				48C8150C1B7E52EB005489E1 /* tick@2x.png in Resources */,
 				485C159E1B6DFAEA00C583BD /* Images.xcassets in Resources */,
 				4885BFD41BA3A86200020C4C /* steering.png in Resources */,
+				4885C0131BA3E8B100020C4C /* CARBOX@2x.png in Resources */,
+				4885C00C1BA3E8B100020C4C /* CARBOX.png in Resources */,
 				4885BFCA1BA3A86200020C4C /* loginbtnroadway.png in Resources */,
 				485C15DC1B6DFBDB00C583BD /* moneysave.png in Resources */,
 				4885BFD01BA3A86200020C4C /* roadsignmain.png in Resources */,
+				4885C0141BA3E8B100020C4C /* Line.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -846,10 +972,12 @@
 				4885BFE11BA3A86200020C4C /* RoadwayLoginView.swift in Sources */,
 				4885BFDB1BA3A86200020C4C /* LoadmenuView.swift in Sources */,
 				485C15991B6DFAEA00C583BD /* ViewController.swift in Sources */,
+				4885C00B1BA3E8B100020C4C /* BootView.swift in Sources */,
 				4885BFC21BA3A86200020C4C /* ButtonsloadView.swift in Sources */,
 				4885BFE01BA3A86200020C4C /* RoadsignSignupView.swift in Sources */,
 				48FF768A1B7B2B15004DC193 /* settingsVC.swift in Sources */,
 				485C15941B6DFAEA00C583BD /* AppDelegate.swift in Sources */,
+				4885C0211BA3E8E100020C4C /* bootVC.swift in Sources */,
 				485C16161B6E24C000C583BD /* loginvc.swift in Sources */,
 				48DAA3AF1B723F710072B459 /* animatedSignUpVC.swift in Sources */,
 				482956571B7912C200A26830 /* driveVC.swift in Sources */,
