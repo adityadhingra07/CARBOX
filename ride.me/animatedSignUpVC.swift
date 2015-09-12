@@ -10,12 +10,14 @@ import Foundation
 import Parse
 import UIKit
 
-class ANMTDsignupViewController: UIViewController, RoadsignSignupViewDelegate {
+class ANMTDsignupViewController: UIViewController,UITextFieldDelegate, RoadsignSignupViewDelegate {
     
     @IBOutlet var roadsign: RoadsignSignupView!
-    @IBAction func resignKeyboard(sender: AnyObject) {
-        sender.resignFirstResponder()
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
+    
     //For hiding keyboard
     
     @IBAction func unwindToViewController(sender: UIStoryboardSegue) {

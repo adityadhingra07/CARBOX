@@ -16,14 +16,11 @@ class driveVC: UIViewController, UITextFieldDelegate {
     
     // TO INPUTS
     
-    @IBOutlet var addto: UITextField!
     @IBOutlet var cityto: UITextField!
     @IBOutlet var stateto: UITextField!
     @IBOutlet var zipto: UITextField!
     
     // FROM INPUTS
-    
-    @IBOutlet var addfrom: UITextField!
     @IBOutlet var cityfrom: UITextField!
     @IBOutlet var statefrom: UITextField!
     @IBOutlet var zipfrom: UITextField!
@@ -44,6 +41,11 @@ class driveVC: UIViewController, UITextFieldDelegate {
       
     }
     
+    @IBAction func back(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: { () -> Void in
+            println("back")
+        })
+    }
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         self.view.endEditing(true)
         return false
@@ -55,11 +57,9 @@ class driveVC: UIViewController, UITextFieldDelegate {
         var driveuser = PFObject(className:"Person")
         driveuser["username"] = currentUser
         driveuser["date"] = Day as NSDate
-        driveuser["addto"] = addto.text!
         driveuser["cityto"] = cityto.text!
         driveuser["stateto"] = stateto.text!
         driveuser["zipto"] = zipto.text!
-        driveuser["addfrom"] = addfrom.text!
         driveuser["cityfrom"] = cityfrom.text!
         driveuser["statefrom"] = statefrom.text!
         driveuser["zipfrom"] = zipfrom.text!

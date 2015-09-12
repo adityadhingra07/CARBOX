@@ -10,25 +10,19 @@ import Foundation
 import UIKit
 import Parse
 
-class rideVC: UIViewController {
+class rideVC: UIViewController, UITextFieldDelegate {
     
     var Day = NSDate()
     
     // TO INPUTS
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
-        self.view.endEditing(true)
-        return false
-    }
     
-    @IBOutlet var addto: UITextField!
     @IBOutlet var cityto: UITextField!
     @IBOutlet var stateto: UITextField!
     @IBOutlet var zipto: UITextField!
     
     // FROM INPUTS
     
-    @IBOutlet var addfrom: UITextField!
     @IBOutlet var cityfrom: UITextField!
     @IBOutlet var statefrom: UITextField!
     @IBOutlet var zipfrom: UITextField!
@@ -49,17 +43,20 @@ class rideVC: UIViewController {
         
     }
     
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
     func post_ride(){
         
         var currentUser = PFUser.currentUser()?.username
         var driveuser = PFObject(className:"ride")
         driveuser["username"] = currentUser
         driveuser["date"] = Day as NSDate
-        driveuser["addto"] = addto.text!
         driveuser["cityto"] = cityto.text!
         driveuser["stateto"] = stateto.text!
         driveuser["zipto"] = zipto.text!
-        driveuser["addfrom"] = addfrom.text!
         driveuser["cityfrom"] = cityfrom.text!
         driveuser["statefrom"] = statefrom.text!
         driveuser["zipfrom"] = zipfrom.text!
