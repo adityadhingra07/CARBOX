@@ -50,8 +50,9 @@ class ANMTDloginViewController: UIViewController, RoadwayLoginViewDelegate {
         
         if (count(usrname.utf16) < 5 || count(pass.utf16) < 6) {
             
-            var alert = UIAlertView(title: "Invalid", message: "Username must be greater than 5 and Password must be greater then 6", delegate: self, cancelButtonTitle: "OK")
-            alert.show()
+            //var alert = UIAlertView(title: "Invalid", message: "Username must be greater than 5 and Password must be greater then 6", delegate: self, cancelButtonTitle: "OK")
+            //alert.show()
+            SCLAlertView().showWarning("Invalid", subTitle: "Username must be greater than 5 and Password must be greater then 6")
             
         }
         else{
@@ -69,8 +70,9 @@ class ANMTDloginViewController: UIViewController, RoadwayLoginViewDelegate {
                     }//FIXED
                 }
                 else{
-                    var alert = UIAlertView(title: "Something went wrong...", message:"Invalid username or password.", delegate: self, cancelButtonTitle: "OK")
-                    alert.show()
+                   // var alert = UIAlertView(title: "Something went wrong...", message:"Invalid username or password.", delegate: self, cancelButtonTitle: "OK")
+                    // alert.show()
+                    SCLAlertView().showWarning("Something went wrong...", subTitle: "Something went wrong...giInvalid username or password.")
                 }
             })}
     }

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4227B7E51BA405A4001E6417 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7DD1BA405A4001E6417 /* TextFieldViewController.swift */; };
+		4227B7E61BA405A4001E6417 /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7DE1BA405A4001E6417 /* MKTableViewCell.swift */; };
+		4227B7E71BA405A4001E6417 /* MKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7DF1BA405A4001E6417 /* MKLabel.swift */; };
+		4227B7E81BA405A4001E6417 /* MKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7E01BA405A4001E6417 /* MKImageView.swift */; };
+		4227B7E91BA405A4001E6417 /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7E11BA405A4001E6417 /* MKButton.swift */; };
+		4227B7EA1BA405A4001E6417 /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7E21BA405A4001E6417 /* MKLayer.swift */; };
+		4227B7EB1BA405A4001E6417 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7E31BA405A4001E6417 /* MKColor.swift */; };
+		4227B7EC1BA405A4001E6417 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7E41BA405A4001E6417 /* MKTextField.swift */; };
+		4227B7EF1BA407B4001E6417 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7EE1BA407B4001E6417 /* SCLAlertView.swift */; };
 		48143AD01B7FB1DD00330CFE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */; };
 		48143AD21B7FB1DD00330CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD11B7FB1DD00330CFE /* Images.xcassets */; };
 		48143AD61B7FB1DD00330CFE /* ride.me WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD51B7FB1DD00330CFE /* ride.me WatchKit App.app */; };
@@ -199,6 +208,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4227B7DD1BA405A4001E6417 /* TextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		4227B7DE1BA405A4001E6417 /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTableViewCell.swift; sourceTree = "<group>"; };
+		4227B7DF1BA405A4001E6417 /* MKLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLabel.swift; sourceTree = "<group>"; };
+		4227B7E01BA405A4001E6417 /* MKImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKImageView.swift; sourceTree = "<group>"; };
+		4227B7E11BA405A4001E6417 /* MKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKButton.swift; sourceTree = "<group>"; };
+		4227B7E21BA405A4001E6417 /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLayer.swift; sourceTree = "<group>"; };
+		4227B7E31BA405A4001E6417 /* MKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKColor.swift; sourceTree = "<group>"; };
+		4227B7E41BA405A4001E6417 /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
+		4227B7EE1BA407B4001E6417 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
 		48143ACB1B7FB1DC00330CFE /* ride.me WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ride.me WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48143ACE1B7FB1DD00330CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -400,6 +418,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4227B7ED1BA405AA001E6417 /* MaterialKit */ = {
+			isa = PBXGroup;
+			children = (
+				4227B7DD1BA405A4001E6417 /* TextFieldViewController.swift */,
+				4227B7DE1BA405A4001E6417 /* MKTableViewCell.swift */,
+				4227B7DF1BA405A4001E6417 /* MKLabel.swift */,
+				4227B7E01BA405A4001E6417 /* MKImageView.swift */,
+				4227B7E11BA405A4001E6417 /* MKButton.swift */,
+				4227B7E21BA405A4001E6417 /* MKLayer.swift */,
+				4227B7E31BA405A4001E6417 /* MKColor.swift */,
+				4227B7E41BA405A4001E6417 /* MKTextField.swift */,
+			);
+			name = MaterialKit;
+			sourceTree = "<group>";
+		};
 		48143ACC1B7FB1DC00330CFE /* ride.me WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,6 +523,8 @@
 		485C15911B6DFAEA00C583BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4227B7EE1BA407B4001E6417 /* SCLAlertView.swift */,
+				4227B7ED1BA405AA001E6417 /* MaterialKit */,
 				4885BFEA1BA3E8B100020C4C /* Bootscreen Images */,
 				48C815111B7E6682005489E1 /* emailsetting.png */,
 				48C815121B7E6682005489E1 /* emailsetting@2x.png */,
@@ -969,19 +1004,28 @@
 				488152691B77900D00E34D32 /* usermenu.swift in Sources */,
 				4885BFDD1BA3A86200020C4C /* MainviewView.swift in Sources */,
 				483C86D21B7A1745001527DE /* mainViewController.swift in Sources */,
+				4227B7E71BA405A4001E6417 /* MKLabel.swift in Sources */,
 				4885BFE11BA3A86200020C4C /* RoadwayLoginView.swift in Sources */,
+				4227B7EF1BA407B4001E6417 /* SCLAlertView.swift in Sources */,
 				4885BFDB1BA3A86200020C4C /* LoadmenuView.swift in Sources */,
 				485C15991B6DFAEA00C583BD /* ViewController.swift in Sources */,
+				4227B7E81BA405A4001E6417 /* MKImageView.swift in Sources */,
+				4227B7E51BA405A4001E6417 /* TextFieldViewController.swift in Sources */,
 				4885C00B1BA3E8B100020C4C /* BootView.swift in Sources */,
 				4885BFC21BA3A86200020C4C /* ButtonsloadView.swift in Sources */,
 				4885BFE01BA3A86200020C4C /* RoadsignSignupView.swift in Sources */,
+				4227B7EB1BA405A4001E6417 /* MKColor.swift in Sources */,
+				4227B7E61BA405A4001E6417 /* MKTableViewCell.swift in Sources */,
 				48FF768A1B7B2B15004DC193 /* settingsVC.swift in Sources */,
 				485C15941B6DFAEA00C583BD /* AppDelegate.swift in Sources */,
 				4885C0211BA3E8E100020C4C /* bootVC.swift in Sources */,
+				4227B7EA1BA405A4001E6417 /* MKLayer.swift in Sources */,
 				485C16161B6E24C000C583BD /* loginvc.swift in Sources */,
 				48DAA3AF1B723F710072B459 /* animatedSignUpVC.swift in Sources */,
+				4227B7EC1BA405A4001E6417 /* MKTextField.swift in Sources */,
 				482956571B7912C200A26830 /* driveVC.swift in Sources */,
 				4885BFE31BA3A86200020C4C /* SettingsVCView.swift in Sources */,
+				4227B7E91BA405A4001E6417 /* MKButton.swift in Sources */,
 				48FF768C1B7B33DE004DC193 /* rideVC.swift in Sources */,
 				485C16181B6E24D300C583BD /* signupvc.swift in Sources */,
 				485C15971B6DFAEA00C583BD /* ride_me.xcdatamodeld in Sources */,
