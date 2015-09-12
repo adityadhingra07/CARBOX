@@ -77,54 +77,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R0i-Qo-yhj" customClass="RoadwayLoginView" customModule="ride_me" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yPP-oe-G9W">
-                                        <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="176" id="gKb-JV-Dkx"/>
-                                            <constraint firstAttribute="height" constant="30" id="u7J-je-rH2"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="gKb-JV-Dkx"/>
-                                                <exclude reference="u7J-je-rH2"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="gKb-JV-Dkx"/>
-                                                <include reference="u7J-je-rH2"/>
-                                            </mask>
-                                        </variation>
-                                        <connections>
-                                            <action selector="resignKeyboard:" destination="iPJ-Zk-Rbw" eventType="editingDidEndOnExit" id="j92-6z-b45"/>
-                                        </connections>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mh7-bR-rDe">
-                                        <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="176" id="bF1-NV-UPJ"/>
-                                            <constraint firstAttribute="height" constant="30" id="fxk-yc-sfK"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="bF1-NV-UPJ"/>
-                                                <exclude reference="fxk-yc-sfK"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <mask key="constraints">
-                                                <include reference="bF1-NV-UPJ"/>
-                                                <include reference="fxk-yc-sfK"/>
-                                            </mask>
-                                        </variation>
-                                        <connections>
-                                            <action selector="resignKeyboard:" destination="iPJ-Zk-Rbw" eventType="editingDidEndOnExit" id="vSO-Tb-RTI"/>
-                                        </connections>
-                                    </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRF-4y-BIK" customClass="MKButton" customModule="ride_me" customModuleProvider="target">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                         <constraints>
@@ -155,62 +107,94 @@
                                             <segue destination="ii0-aJ-omc" kind="unwind" unwindAction="unwindToViewController:" id="MKA-bi-F9b"/>
                                         </connections>
                                     </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DWa-pe-Aif" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="Nj4-e9-U8z"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Nj4-e9-U8z"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="Nj4-e9-U8z"/>
+                                            </mask>
+                                        </variation>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XhU-io-s6F" customClass="MKTextField" customModule="ride_me" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="354" width="375" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="176" id="Pdb-9R-xaj"/>
+                                            <constraint firstAttribute="height" constant="38" id="gar-8i-3Nt"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="0.55039779259999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Pdb-9R-xaj"/>
+                                                <exclude reference="gar-8i-3Nt"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="Pdb-9R-xaj"/>
+                                                <include reference="gar-8i-3Nt"/>
+                                            </mask>
+                                        </variation>
+                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="centerY" secondItem="Mh7-bR-rDe" secondAttribute="centerY" constant="113.5" id="480-3z-bGS"/>
-                                    <constraint firstItem="Mh7-bR-rDe" firstAttribute="centerY" secondItem="yPP-oe-G9W" secondAttribute="centerY" constant="-63" id="4Fv-jN-Dir"/>
-                                    <constraint firstAttribute="centerX" secondItem="yPP-oe-G9W" secondAttribute="centerX" id="Dqa-LX-mut"/>
-                                    <constraint firstAttribute="centerX" secondItem="Mh7-bR-rDe" secondAttribute="centerX" id="Ga3-Ut-vYm"/>
+                                    <constraint firstItem="DWa-pe-Aif" firstAttribute="trailing" secondItem="XhU-io-s6F" secondAttribute="trailing" id="Jxo-V1-46y"/>
+                                    <constraint firstItem="qRF-4y-BIK" firstAttribute="top" secondItem="XhU-io-s6F" secondAttribute="bottom" constant="32" id="QPt-GI-sNr"/>
+                                    <constraint firstItem="XhU-io-s6F" firstAttribute="centerX" secondItem="qRF-4y-BIK" secondAttribute="centerX" id="Xex-cg-MsH"/>
                                     <constraint firstAttribute="height" constant="677" id="cFt-eM-WWt"/>
-                                    <constraint firstItem="qRF-4y-BIK" firstAttribute="centerY" secondItem="yPP-oe-G9W" secondAttribute="centerY" constant="65" id="eQD-8m-dDH"/>
-                                    <constraint firstItem="qRF-4y-BIK" firstAttribute="centerX" secondItem="yPP-oe-G9W" secondAttribute="centerX" constant="0.5" id="g18-90-XLX"/>
                                     <constraint firstAttribute="width" constant="460" id="jAa-GO-CfJ"/>
                                     <constraint firstAttribute="centerY" secondItem="qRF-4y-BIK" secondAttribute="centerY" constant="-14.5" id="k8K-Ug-XD0"/>
-                                    <constraint firstItem="Mh7-bR-rDe" firstAttribute="centerX" secondItem="yPP-oe-G9W" secondAttribute="centerX" id="mCz-C0-1UN"/>
                                     <constraint firstAttribute="centerX" secondItem="qRF-4y-BIK" secondAttribute="centerX" id="ogM-57-yYJ"/>
-                                    <constraint firstAttribute="centerY" secondItem="yPP-oe-G9W" secondAttribute="centerY" constant="50.5" id="yGP-r7-evV"/>
+                                    <constraint firstItem="DWa-pe-Aif" firstAttribute="leading" secondItem="XhU-io-s6F" secondAttribute="leading" id="rzR-9Q-NLh"/>
+                                    <constraint firstItem="XhU-io-s6F" firstAttribute="top" secondItem="DWa-pe-Aif" secondAttribute="bottom" constant="26" id="yIp-Hg-DNh"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="subviews">
-                                        <exclude reference="yPP-oe-G9W"/>
-                                        <exclude reference="Mh7-bR-rDe"/>
                                         <exclude reference="qRF-4y-BIK"/>
+                                        <exclude reference="DWa-pe-Aif"/>
+                                        <exclude reference="XhU-io-s6F"/>
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="cFt-eM-WWt"/>
                                         <exclude reference="jAa-GO-CfJ"/>
-                                        <exclude reference="480-3z-bGS"/>
-                                        <exclude reference="4Fv-jN-Dir"/>
-                                        <exclude reference="Ga3-Ut-vYm"/>
-                                        <exclude reference="mCz-C0-1UN"/>
-                                        <exclude reference="Dqa-LX-mut"/>
-                                        <exclude reference="yGP-r7-evV"/>
-                                        <exclude reference="eQD-8m-dDH"/>
-                                        <exclude reference="g18-90-XLX"/>
+                                        <exclude reference="QPt-GI-sNr"/>
                                         <exclude reference="k8K-Ug-XD0"/>
                                         <exclude reference="ogM-57-yYJ"/>
+                                        <exclude reference="Jxo-V1-46y"/>
+                                        <exclude reference="rzR-9Q-NLh"/>
+                                        <exclude reference="Xex-cg-MsH"/>
+                                        <exclude reference="yIp-Hg-DNh"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="subviews">
-                                        <include reference="yPP-oe-G9W"/>
-                                        <include reference="Mh7-bR-rDe"/>
                                         <include reference="qRF-4y-BIK"/>
+                                        <include reference="DWa-pe-Aif"/>
+                                        <include reference="XhU-io-s6F"/>
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="cFt-eM-WWt"/>
                                         <include reference="jAa-GO-CfJ"/>
-                                        <include reference="480-3z-bGS"/>
-                                        <include reference="4Fv-jN-Dir"/>
-                                        <include reference="Ga3-Ut-vYm"/>
-                                        <include reference="mCz-C0-1UN"/>
-                                        <include reference="Dqa-LX-mut"/>
-                                        <include reference="yGP-r7-evV"/>
-                                        <include reference="eQD-8m-dDH"/>
-                                        <include reference="g18-90-XLX"/>
+                                        <include reference="QPt-GI-sNr"/>
                                         <include reference="k8K-Ug-XD0"/>
                                         <include reference="ogM-57-yYJ"/>
+                                        <include reference="Jxo-V1-46y"/>
+                                        <include reference="rzR-9Q-NLh"/>
+                                        <include reference="Xex-cg-MsH"/>
+                                        <include reference="yIp-Hg-DNh"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -240,9 +224,9 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="passwordTF" destination="yPP-oe-G9W" id="SuK-f2-9qX"/>
+                        <outlet property="passwordTF" destination="XhU-io-s6F" id="9Ie-Bq-rPY"/>
                         <outlet property="roadsign" destination="R0i-Qo-yhj" id="Nka-Eg-aK8"/>
-                        <outlet property="usernameTF" destination="Mh7-bR-rDe" id="egA-0S-lLd"/>
+                        <outlet property="usernameTF" destination="DWa-pe-Aif" id="zLO-AX-iEV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5t2-Hs-DWP" userLabel="First Responder" sceneMemberID="firstResponder"/>

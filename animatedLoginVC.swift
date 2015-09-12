@@ -10,7 +10,8 @@ import Foundation
 import Parse
 import UIKit
 
-class ANMTDloginViewController: UIViewController, RoadwayLoginViewDelegate {
+class ANMTDloginViewController: UIViewController, UITextFieldDelegate, RoadwayLoginViewDelegate {
+    
     
     @IBOutlet var roadsign: RoadwayLoginView!
     @IBAction func resignKeyboard(sender: AnyObject) {
@@ -22,8 +23,8 @@ class ANMTDloginViewController: UIViewController, RoadwayLoginViewDelegate {
         self.dismissViewControllerAnimated(true, completion: nil)
         //This is for using the cancel button
     }
-    @IBOutlet var usernameTF: UITextField!
-    @IBOutlet var passwordTF: UITextField!
+    @IBOutlet var usernameTF: MKTextField!
+    @IBOutlet var passwordTF: MKTextField!
     @IBAction func loginBTN(sender: AnyObject) {
         
         LogIn()
@@ -35,6 +36,32 @@ class ANMTDloginViewController: UIViewController, RoadwayLoginViewDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         roadsign.roadwayloginViewDelegate = self
         roadsign.addShowuploginAnimation()
+        
+        // No border, no shadow, floatingPlaceholderEnabled
+        usernameTF.layer.borderColor = UIColor.clearColor().CGColor
+        usernameTF.floatingPlaceholderEnabled = true
+        usernameTF.placeholder = "Username.."
+        usernameTF.tintColor = UIColor.MKColor.Blue
+        usernameTF.rippleLocation = .Right
+        usernameTF.cornerRadius = 0
+        usernameTF.bottomBorderEnabled = true
+        usernameTF.attributedPlaceholder = NSAttributedString(string:"Username..",
+            attributes:[NSForegroundColorAttributeName: UIColor.orangeColor()])
+        usernameTF.delegate = self
+        
+        passwordTF.layer.borderColor = UIColor.clearColor().CGColor
+        passwordTF.floatingPlaceholderEnabled = true
+        passwordTF.placeholder = "Password.."
+        passwordTF.tintColor = UIColor.MKColor.Blue
+        passwordTF.rippleLocation = .Right
+        //passwordTF.rippleLayerColor = UIColor.MKColor.Yellow
+        passwordTF.cornerRadius = 0
+        passwordTF.bottomBorderEnabled = true
+        //self.view.backgroundColor = UIColor.orangeColor()
+        passwordTF.attributedPlaceholder = NSAttributedString(string:"Password..",
+            attributes:[NSForegroundColorAttributeName: UIColor.orangeColor()])
+        passwordTF.delegate = self
+        
     }
     
     func loginbuttonPressed(loginbutton: UIButton){
@@ -45,14 +72,14 @@ class ANMTDloginViewController: UIViewController, RoadwayLoginViewDelegate {
         var usrname = self.usernameTF.text
         var pass = self.passwordTF.text
         var user = PFUser()
-        user.username = usernameTF.text!
-        user.password = passwordTF.text!
+        user.username = self.usernameTF.text!
+        user.password = self.passwordTF.text!
         
         if (count(usrname.utf16) < 5 || count(pass.utf16) < 6) {
             
-            //var alert = UIAlertView(title: "Invalid", message: "Username must be greater than 5 and Password must be greater then 6", delegate: self, cancelButtonTitle: "OK")
+            //var alert = UIAlertView(title: "Invalid", message: "usernameTF must be greater than 5 and passwordTF must be greater then 6", delegate: self, cancelButtonTitle: "OK")
             //alert.show()
-            SCLAlertView().showWarning("Invalid", subTitle: "Username must be greater than 5 and Password must be greater then 6")
+            SCLAlertView().showWarning("Invalid", subTitle: "usernameTF must be greater than 5 and passwordTF must be greater then 6")
             
         }
         else{
@@ -70,9 +97,9 @@ class ANMTDloginViewController: UIViewController, RoadwayLoginViewDelegate {
                     }//FIXED
                 }
                 else{
-                   // var alert = UIAlertView(title: "Something went wrong...", message:"Invalid username or password.", delegate: self, cancelButtonTitle: "OK")
+                   // var alert = UIAlertView(title: "Something went wrong...", message:"Invalid usernameTF or passwordTF.", delegate: self, cancelButtonTitle: "OK")
                     // alert.show()
-                    SCLAlertView().showWarning("Something went wrong...", subTitle: "Something went wrong...giInvalid username or password.")
+                    SCLAlertView().showWarning("Something went wrong...", subTitle: "Something went wrong...giInvalid usernameTF or passwordTF.")
                 }
             })}
     }
