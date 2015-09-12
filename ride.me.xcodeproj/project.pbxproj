@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4227B7DB1BA3F6FE001E6417 /* BWWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7D91BA3F6FE001E6417 /* BWWalkthroughPageViewController.swift */; };
+		4227B7DC1BA3F6FE001E6417 /* BWWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7DA1BA3F6FE001E6417 /* BWWalkthroughViewController.swift */; };
 		48143AD01B7FB1DD00330CFE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */; };
 		48143AD21B7FB1DD00330CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD11B7FB1DD00330CFE /* Images.xcassets */; };
 		48143AD61B7FB1DD00330CFE /* ride.me WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD51B7FB1DD00330CFE /* ride.me WatchKit App.app */; };
@@ -199,6 +201,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4227B7D91BA3F6FE001E6417 /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		4227B7DA1BA3F6FE001E6417 /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughViewController.swift; sourceTree = "<group>"; };
 		48143ACB1B7FB1DC00330CFE /* ride.me WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ride.me WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48143ACE1B7FB1DD00330CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -517,6 +521,8 @@
 		485C15AA1B6DFAEA00C583BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4227B7D91BA3F6FE001E6417 /* BWWalkthroughPageViewController.swift */,
+				4227B7DA1BA3F6FE001E6417 /* BWWalkthroughViewController.swift */,
 				485C15AB1B6DFAEA00C583BD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -974,6 +980,7 @@
 				485C15991B6DFAEA00C583BD /* ViewController.swift in Sources */,
 				4885C00B1BA3E8B100020C4C /* BootView.swift in Sources */,
 				4885BFC21BA3A86200020C4C /* ButtonsloadView.swift in Sources */,
+				4227B7DB1BA3F6FE001E6417 /* BWWalkthroughPageViewController.swift in Sources */,
 				4885BFE01BA3A86200020C4C /* RoadsignSignupView.swift in Sources */,
 				48FF768A1B7B2B15004DC193 /* settingsVC.swift in Sources */,
 				485C15941B6DFAEA00C583BD /* AppDelegate.swift in Sources */,
@@ -984,6 +991,7 @@
 				4885BFE31BA3A86200020C4C /* SettingsVCView.swift in Sources */,
 				48FF768C1B7B33DE004DC193 /* rideVC.swift in Sources */,
 				485C16181B6E24D300C583BD /* signupvc.swift in Sources */,
+				4227B7DC1BA3F6FE001E6417 /* BWWalkthroughViewController.swift in Sources */,
 				485C15971B6DFAEA00C583BD /* ride_me.xcdatamodeld in Sources */,
 				48C8150E1B7E55F8005489E1 /* materialSignupVC.swift in Sources */,
 				48DAA3B11B724F050072B459 /* animatedLoginVC.swift in Sources */,
