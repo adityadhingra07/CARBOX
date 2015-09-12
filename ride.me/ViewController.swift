@@ -44,9 +44,12 @@ class ViewController: UIViewController {
             self.view.addSubview(player.view)
             //adding the player view to viewcontroller
             return true
-            
         }
         return false
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        moviePlayer!.stop()
     }
 
     override func viewDidLoad() {
