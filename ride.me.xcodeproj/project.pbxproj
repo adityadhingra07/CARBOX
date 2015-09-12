@@ -149,6 +149,7 @@
 		4885C01F1BA3E8B100020C4C /* r2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4885C0051BA3E8B100020C4C /* r2@2x.png */; };
 		4885C0211BA3E8E100020C4C /* bootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4885C0201BA3E8E100020C4C /* bootVC.swift */; };
 		4885C02C1BA4062400020C4C /* bgvideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4885C02B1BA4062400020C4C /* bgvideo.mov */; };
+		4885C02E1BA41F1200020C4C /* Bass_Drop_04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4885C02D1BA41F1200020C4C /* Bass_Drop_04.wav */; };
 		48C815091B7E52EB005489E1 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815051B7E52EB005489E1 /* cross.png */; };
 		48C8150A1B7E52EB005489E1 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815061B7E52EB005489E1 /* cross@2x.png */; };
 		48C8150B1B7E52EB005489E1 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 48C815071B7E52EB005489E1 /* tick.png */; };
@@ -356,6 +357,7 @@
 		4885C0051BA3E8B100020C4C /* r2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "r2@2x.png"; sourceTree = "<group>"; };
 		4885C0201BA3E8E100020C4C /* bootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bootVC.swift; sourceTree = "<group>"; };
 		4885C02B1BA4062400020C4C /* bgvideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = bgvideo.mov; sourceTree = "<group>"; };
+		4885C02D1BA41F1200020C4C /* Bass_Drop_04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bass_Drop_04.wav; sourceTree = "<group>"; };
 		48C815051B7E52EB005489E1 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		48C815061B7E52EB005489E1 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
 		48C815071B7E52EB005489E1 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
@@ -496,6 +498,7 @@
 		485C15901B6DFAEA00C583BD /* ride.me */ = {
 			isa = PBXGroup;
 			children = (
+				4885C02D1BA41F1200020C4C /* Bass_Drop_04.wav */,
 				4885C02B1BA4062400020C4C /* bgvideo.mov */,
 				485C15931B6DFAEA00C583BD /* AppDelegate.swift */,
 				485C16151B6E24C000C583BD /* loginvc.swift */,
@@ -874,6 +877,7 @@
 				4885BFD31BA3A86200020C4C /* signupbtn.png in Resources */,
 				4885BFCE1BA3A86200020C4C /* ride.png in Resources */,
 				4814D65F1B708BBC008F98D9 /* apploginbtn.png in Resources */,
+				4885C02E1BA41F1200020C4C /* Bass_Drop_04.wav in Resources */,
 				482956531B78AA6500A26830 /* car.jpg in Resources */,
 				4814D6621B7094E6008F98D9 /* circleblack.png in Resources */,
 				485C15D01B6DFBDB00C583BD /* developer.png in Resources */,
