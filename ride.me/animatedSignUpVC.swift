@@ -20,7 +20,7 @@ class ANMTDsignupViewController: UIViewController,UITextFieldDelegate, RoadsignS
     
     //For hiding keyboard
     
-    @IBAction func unwindToViewController(sender: UIStoryboardSegue) {
+    @IBAction override func unwindToViewController(sender: UIStoryboardSegue) {
     self.dismissViewControllerAnimated(true, completion: nil)
         
         //This is for using the cancel button

@@ -1190,7 +1190,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LMx-Ea-put" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58.5" y="41.25"/>
+            <point key="canvasLocation" x="40.5" y="873"/>
         </scene>
         <!--materialSignupVC-->
         <scene sceneID="rxQ-cj-LaU">
@@ -1210,26 +1210,30 @@
                                     <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="DWs-dK-DKX">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create New User" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnF-9p-Oce">
-                                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvz-Og-ig3">
+                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                <state key="normal" title="Click here to choose Image">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
                                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="96" y="21" width="131" height="24"/>
+                                                    <rect key="frame" x="68" y="18" width="187" height="30"/>
                                                 </variation>
-                                            </label>
+                                                <connections>
+                                                    <action selector="chooseImage:" destination="Lva-qY-zrW" eventType="touchUpInside" id="4gC-0O-TEN"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.80000000000000004" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <variation key="default">
                                             <mask key="subviews">
-                                                <exclude reference="ZnF-9p-Oce"/>
+                                                <exclude reference="dvz-Og-ig3"/>
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="0.0" y="0.0" width="322" height="65"/>
                                             <mask key="subviews">
-                                                <include reference="ZnF-9p-Oce"/>
+                                                <include reference="dvz-Og-ig3"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -1369,10 +1373,12 @@
                     </view>
                     <connections>
                         <outlet property="emailTF" destination="y3S-Om-SUh" id="Oij-OC-SWv"/>
+                        <outlet property="imageToPost" destination="Doh-Ud-JlU" id="XaC-nM-e5N"/>
                         <outlet property="nameTF" destination="Dzk-tk-Eg7" id="tww-OE-III"/>
                         <outlet property="passwordTF" destination="7eZ-nN-83j" id="dW1-J0-qis"/>
                         <outlet property="phoneTF" destination="rqS-kS-Blp" id="Rtj-wc-kkl"/>
                         <outlet property="usernameTF" destination="hlY-QH-7Rz" id="1Y3-lb-hgV"/>
+                        <segue destination="POf-oe-ZWh" kind="show" identifier="signedUp" id="cQw-JK-4gS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gyc-RQ-iUt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3069,7 +3075,7 @@
         <image name="tick.png" width="254" height="254"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jUM-OM-trx"/>
-        <segue reference="ScY-Eq-XzO"/>
+        <segue reference="cQw-JK-4gS"/>
+        <segue reference="rvg-65-5nq"/>
     </inferredMetricsTieBreakers>
 </document>
