@@ -61,9 +61,13 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
     //var potentialVoteCounter : Int? = object["count"]
     var selectedFirstPost = String()
     // gesture tableview configs
-    var groupToQuery : String? = "general"
+    //var groupToQuery : String? = "general"
+    var placeToQueryFrom : String? = "general" // city from
+    var placeToQueryTo : String? = "general" // city to
+    var dateToQuery : String? = "general" // only one ofc
     var currentUser : String? = nil
     var currentUserId : String? = nil
+    var search = false
     
     override func viewWillAppear(animated: Bool) {
        // self.navigationController!.navigationBar.hidden = false
@@ -143,7 +147,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
     
     func retrieve() {
         var currentProfileUser = ""
-        if var query = PFQuery(className: "Person") as PFQuery? { //querying parse for user data
+        if var query = PFQuery(className: "drive") as PFQuery? { //querying parse for user data
             query.orderByDescending("createdAt")
             query.limit = 25
             query.findObjectsInBackgroundWithBlock({ (objects, error) -> Void in
@@ -162,7 +166,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
                 self.ParseObjectId.removeAll(keepCapacity: false)
                 if let objects = objects as? [PFObject]  {
                     for object in objects {
-                        if self.groupToQuery! == object["group"] as? String || self.groupToQuery == "general" { // here we set the group
+                        if (self.placeToQueryFrom! == object["cityfrom"] as? String && self.placeToQueryTo! == object["cityto"] as? String && self.dateToQuery! == object["date"] as? String) || (self.search == false) { // main search logic for rides 
                             if let imageFile42 = object["imageFile"] as? PFFile {
                                 self.imageFiles.append(imageFile42)
                                 self.containsImage.append(true)

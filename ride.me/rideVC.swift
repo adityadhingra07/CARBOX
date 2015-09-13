@@ -28,18 +28,25 @@ class rideVC: UIViewController, UITextFieldDelegate {
     @IBOutlet var zipfrom: MKTextField!
     
     // DATE INPUT
-    
+    var strDate = ""
     @IBOutlet var datepick: UIDatePicker!
     @IBAction func datepicker(sender: AnyObject) {
-        var date:NSDate = datepick.date
-        Day = NSCalendar.currentCalendar().startOfDayForDate(date)
-        println(date)
-        println(Day)
+            var date:NSDate = datepick.date
+            
+            Day = NSCalendar.currentCalendar().startOfDayForDate(date)
+            var dateFormatter = NSDateFormatter()
+            
+            dateFormatter.dateStyle = NSDateFormatterStyle.ShortStyle
+            strDate = dateFormatter.stringFromDate(datepick.date)
+           // println(strDate)
     }
     
     @IBAction func done(sender: AnyObject) {
         
-        post_ride()
+        
+        self.performSegueWithIdentifier("posted2", sender: self)
+        
+        //post_ride()
         
     }
     
@@ -58,15 +65,15 @@ class rideVC: UIViewController, UITextFieldDelegate {
     func post_ride(){
         var message = "Need to go from " + cityfrom.text! + " to " +  cityto.text! + " is anyone going?"
         var currentUserName = PFUser.currentUser()?.username
-        var driveuser = PFObject(className:"Person")
+        var driveuser = PFObject(className:"drive")
         driveuser["username"] = PFUser.currentUser()?.username
         driveuser["text"] = message
         driveuser["startTime"] = CFAbsoluteTimeGetCurrent()
-        driveuser["date"] = Day as NSDate
-        //driveuser["cityto"] = cityto.text!
+        driveuser["date"] = strDate
+        driveuser["cityto"] = cityto.text!
         //driveuser["stateto"] = stateto.text!
         driveuser["zipto"] = zipto.text!
-        // driveuser["cityfrom"] = cityfrom.text!
+        driveuser["cityfrom"] = cityfrom.text!
         //driveuser["statefrom"] = statefrom.text!
         driveuser["zipfrom"] = zipfrom.text!
         
@@ -99,7 +106,19 @@ class rideVC: UIViewController, UITextFieldDelegate {
     }
 
 
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        var recipients2 = [String]()
+                if (segue.identifier == "posted2") { //pass data to VC
+                    var svc = segue.destinationViewController.topViewController as! TimelineViewController
+                    svc.placeToQueryTo = cityto.text!
+                    svc.placeToQueryFrom = cityfrom.text!
+                    svc.dateToQuery = strDate
+                    svc.search = true
+                    //svc.profileObject =
+                    println("HERERE42")
+                }
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -24,7 +24,7 @@ class driveVC: UIViewController, UITextFieldDelegate {
     @IBOutlet var cityfrom: MKTextField!
     @IBOutlet var statefrom: MKTextField!
     @IBOutlet var zipfrom: MKTextField!
-    var strDate = ""
+    var strDate = "9/12/15"
     // DATE INPUT
     
     @IBOutlet var datepick: UIDatePicker!
@@ -58,15 +58,15 @@ class driveVC: UIViewController, UITextFieldDelegate {
     func post_drive(){
         var message = "Going from " + cityfrom.text! + " to " +  cityto.text! + " anyone need a ride?"
         var currentUserName = PFUser.currentUser()?.username
-        var driveuser = PFObject(className:"Person")
+        var driveuser = PFObject(className:"drive")
         driveuser["username"] = PFUser.currentUser()?.username
         driveuser["text"] = message
         driveuser["startTime"] = CFAbsoluteTimeGetCurrent()
         driveuser["date"] = strDate // use date for search also
-        //driveuser["cityto"] = cityto.text!
+        driveuser["cityto"] = cityto.text!
         //driveuser["stateto"] = stateto.text!
         driveuser["zipto"] = zipto.text! // use zip to provide search
-       // driveuser["cityfrom"] = cityfrom.text!
+        driveuser["cityfrom"] = cityfrom.text!
         //driveuser["statefrom"] = statefrom.text!
         driveuser["zipfrom"] = zipfrom.text!
         // provide contact info 
