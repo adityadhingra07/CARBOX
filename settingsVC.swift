@@ -12,11 +12,8 @@ import Parse
 
 class SettingsVC: UIViewController {
     
-    @IBOutlet var usernameLBL: UILabel!
     @IBOutlet var emailLBL: UILabel!
     @IBOutlet var phoneLBL: UILabel!
-    
-    @IBOutlet var loadsettings: SettingsVCView!
     
     @IBAction func resetpassword(sender: AnyObject) {
         resetpassword()
@@ -54,13 +51,11 @@ class SettingsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        loadsettings.addLoadsettingsAnimation()
         
         let username = PFUser.currentUser()?.username
         let email = PFUser.currentUser()?.email
         let phone: AnyObject? = PFUser.currentUser()?["phone"]
         if (username != nil){
-            self.usernameLBL.text = username!
             self.emailLBL.text = email!
             self.phoneLBL.text = phone as? String
         }

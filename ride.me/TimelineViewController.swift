@@ -93,6 +93,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         if let currentUser = PFUser.currentUser()?.username {
             currentUserId = PFUser.currentUser()?.objectId
             var email = PFUser.currentUser()?.email
+            retrieve()
         } else {
             //performSegueWithIdentifier("signIn", sender: self)
             
@@ -189,7 +190,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
 //        self.view.addSubview(self.blackView!)
 //        //self.view.backgroundColor = UIColor(red:0.96, green:0.94, blue:0.92, alpha:1)
 //        
-        retrieve()
+//    retrieve()
         
     }
     

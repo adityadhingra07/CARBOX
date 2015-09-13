@@ -139,6 +139,7 @@
 		485C16141B6E23CE00C583BD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16131B6E23CE00C583BD /* libsqlite3.dylib */; };
 		485C16161B6E24C000C583BD /* loginvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C16151B6E24C000C583BD /* loginvc.swift */; };
 		485C16181B6E24D300C583BD /* signupvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C16171B6E24D300C583BD /* signupvc.swift */; };
+		487222891BA55B8F00C0EB7B /* SplitShire_blur15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 487222881BA55B8F00C0EB7B /* SplitShire_blur15.jpg */; };
 		488152441B778BC700E34D32 /* plusicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 488152431B778BC700E34D32 /* plusicon.png */; };
 		488152691B77900D00E34D32 /* usermenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488152681B77900D00E34D32 /* usermenu.swift */; };
 		4885BFC11BA3A86200020C4C /* buttonsload.coreanimator in Resources */ = {isa = PBXBuildFile; fileRef = 4885BF9C1BA3A86200020C4C /* buttonsload.coreanimator */; };
@@ -398,6 +399,7 @@
 		485C16131B6E23CE00C583BD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		485C16151B6E24C000C583BD /* loginvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginvc.swift; sourceTree = "<group>"; };
 		485C16171B6E24D300C583BD /* signupvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupvc.swift; sourceTree = "<group>"; };
+		487222881BA55B8F00C0EB7B /* SplitShire_blur15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SplitShire_blur15.jpg; sourceTree = "<group>"; };
 		488152431B778BC700E34D32 /* plusicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusicon.png; sourceTree = "<group>"; };
 		488152681B77900D00E34D32 /* usermenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usermenu.swift; sourceTree = "<group>"; };
 		4885BF9C1BA3A86200020C4C /* buttonsload.coreanimator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = buttonsload.coreanimator; sourceTree = "<group>"; };
@@ -712,6 +714,7 @@
 		485C15911B6DFAEA00C583BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				487222881BA55B8F00C0EB7B /* SplitShire_blur15.jpg */,
 				4293364A1BA5151B005E27C3 /* PathMenu */,
 				429336451BA4F0E0005E27C3 /* VCFloatingButtons */,
 				4227B83A1BA4CE2E001E6417 /* Spring */,
@@ -1093,6 +1096,7 @@
 				4885BFD81BA3A86200020C4C /* usernamesetting@2x.png in Resources */,
 				488152441B778BC700E34D32 /* plusicon.png in Resources */,
 				485C15DE1B6DFBDB00C583BD /* rideme webpage.web in Resources */,
+				487222891BA55B8F00C0EB7B /* SplitShire_blur15.jpg in Resources */,
 				48D6B7711B73484C001DDDD6 /* signupbtnblack.png in Resources */,
 				48C8151C1B7E6682005489E1 /* usernamesetting@2x.png in Resources */,
 				485C159C1B6DFAEA00C583BD /* Main.storyboard in Resources */,
