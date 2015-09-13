@@ -25,6 +25,12 @@ class InterfaceController: WKInterfaceController {
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
+        let l1 = CLLocationCoordinate2DMake(40.42, -86.91) // Purdue
+        let l2 = CLLocationCoordinate2DMake(39.43, 86.17 ) // INDY Airport
+        mapObject.addAnnotation(l1, withPinColor: .Red)
+        mapObject.addAnnotation(l2, withPinColor: .Purple)
+        
+        
     }
 
     override func willActivate() {
