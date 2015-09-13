@@ -17,9 +17,30 @@ class TimelineCell : MKTableViewCell {
     @IBOutlet var dateImageView : UIImageView!
     @IBOutlet var photoImageView : UIImageView?
     
+    @IBOutlet var favouriteBtn: SpringButton!
     @IBOutlet var nameLabel : UILabel!
     @IBOutlet var postLabel : UILabel?
     @IBOutlet var dateLabel : UILabel!
+    
+    var highlightedBool = false
+    
+    @IBAction func favourited(sender: AnyObject) {
+        var image = UIImage(named: "Fav.png") as UIImage?
+        //let button   = UIButton.buttonWithType(UIButtonType.System) as! UIButton
+        if !highlightedBool {
+            highlightedBool = true
+        } else {
+            image = UIImage(named: "NoFav.png") as UIImage?
+            highlightedBool = false
+        }
+        favouriteBtn.setImage(image, forState: .Normal)
+        favouriteBtn.animation = "pop"
+        favouriteBtn.force = 3
+        favouriteBtn.animate()
+        delegate?.storyTableViewCellDidTouchFavourited(self, sender: sender)
+    }
+    
+    weak var delegate: TimelineCellDelegate?
     
     override func awakeFromNib() {
         
@@ -32,7 +53,6 @@ class TimelineCell : MKTableViewCell {
         postLabel?.textColor = UIColor.blackColor()
         dateLabel.font = UIFont(name: "Avenir-Book", size: 14)
         dateLabel.textColor = UIColor(white: 0.6, alpha: 1.0)
-        
         photoImageView?.layer.borderWidth = 0.4
         photoImageView?.layer.borderColor = UIColor(white: 0.92, alpha: 1.0).CGColor
     }
@@ -45,4 +65,11 @@ class TimelineCell : MKTableViewCell {
             //label.preferredMaxLayoutWidth = CGRectGetWidth(label.frame)
         }
     }
+    
+    
+    
+}
+
+protocol TimelineCellDelegate: class {
+    func storyTableViewCellDidTouchFavourited(cell: TimelineCell, sender: AnyObject)
 }

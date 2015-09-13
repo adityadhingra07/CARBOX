@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>44DD2053-AFAA-40D6-AA13-C7DF026EC944</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ride.me</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A4A18402BCF727DC12B7354061CD81EDE12037B9</key>
 		<string>https://github.com/adityadhingra07/ride.me.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ride.me.xcodeproj/project.xcworkspace</string>
+	<string>ride.me.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A4A18402BCF727DC12B7354061CD81EDE12037B9</key>
