@@ -17,7 +17,7 @@ class bootVC: UIViewController {
     
     override func viewDidLoad() {
         
-        let delay = 7 * Double(NSEC_PER_SEC)
+        let delay = 6 * Double(NSEC_PER_SEC)
         let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
         
         super.viewDidLoad()

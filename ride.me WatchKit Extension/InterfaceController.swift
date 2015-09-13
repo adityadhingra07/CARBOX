@@ -21,10 +21,10 @@ class InterfaceController: WKInterfaceController {
     @IBAction func cancelPressed() {
     }
     
+    @IBOutlet var mapObject: WKInterfaceMap!
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        
-        // Configure interface objects here.
     }
 
     override func willActivate() {

@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     func playVideo() ->Bool {
         
-        let path = NSBundle.mainBundle().pathForResource("bgvideo", ofType:"mov")
+        let path = NSBundle.mainBundle().pathForResource("bgvideo-quicktime", ofType:"mov")
         //take path of video
         
         let url = NSURL.fileURLWithPath(path!)

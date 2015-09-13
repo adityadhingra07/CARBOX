@@ -39,9 +39,12 @@
                             </menuItem>
                         </items>
                     </menu>
+                    <connections>
+                        <outlet property="mapObject" destination="pQF-7z-yIm" id="sVu-13-5T3"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="114" y="258"/>
+            <point key="canvasLocation" x="374" y="490.5"/>
         </scene>
         <!--Watch MainVC-->
         <scene sceneID="ePw-jZ-dyd">

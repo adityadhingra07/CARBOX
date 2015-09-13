@@ -9,6 +9,9 @@
 import WatchKit
 import Foundation
 import Parse
+import CoreLocation
+import MapKit
+
 
 class WatchMainVC: WKInterfaceController {
     
@@ -25,6 +28,8 @@ class WatchMainVC: WKInterfaceController {
         
         let currentUser = PFUser.currentUser()?.username
         name.setText("Hey, "+currentUser!+"!")
+        
+        
         
     }
     
