@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="y9l-j0-dgF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="y9l-j0-dgF">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -1499,7 +1499,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplitShire_blur15.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9aX-y9-97k">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aditya Dhingra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSL-lD-ZEa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSL-lD-ZEa">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="GMo-oq-rne"/>
@@ -1558,6 +1558,29 @@
                                     </mask>
                                 </variation>
                             </view>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="4jP-CZ-Kjf" userLabel="AvatarImage" customClass="AvatarImageView" customModule="ride_me" customModuleProvider="target">
+                                <rect key="frame" x="96" y="14" width="58" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="DrF-2o-Ijc">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="69" id="PDx-ps-878">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="DrF-2o-Ijc"/>
+                                        <exclude reference="PDx-ps-878"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="DrF-2o-Ijc"/>
+                                        <include reference="PDx-ps-878"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="0.5" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1566,6 +1589,12 @@
                             <constraint firstItem="xKc-O1-rAH" firstAttribute="leading" secondItem="lLP-o9-Q5W" secondAttribute="leading" id="3BI-NX-Vic"/>
                             <constraint firstItem="EAU-K6-ZcJ" firstAttribute="top" secondItem="gr7-WZ-Ejy" secondAttribute="bottom" id="7W0-lY-VV9"/>
                             <constraint firstItem="lLP-o9-Q5W" firstAttribute="top" secondItem="9aX-y9-97k" secondAttribute="bottom" constant="35" id="G29-CB-ghg"/>
+                            <constraint firstItem="TSL-lD-ZEa" firstAttribute="top" secondItem="4jP-CZ-Kjf" secondAttribute="bottom" constant="8" id="Gyw-tu-bIB">
+                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="4jP-CZ-Kjf" firstAttribute="top" secondItem="rGO-ax-AGD" secondAttribute="bottom" constant="95" id="HsO-3n-tS0">
+                                <variation key="heightClass=regular-widthClass=compact" constant="84"/>
+                            </constraint>
                             <constraint firstItem="gr7-WZ-Ejy" firstAttribute="top" secondItem="xKc-O1-rAH" secondAttribute="bottom" constant="16" id="K6O-EP-ZLo"/>
                             <constraint firstItem="9aX-y9-97k" firstAttribute="top" secondItem="rGO-ax-AGD" secondAttribute="bottom" id="P12-c1-tJ7"/>
                             <constraint firstItem="TSL-lD-ZEa" firstAttribute="leading" secondItem="AOx-Fl-YZQ" secondAttribute="leadingMargin" constant="-5" id="QGP-gp-euf"/>
@@ -1573,11 +1602,15 @@
                             <constraint firstItem="gr7-WZ-Ejy" firstAttribute="leading" secondItem="EAU-K6-ZcJ" secondAttribute="leading" id="RNG-Kz-kcj"/>
                             <constraint firstItem="9aX-y9-97k" firstAttribute="leading" secondItem="gr7-WZ-Ejy" secondAttribute="leading" id="SzO-JE-gvH"/>
                             <constraint firstItem="lLP-o9-Q5W" firstAttribute="top" secondItem="TSL-lD-ZEa" secondAttribute="bottom" constant="57" id="UDL-Fx-IZq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4jP-CZ-Kjf" secondAttribute="trailing" constant="137" id="bnk-wh-0TQ">
+                                <variation key="heightClass=regular-widthClass=compact" constant="126"/>
+                            </constraint>
                             <constraint firstItem="lLP-o9-Q5W" firstAttribute="leading" secondItem="AOx-Fl-YZQ" secondAttribute="leadingMargin" constant="8" id="dGd-hR-5b1"/>
                             <constraint firstItem="EAU-K6-ZcJ" firstAttribute="bottom" secondItem="b94-0E-r5a" secondAttribute="top" id="dwu-g9-sjN"/>
                             <constraint firstItem="xKc-O1-rAH" firstAttribute="top" secondItem="lLP-o9-Q5W" secondAttribute="bottom" constant="8" symbolic="YES" id="ghB-cL-5Sv"/>
                             <constraint firstItem="xKc-O1-rAH" firstAttribute="top" secondItem="AOx-Fl-YZQ" secondAttribute="top" constant="453" id="igb-4K-uQs"/>
                             <constraint firstItem="EAU-K6-ZcJ" firstAttribute="trailing" secondItem="gr7-WZ-Ejy" secondAttribute="trailing" id="kUA-kN-yFl"/>
+                            <constraint firstItem="4jP-CZ-Kjf" firstAttribute="leading" secondItem="AOx-Fl-YZQ" secondAttribute="leadingMargin" constant="137" id="n3V-X7-8vy"/>
                             <constraint firstAttribute="trailing" secondItem="EAU-K6-ZcJ" secondAttribute="trailing" id="pvC-aM-2Td"/>
                             <constraint firstItem="xKc-O1-rAH" firstAttribute="centerX" secondItem="gr7-WZ-Ejy" secondAttribute="centerX" id="tlF-uh-Faa"/>
                             <constraint firstItem="TSL-lD-ZEa" firstAttribute="trailing" secondItem="9aX-y9-97k" secondAttribute="trailing" id="vCx-RU-Jng"/>
@@ -1591,12 +1624,17 @@
                                 <exclude reference="9aX-y9-97k"/>
                                 <exclude reference="TSL-lD-ZEa"/>
                                 <exclude reference="lLP-o9-Q5W"/>
+                                <exclude reference="4jP-CZ-Kjf"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="1hm-dV-VUA"/>
                                 <exclude reference="P12-c1-tJ7"/>
                                 <exclude reference="SzO-JE-gvH"/>
+                                <exclude reference="HsO-3n-tS0"/>
+                                <exclude reference="bnk-wh-0TQ"/>
+                                <exclude reference="n3V-X7-8vy"/>
                                 <exclude reference="30q-0K-fRV"/>
+                                <exclude reference="Gyw-tu-bIB"/>
                                 <exclude reference="QGP-gp-euf"/>
                                 <exclude reference="QlE-dr-aFF"/>
                                 <exclude reference="vCx-RU-Jng"/>
@@ -1624,12 +1662,17 @@
                                 <include reference="9aX-y9-97k"/>
                                 <include reference="TSL-lD-ZEa"/>
                                 <include reference="lLP-o9-Q5W"/>
+                                <include reference="4jP-CZ-Kjf"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="1hm-dV-VUA"/>
                                 <include reference="P12-c1-tJ7"/>
                                 <include reference="SzO-JE-gvH"/>
+                                <include reference="HsO-3n-tS0"/>
+                                <include reference="bnk-wh-0TQ"/>
+                                <include reference="n3V-X7-8vy"/>
                                 <include reference="30q-0K-fRV"/>
+                                <include reference="Gyw-tu-bIB"/>
                                 <include reference="QGP-gp-euf"/>
                                 <include reference="QlE-dr-aFF"/>
                                 <include reference="vCx-RU-Jng"/>
@@ -1650,17 +1693,17 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Settings" id="YfE-Ld-VBQ">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="Nfx-Eg-Yny"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Settings" id="YfE-Ld-VBQ"/>
                     <connections>
                         <outlet property="emailLBL" destination="QjZ-m5-bYX" id="V94-nz-Unm"/>
+                        <outlet property="nameLabel" destination="TSL-lD-ZEa" id="0e0-K5-joq"/>
                         <outlet property="phoneLBL" destination="hjT-Z4-xNZ" id="oNr-Bt-U2d"/>
+                        <outlet property="userPhoto" destination="4jP-CZ-Kjf" id="8Zl-We-KLL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YgE-V4-qam" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1377.75" y="724.125"/>
+            <point key="canvasLocation" x="1487.25" y="727.125"/>
         </scene>
         <!--UsermenuVC-->
         <scene sceneID="hta-Yu-lfm">
