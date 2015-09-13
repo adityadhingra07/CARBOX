@@ -81,12 +81,6 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         }
     }
     
-    @IBAction func close(sender: AnyObject) {
-        
-        self.dismissViewControllerAnimated(true, completion: { () -> Void in
-            println("closed")
-        })
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         self.automaticallyAdjustsScrollViewInsets = false
@@ -142,41 +136,41 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
 //        actionButton.hideWhileScrolling = true
         
         //Path Menu Code
-
-        let storyMenuItemImage: UIImage = UIImage(named: "bg-menuitem")!
-        let storyMenuItemImagePressed: UIImage = UIImage(named: "bg-menuitem-highlighted")!
-        
-        let starImage: UIImage = UIImage(named: "icon-star")!
-        
-        let starMenuItem1: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: starImage, highlightedContentImage:nil)
-        
-        let starMenuItem2: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: UIImage(named: "fb-icon")!, highlightedContentImage:nil)
-        
-        let starMenuItem3: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: starImage, highlightedContentImage:nil)
-        
-        let starMenuItem4: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: starImage, highlightedContentImage:nil)
-        
-        var menus: [PathMenuItem] = [starMenuItem1, starMenuItem2, starMenuItem3, starMenuItem4]
-        
-        let startItem: PathMenuItem = PathMenuItem(image: UIImage(named: "bg-addbutton"), highlightedImage: UIImage(named: "bg-addbutton-highlighted"), ContentImage: UIImage(named: "icon-plus"), highlightedContentImage: UIImage(named: "icon-plus-highlighted"))
-        
-        var menu: PathMenu = PathMenu(frame: self.view.bounds, startItem: startItem, optionMenus: menus)
-        menu.delegate = self
-        menu.startPoint = CGPointMake(UIScreen.mainScreen().bounds.width/2, self.view.frame.size.height - 100.0)
-        menu.menuWholeAngle = CGFloat(M_PI) - CGFloat(M_PI/5)
-        menu.rotateAngle = -CGFloat(M_PI_2) + CGFloat(M_PI/5) * 1/2
-        menu.timeOffset = 0.0
-        menu.farRadius = 110.0
-        menu.nearRadius = 90.0
-        menu.endRadius = 100.0
-        menu.animationDuration = 0.5
-        
-        self.blackView = UIView(frame: UIScreen.mainScreen().bounds)
-        self.blackView?.addSubview(menu)
-        self.blackView?.backgroundColor = UIColor.clearColor()
-        self.view.addSubview(self.blackView!)
-        //self.view.backgroundColor = UIColor(red:0.96, green:0.94, blue:0.92, alpha:1)
-        
+//
+//        let storyMenuItemImage: UIImage = UIImage(named: "bg-menuitem")!
+//        let storyMenuItemImagePressed: UIImage = UIImage(named: "bg-menuitem-highlighted")!
+//        
+//        let starImage: UIImage = UIImage(named: "icon-star")!
+//        
+//        let starMenuItem1: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: starImage, highlightedContentImage:nil)
+//        
+//        let starMenuItem2: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: UIImage(named: "fb-icon")!, highlightedContentImage:nil)
+//        
+//        let starMenuItem3: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: starImage, highlightedContentImage:nil)
+//        
+//        let starMenuItem4: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: starImage, highlightedContentImage:nil)
+//        
+//        var menus: [PathMenuItem] = [starMenuItem1, starMenuItem2, starMenuItem3, starMenuItem4]
+//        
+//        let startItem: PathMenuItem = PathMenuItem(image: UIImage(named: "bg-addbutton"), highlightedImage: UIImage(named: "bg-addbutton-highlighted"), ContentImage: UIImage(named: "icon-plus"), highlightedContentImage: UIImage(named: "icon-plus-highlighted"))
+//        
+//        var menu: PathMenu = PathMenu(frame: self.view.bounds, startItem: startItem, optionMenus: menus)
+//        menu.delegate = self
+//        menu.startPoint = CGPointMake(UIScreen.mainScreen().bounds.width/2, self.view.frame.size.height - 100.0)
+//        menu.menuWholeAngle = CGFloat(M_PI) - CGFloat(M_PI/5)
+//        menu.rotateAngle = -CGFloat(M_PI_2) + CGFloat(M_PI/5) * 1/2
+//        menu.timeOffset = 0.0
+//        menu.farRadius = 110.0
+//        menu.nearRadius = 90.0
+//        menu.endRadius = 100.0
+//        menu.animationDuration = 0.5
+//        
+//        self.blackView = UIView(frame: UIScreen.mainScreen().bounds)
+//        self.blackView?.addSubview(menu)
+//        self.blackView?.backgroundColor = UIColor.clearColor()
+//        self.view.addSubview(self.blackView!)
+//        //self.view.backgroundColor = UIColor(red:0.96, green:0.94, blue:0.92, alpha:1)
+//        
         retrieve()
         
     }
@@ -334,10 +328,10 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         cell?.userInteractionEnabled = true
         cell?.addGestureRecognizer(longPressGestureRecognizer)
         cell!.profileImageView.tag = indexPath.row
-        var tapGestureRecognizer = UITapGestureRecognizer(target:self, action:Selector("profileImageTapped:"))
+        //var tapGestureRecognizer = UITapGestureRecognizer(target:self, action:Selector("profileImageTapped:"))
         cell!.profileImageView.userInteractionEnabled = true
-        cell!.profileImageView.addGestureRecognizer(tapGestureRecognizer)
-        cell!.backgroundColor = UIColor.clearColor()
+        //cell!.profileImageView.addGestureRecognizer(tapGestureRecognizer)
+        //cell!.backgroundColor = UIColor.clearColor()
         //self.tableView.insertRowsAtIndexPaths(0, withRowAnimation: UITableViewRowAnimation.Bottom)
         //cell!.typeImageView.image = UIImage(named: "timeline-chat")
         //cell.profileImageView.image = UIImage(named: "profile-pic-1")
@@ -440,6 +434,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         self.tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
         // notify that a person wants to ride 
         
 //        selectedName = userArray[indexPath.row]
@@ -455,7 +450,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        var recipients2 = [String]()
+        //var recipients2 = [String]()
 //        if (segue.identifier == "profileView") { //pass data to VC
 //            var svc = segue.destinationViewController.topViewController as! profileVC
 //            println(selectedName)
