@@ -2726,7 +2726,7 @@
             </objects>
             <point key="canvasLocation" x="2245.5" y="-570"/>
         </scene>
-        <!--Timeline View Controller-->
+        <!--Rides-->
         <scene sceneID="l59-Yf-Qxg">
             <objects>
                 <viewController modalPresentationStyle="overFullScreen" id="kzt-tk-tsx" customClass="TimelineViewController" customModule="ride_me" customModuleProvider="target" sceneMemberID="viewController">
@@ -3054,7 +3054,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" id="SQ2-lX-i5v">
+                    <navigationItem key="navigationItem" title="Rides" id="SQ2-lX-i5v">
                         <barButtonItem key="leftBarButtonItem" title="Close" id="Ppr-YM-TQH">
                             <connections>
                                 <action selector="close:" destination="kzt-tk-tsx" id="xSL-dH-BUB"/>

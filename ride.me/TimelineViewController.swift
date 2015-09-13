@@ -18,10 +18,11 @@ import MessageUI
 
 // fix lag
 
-class TimelineViewController : UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, MFMailComposeViewControllerDelegate, floatMenuDelegate {
+class TimelineViewController : UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, MFMailComposeViewControllerDelegate, floatMenuDelegate, PathMenuDelegate{
     
     @IBOutlet var postData: MKTextField!
     @IBOutlet var tableView : UITableView!
+    var blackView: UIView?
     
     var newIndexPathRow: Int? = nil
     
@@ -130,16 +131,51 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         //            }
         //        }
         
-        let floatFrame:CGRect = (CGRectMake(UIScreen.mainScreen().bounds.size.width - 44 - 20, UIScreen.mainScreen().bounds.size.height - 104 - 20, 44, 44))
-        // self.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0.6, alpha: 0.5)
-        let actionButton : VCFloatingActionButton = VCFloatingActionButton(frame: floatFrame, normalImage: UIImage(named: "plus.png"), andPressedImage: UIImage(named: "cross.png"), withScrollview: tableView)
-        //actionButton.normalImage = UIImage(named: "plus.png")!
-        self.view.addSubview(actionButton)
-        actionButton.imageArray = ["fb-icon.png"]
-        actionButton.labelArray = ["Facebook"]
-        actionButton.delegate = self
-        actionButton.hideWhileScrolling = true
+//        let floatFrame:CGRect = (CGRectMake(UIScreen.mainScreen().bounds.size.width - 44 - 20, UIScreen.mainScreen().bounds.size.height - 104 - 20, 44, 44))
+//        // self.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0.6, alpha: 0.5)
+//        let actionButton : VCFloatingActionButton = VCFloatingActionButton(frame: floatFrame, normalImage: UIImage(named: "plus.png"), andPressedImage: UIImage(named: "cross.png"), withScrollview: tableView)
+//        //actionButton.normalImage = UIImage(named: "plus.png")!
+//        self.view.addSubview(actionButton)
+//        actionButton.imageArray = ["fb-icon.png"]
+//        actionButton.labelArray = ["Facebook"]
+//        actionButton.delegate = self
+//        actionButton.hideWhileScrolling = true
+        
+        //Path Menu Code
 
+        let storyMenuItemImage: UIImage = UIImage(named: "bg-menuitem")!
+        let storyMenuItemImagePressed: UIImage = UIImage(named: "bg-menuitem-highlighted")!
+        
+        let starImage: UIImage = UIImage(named: "icon-star")!
+        
+        let starMenuItem1: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: starImage, highlightedContentImage:nil)
+        
+        let starMenuItem2: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: UIImage(named: "fb-icon")!, highlightedContentImage:nil)
+        
+        let starMenuItem3: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: starImage, highlightedContentImage:nil)
+        
+        let starMenuItem4: PathMenuItem = PathMenuItem(image: storyMenuItemImage, highlightedImage: storyMenuItemImagePressed, ContentImage: starImage, highlightedContentImage:nil)
+        
+        var menus: [PathMenuItem] = [starMenuItem1, starMenuItem2, starMenuItem3, starMenuItem4]
+        
+        let startItem: PathMenuItem = PathMenuItem(image: UIImage(named: "bg-addbutton"), highlightedImage: UIImage(named: "bg-addbutton-highlighted"), ContentImage: UIImage(named: "icon-plus"), highlightedContentImage: UIImage(named: "icon-plus-highlighted"))
+        
+        var menu: PathMenu = PathMenu(frame: self.view.bounds, startItem: startItem, optionMenus: menus)
+        menu.delegate = self
+        menu.startPoint = CGPointMake(UIScreen.mainScreen().bounds.width/2, self.view.frame.size.height - 100.0)
+        menu.menuWholeAngle = CGFloat(M_PI) - CGFloat(M_PI/5)
+        menu.rotateAngle = -CGFloat(M_PI_2) + CGFloat(M_PI/5) * 1/2
+        menu.timeOffset = 0.0
+        menu.farRadius = 110.0
+        menu.nearRadius = 90.0
+        menu.endRadius = 100.0
+        menu.animationDuration = 0.5
+        
+        self.blackView = UIView(frame: UIScreen.mainScreen().bounds)
+        self.blackView?.addSubview(menu)
+        self.blackView?.backgroundColor = UIColor.clearColor()
+        self.view.addSubview(self.blackView!)
+        //self.view.backgroundColor = UIColor(red:0.96, green:0.94, blue:0.92, alpha:1)
         
         retrieve()
         
@@ -527,6 +563,65 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         }
     }
     
+    //MARK: PathMenuDelegate
+    
+    func pathMenu(menu: PathMenu, didSelectIndex idx: Int) {
+        println("Select the index : \(idx)")
+        var row = idx
+        self.blackView?.backgroundColor = UIColor.clearColor()
+        if(row == 0) {
+            //fb
+            if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook){
+                var facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+                //facebookSheet.setInitialText("#GetMotivated")
+                self.presentViewController(facebookSheet, animated: true, completion: nil)
+            } else {
+                //var alert = UIAlertController(title: "Accounts", message: "Please login to a Facebook account from the iOS app to share.", preferredStyle: UIAlertControllerStyle.Alert)
+                SCLAlertView().showWarning("Accounts", subTitle: "Please login to a Facebook account from the iOS app to share.")
+                //alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                //self.presentViewController(alert, animated: true, completion: nil)
+            }
+        } else if(row == 1) {
+            //twitter
+            if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter){
+                var twitterSheet:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+                twitterSheet.setInitialText("#GetMotivated")
+                self.presentViewController(twitterSheet, animated: true, completion: nil)
+            } else {
+                SCLAlertView().showWarning("Accounts", subTitle: "Please login to a Twitter account from the iOS app to share.")
+                //self.presentViewController(alert, animated: true, completion: nil)
+            }
+        } else if(row == 2) {
+            //performSegueWithIdentifier("About", sender: self)
+            //google+
+            
+        } else if(row == 3) {
+            //LinkedIn
+        } else if(row == 4){
+            //performSegueWithIdentifier("About", sender: self)
+            //new
+            SCLAlertView().showInfo("About-Terms", subTitle: "http://tarangkhanna.github.io/InspiratorAppPage/terms.html")
+        }
+
+    }
+    
+    func pathMenuWillAnimateOpen(menu: PathMenu) {
+        println("Menu will open!")
+        self.blackView?.backgroundColor = UIColor(red:0.0, green:0.0, blue:0.0, alpha:0.7)
+    }
+    
+    func pathMenuWillAnimateClose(menu: PathMenu) {
+        println("Menu will close!")
+    }
+    
+    func pathMenuDidFinishAnimationOpen(menu: PathMenu) {
+        println("Menu was open!")
+    }
+    
+    func pathMenuDidFinishAnimationClose(menu: PathMenu) {
+        println("Menu was closed!")
+        self.blackView?.backgroundColor = UIColor.clearColor()
+    }
     
     
 }
