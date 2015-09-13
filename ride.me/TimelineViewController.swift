@@ -88,7 +88,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         
         
 
-        SwiftSpinner.show("Loading feed...")x
+        SwiftSpinner.show("Loading feed...")
         
         if let currentUser = PFUser.currentUser()?.username {
             currentUserId = PFUser.currentUser()?.objectId
@@ -143,15 +143,15 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         //            }
         //        }
         
-//        let floatFrame:CGRect = (CGRectMake(UIScreen.mainScreen().bounds.size.width - 44 - 20, UIScreen.mainScreen().bounds.size.height - 104 - 20, 44, 44))
-//        // self.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0.6, alpha: 0.5)
-//        let actionButton : VCFloatingActionButton = VCFloatingActionButton(frame: floatFrame, normalImage: UIImage(named: "plus.png"), andPressedImage: UIImage(named: "cross.png"), withScrollview: tableView)
-//        //actionButton.normalImage = UIImage(named: "plus.png")!
-//        self.view.addSubview(actionButton)
-//        actionButton.imageArray = ["fb-icon.png"]
-//        actionButton.labelArray = ["Facebook"]
-//        actionButton.delegate = self
-//        actionButton.hideWhileScrolling = true
+        let floatFrame:CGRect = (CGRectMake(UIScreen.mainScreen().bounds.size.width - 44 - 20, UIScreen.mainScreen().bounds.size.height - 104 - 20, 44, 44))
+        // self.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0.6, alpha: 0.5)
+        let actionButton : VCFloatingActionButton = VCFloatingActionButton(frame: floatFrame, normalImage: UIImage(named: "plus.png"), andPressedImage: UIImage(named: "cross.png"), withScrollview: tableView)
+        //actionButton.normalImage = UIImage(named: "plus.png")!
+        self.view.addSubview(actionButton)
+        actionButton.imageArray = ["facebookmenu.png", "logoutmenu.png","favmenu.png", "settingsmenu.png"]
+        actionButton.labelArray = ["Facebook", "LogOut", "Favourites", "Settings"]
+        actionButton.delegate = self
+        actionButton.hideWhileScrolling = true
         
         //Path Menu Code
 //
@@ -554,25 +554,23 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
                 //self.presentViewController(alert, animated: true, completion: nil)
             }
         } else if(row == 1) {
-            //twitter
-            if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter){
-                var twitterSheet:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
-                twitterSheet.setInitialText("#GetMotivated")
-                self.presentViewController(twitterSheet, animated: true, completion: nil)
-            } else {
-                SCLAlertView().showWarning("Accounts", subTitle: "Please login to a Twitter account from the iOS app to share.")
-                //self.presentViewController(alert, animated: true, completion: nil)
+            //log out
+            PFUser.logOut()
+            var currentUser = PFUser.currentUser()
+            if currentUser == nil{
+                dispatch_async(dispatch_get_main_queue()){
+                    var Storyboard = UIStoryboard(name: "Main", bundle: nil)
+                    var mainVC : UIViewController = Storyboard.instantiateViewControllerWithIdentifier("mainVC") as! UIViewController
+                    self.presentViewController(mainVC, animated: true, completion: nil)
+                }
             }
-        } else if(row == 2) {
+        }
+        else if(row == 2) {
             //performSegueWithIdentifier("About", sender: self)
             //google+
             
         } else if(row == 3) {
-            //LinkedIn
-        } else if(row == 4){
-            //performSegueWithIdentifier("About", sender: self)
-            //new
-            SCLAlertView().showInfo("About-Terms", subTitle: "http://tarangkhanna.github.io/InspiratorAppPage/terms.html")
+            self.performSegueWithIdentifier("settings", sender: self)
         }
     }
     
