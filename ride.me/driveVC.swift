@@ -56,7 +56,7 @@ class driveVC: UIViewController, UITextFieldDelegate {
     }
     
     func post_drive(){
-        var message = "Going from " + cityfrom.text! + " to " +  cityto.text! + " anyone need a ride?"
+        var message = "Going from " + cityfrom.text! + " to " +  cityto.text! + ". Anyone needs a ride?"
         var currentUserName = PFUser.currentUser()?.username
         var driveuser = PFObject(className:"drive")
         driveuser["username"] = PFUser.currentUser()?.username

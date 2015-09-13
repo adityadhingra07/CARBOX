@@ -96,7 +96,8 @@
                                                 <exclude reference="YRz-o8-Aw5"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="187" y="338" width="89" height="30"/>
                                             <mask key="constraints">
                                                 <include reference="1yv-nB-7z6"/>
                                                 <include reference="YRz-o8-Aw5"/>
@@ -120,7 +121,8 @@
                                                 <exclude reference="Nj4-e9-U8z"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="143" y="204" width="176" height="38"/>
                                             <mask key="constraints">
                                                 <include reference="Nj4-e9-U8z"/>
                                             </mask>
@@ -141,7 +143,8 @@
                                                 <exclude reference="gar-8i-3Nt"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="143" y="268" width="176" height="38"/>
                                             <mask key="constraints">
                                                 <include reference="Pdb-9R-xaj"/>
                                                 <include reference="gar-8i-3Nt"/>
@@ -233,7 +236,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5t2-Hs-DWP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="ii0-aJ-omc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1864.5" y="924.75"/>
+            <point key="canvasLocation" x="-1696.5" y="528.75"/>
         </scene>
         <!--bootVC-->
         <scene sceneID="X1W-O6-aUO">
@@ -289,7 +292,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rvI-Xx-vUY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2671.5" y="-632.25"/>
+            <point key="canvasLocation" x="1987.5" y="-656.25"/>
         </scene>
         <!--signupanimatedVC-->
         <scene sceneID="uqt-6f-Tgg">
@@ -711,7 +714,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1554.75" y="133.875"/>
+            <point key="canvasLocation" x="-606.75" y="-4.125"/>
         </scene>
         <!--loginview-->
         <scene sceneID="WOO-gJ-mjs">
@@ -1828,7 +1831,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jb9-wm-WRI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-765.75" y="874.875"/>
+            <point key="canvasLocation" x="-465.75" y="685.875"/>
         </scene>
         <!--driveVC-->
         <scene sceneID="wbW-aW-rva">
@@ -2596,7 +2599,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ni5-WH-Sav" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2043" y="-658.5"/>
+            <point key="canvasLocation" x="1359" y="-682.5"/>
         </scene>
         <!--Rides-->
         <scene sceneID="l59-Yf-Qxg">
@@ -2875,7 +2878,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="312.75" y="583.125"/>
+            <point key="canvasLocation" x="456.75" y="754.125"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NmS-sM-Ab2">
@@ -2893,7 +2896,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0u2-vO-h35" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-954" y="718.5"/>
+            <point key="canvasLocation" x="360" y="-85.5"/>
         </scene>
     </scenes>
     <resources>
@@ -2915,6 +2918,6 @@
         <image name="tick.png" width="254" height="254"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="r8U-i6-ojb"/>
+        <segue reference="ScY-Eq-XzO"/>
     </inferredMetricsTieBreakers>
 </document>
