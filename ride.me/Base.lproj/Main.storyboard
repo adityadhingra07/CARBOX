@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="y9l-j0-dgF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="y9l-j0-dgF">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
@@ -71,7 +71,7 @@
                         <viewControllerLayoutGuide type="bottom" id="T7D-90-bYM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MNi-ZZ-XQM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R0i-Qo-yhj" customClass="RoadwayLoginView" customModule="ride_me" customModuleProvider="target">
@@ -96,7 +96,8 @@
                                                 <exclude reference="YRz-o8-Aw5"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="187" y="338" width="89" height="30"/>
                                             <mask key="constraints">
                                                 <include reference="1yv-nB-7z6"/>
                                                 <include reference="YRz-o8-Aw5"/>
@@ -120,7 +121,8 @@
                                                 <exclude reference="Nj4-e9-U8z"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="143" y="204" width="176" height="38"/>
                                             <mask key="constraints">
                                                 <include reference="Nj4-e9-U8z"/>
                                             </mask>
@@ -141,7 +143,8 @@
                                                 <exclude reference="gar-8i-3Nt"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular-widthClass=compact">
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="143" y="268" width="176" height="38"/>
                                             <mask key="constraints">
                                                 <include reference="Pdb-9R-xaj"/>
                                                 <include reference="gar-8i-3Nt"/>
@@ -227,12 +230,13 @@
                         <outlet property="passwordTF" destination="XhU-io-s6F" id="9Ie-Bq-rPY"/>
                         <outlet property="roadsign" destination="R0i-Qo-yhj" id="Nka-Eg-aK8"/>
                         <outlet property="usernameTF" destination="DWa-pe-Aif" id="zLO-AX-iEV"/>
+                        <segue destination="dwM-Do-NJY" kind="show" identifier="loggedIn42" id="r8U-i6-ojb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5t2-Hs-DWP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="ii0-aJ-omc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-831" y="282.75"/>
+            <point key="canvasLocation" x="-1864.5" y="924.75"/>
         </scene>
         <!--bootVC-->
         <scene sceneID="X1W-O6-aUO">
@@ -288,7 +292,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rvI-Xx-vUY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="733.5" y="-371.25"/>
+            <point key="canvasLocation" x="2671.5" y="-632.25"/>
         </scene>
         <!--signupanimatedVC-->
         <scene sceneID="uqt-6f-Tgg">
@@ -710,7 +714,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1713.75" y="-20.625"/>
+            <point key="canvasLocation" x="-1554.75" y="133.875"/>
         </scene>
         <!--loginview-->
         <scene sceneID="WOO-gJ-mjs">
@@ -1175,7 +1179,7 @@
                         <viewControllerLayoutGuide type="bottom" id="fw7-iy-AUP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fqO-hj-QPR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="WQc-V6-b8B">
@@ -1827,7 +1831,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jb9-wm-WRI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-297.75" y="1002.375"/>
+            <point key="canvasLocation" x="-765.75" y="874.875"/>
         </scene>
         <!--driveVC-->
         <scene sceneID="wbW-aW-rva">
@@ -2817,7 +2821,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="573.75" y="715.125"/>
+            <point key="canvasLocation" x="312.75" y="583.125"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NmS-sM-Ab2">
@@ -2835,7 +2839,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0u2-vO-h35" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1494" y="132"/>
+            <point key="canvasLocation" x="-954" y="718.5"/>
         </scene>
     </scenes>
     <resources>
@@ -2855,6 +2859,6 @@
         <image name="tick.png" width="254" height="254"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GtX-CB-2ZD"/>
+        <segue reference="r8U-i6-ojb"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -92,9 +92,10 @@ class ANMTDloginViewController: UIViewController, UITextFieldDelegate, RoadwayLo
 //                    alert.show()
                     //Need to connect the main view controller here after login
                     dispatch_async(dispatch_get_main_queue()){
-                        var Storyboard = UIStoryboard(name: "Main", bundle: nil)
-                        var mainViewController : UIViewController = Storyboard.instantiateViewControllerWithIdentifier("mainViewController") as! UIViewController
-                        self.presentViewController(mainViewController, animated: true, completion: nil)
+                      //  var Storyboard = UIStoryboard(name: "Main", bundle: nil)
+                        //var mainViewController : UIViewController = Storyboard.instantiateViewControllerWithIdentifier("mainViewController") as! UIViewController
+                        //self.presentViewController(mainViewController, animated: true, completion: nil)
+                        self.performSegueWithIdentifier("loggedIn42", sender: self)
                     }//FIXED
                 }
                 else{

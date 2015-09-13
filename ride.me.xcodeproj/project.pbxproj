@@ -87,7 +87,6 @@
 		482956531B78AA6500A26830 /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 482956521B78AA6500A26830 /* car.jpg */; };
 		482956571B7912C200A26830 /* driveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482956561B7912C200A26830 /* driveVC.swift */; };
 		483C86D21B7A1745001527DE /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483C86D11B7A1745001527DE /* mainViewController.swift */; };
-		484DD5A51BA5899900453BEF /* bgvideo-quicktime.mov in Resources */ = {isa = PBXBuildFile; fileRef = 484DD5A41BA5899900453BEF /* bgvideo-quicktime.mov */; };
 		484DD5A71BA58E6900453BEF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484DD5A61BA58E6900453BEF /* MapKit.framework */; };
 		484DD5A81BA58E7C00453BEF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484DD5A61BA58E6900453BEF /* MapKit.framework */; };
 		485C15941B6DFAEA00C583BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C15931B6DFAEA00C583BD /* AppDelegate.swift */; };
@@ -346,7 +345,6 @@
 		482956521B78AA6500A26830 /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpg; sourceTree = "<group>"; };
 		482956561B7912C200A26830 /* driveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = driveVC.swift; sourceTree = "<group>"; };
 		483C86D11B7A1745001527DE /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
-		484DD5A41BA5899900453BEF /* bgvideo-quicktime.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "bgvideo-quicktime.mov"; sourceTree = "<group>"; };
 		484DD5A61BA58E6900453BEF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		485C158E1B6DFAEA00C583BD /* ride.me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ride.me.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C15921B6DFAEA00C583BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -692,7 +690,6 @@
 			isa = PBXGroup;
 			children = (
 				4227B83D1BA4DAA0001E6417 /* ride.me.entitlements */,
-				484DD5A41BA5899900453BEF /* bgvideo-quicktime.mov */,
 				4227B7F21BA43506001E6417 /* TimelineViewController.swift */,
 				4227B7F41BA43694001E6417 /* TimelineCell.swift */,
 				4885C02D1BA41F1200020C4C /* Bass_Drop_04.wav */,
@@ -1143,7 +1140,6 @@
 				4885C01C1BA3E8B100020C4C /* r1.png in Resources */,
 				4885C01F1BA3E8B100020C4C /* r2@2x.png in Resources */,
 				485C15D51B6DFBDB00C583BD /* g+icon.png in Resources */,
-				484DD5A51BA5899900453BEF /* bgvideo-quicktime.mov in Resources */,
 				4885BFE21BA3A86200020C4C /* settingsVC.coreanimator in Resources */,
 				4814D6601B708BBC008F98D9 /* appsignupbtn.png in Resources */,
 				485C15D61B6DFBDB00C583BD /* google-plus.png in Resources */,
