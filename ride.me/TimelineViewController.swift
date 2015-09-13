@@ -596,8 +596,6 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
             //google+
             
         } else if(row == 3) {
-            //LinkedIn
-        } else if(row == 4){
             //log out
             PFUser.logOut()
             var currentUser = PFUser.currentUser()
@@ -608,7 +606,6 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
                     self.presentViewController(mainVC, animated: true, completion: nil)
                 }
             }
-
         }
 
     }
