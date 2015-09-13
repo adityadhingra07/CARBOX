@@ -18,7 +18,7 @@ import MessageUI
 
 // fix lag
 
-class TimelineViewController : UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, MFMailComposeViewControllerDelegate {
+class TimelineViewController : UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, MFMailComposeViewControllerDelegate, floatMenuDelegate {
     
     @IBOutlet var postData: MKTextField!
     @IBOutlet var tableView : UITableView!
@@ -126,7 +126,16 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         //            }
         //        }
         
-        
+        let floatFrame:CGRect = (CGRectMake(UIScreen.mainScreen().bounds.size.width - 44 - 20, UIScreen.mainScreen().bounds.size.height - 104 - 20, 44, 44))
+        // self.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0.6, alpha: 0.5)
+        let actionButton : VCFloatingActionButton = VCFloatingActionButton(frame: floatFrame, normalImage: UIImage(named: "plus.png"), andPressedImage: UIImage(named: "cross.png"), withScrollview: tableView)
+        //actionButton.normalImage = UIImage(named: "plus.png")!
+        self.view.addSubview(actionButton)
+        actionButton.imageArray = ["fb-icon.png"]
+        actionButton.labelArray = ["Facebook"]
+        actionButton.delegate = self
+        actionButton.hideWhileScrolling = true
+
         
         retrieve()
         
@@ -475,6 +484,45 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         return true
         
     }
+    
+    
+    func didSelectMenuOptionAtIndex(row : NSInteger) {
+        println(row)
+        if(row == 0) {
+            //fb
+            if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook){
+                var facebookSheet:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+                //facebookSheet.setInitialText("#GetMotivated")
+                self.presentViewController(facebookSheet, animated: true, completion: nil)
+            } else {
+                //var alert = UIAlertController(title: "Accounts", message: "Please login to a Facebook account from the iOS app to share.", preferredStyle: UIAlertControllerStyle.Alert)
+                SCLAlertView().showWarning("Accounts", subTitle: "Please login to a Facebook account from the iOS app to share.")
+                //alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                //self.presentViewController(alert, animated: true, completion: nil)
+            }
+        } else if(row == 1) {
+            //twitter
+            if SLComposeViewController.isAvailableForServiceType(SLServiceTypeTwitter){
+                var twitterSheet:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+                twitterSheet.setInitialText("#GetMotivated")
+                self.presentViewController(twitterSheet, animated: true, completion: nil)
+            } else {
+                SCLAlertView().showWarning("Accounts", subTitle: "Please login to a Twitter account from the iOS app to share.")
+                //self.presentViewController(alert, animated: true, completion: nil)
+            }
+        } else if(row == 2) {
+            //performSegueWithIdentifier("About", sender: self)
+            //google+
+            
+        } else if(row == 3) {
+            //LinkedIn
+        } else if(row == 4){
+            //performSegueWithIdentifier("About", sender: self)
+            //new
+            SCLAlertView().showInfo("About-Terms", subTitle: "http://tarangkhanna.github.io/InspiratorAppPage/terms.html")
+        }
+    }
+    
     
     
 }

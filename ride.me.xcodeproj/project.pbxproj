@@ -64,6 +64,12 @@
 		4227B8471BA4E352001E6417 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C16091B6E239000C583BD /* Security.framework */; };
 		4227B8491BA4E391001E6417 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4227B8481BA4E391001E6417 /* StoreKit.framework */; };
 		4227B84A1BA4E398001E6417 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C160F1B6E23AA00C583BD /* SystemConfiguration.framework */; };
+		4293363F1BA4F0D9005E27C3 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 429336371BA4F0D9005E27C3 /* FXBlurView.m */; };
+		429336401BA4F0D9005E27C3 /* TWTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429336381BA4F0D9005E27C3 /* TWTButton.swift */; };
+		429336411BA4F0D9005E27C3 /* RAMPaperSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429336391BA4F0D9005E27C3 /* RAMPaperSwitch.swift */; };
+		429336421BA4F0D9005E27C3 /* floatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4293363B1BA4F0D9005E27C3 /* floatTableViewCell.m */; };
+		429336431BA4F0D9005E27C3 /* floatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4293363C1BA4F0D9005E27C3 /* floatTableViewCell.xib */; };
+		429336441BA4F0D9005E27C3 /* VCFloatingActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4293363E1BA4F0D9005E27C3 /* VCFloatingActionButton.m */; };
 		48143AD01B7FB1DD00330CFE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */; };
 		48143AD21B7FB1DD00330CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD11B7FB1DD00330CFE /* Images.xcassets */; };
 		48143AD61B7FB1DD00330CFE /* ride.me WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 48143AD51B7FB1DD00330CFE /* ride.me WatchKit App.app */; };
@@ -305,6 +311,16 @@
 		4227B8441BA4E345001E6417 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		4227B8481BA4E391001E6417 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		4227B84B1BA4E4A6001E6417 /* ride.me WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ride.me WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		429336351BA4F0D8005E27C3 /* ride.me-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ride.me-Bridging-Header.h"; sourceTree = "<group>"; };
+		429336361BA4F0D9005E27C3 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		429336371BA4F0D9005E27C3 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		429336381BA4F0D9005E27C3 /* TWTButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWTButton.swift; sourceTree = "<group>"; };
+		429336391BA4F0D9005E27C3 /* RAMPaperSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMPaperSwitch.swift; sourceTree = "<group>"; };
+		4293363A1BA4F0D9005E27C3 /* floatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floatTableViewCell.h; sourceTree = "<group>"; };
+		4293363B1BA4F0D9005E27C3 /* floatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = floatTableViewCell.m; sourceTree = "<group>"; };
+		4293363C1BA4F0D9005E27C3 /* floatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = floatTableViewCell.xib; sourceTree = "<group>"; };
+		4293363D1BA4F0D9005E27C3 /* VCFloatingActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFloatingActionButton.h; sourceTree = "<group>"; };
+		4293363E1BA4F0D9005E27C3 /* VCFloatingActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFloatingActionButton.m; sourceTree = "<group>"; };
 		48143ACB1B7FB1DC00330CFE /* ride.me WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ride.me WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48143ACE1B7FB1DD00330CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48143ACF1B7FB1DD00330CFE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -570,6 +586,22 @@
 			name = Spring;
 			sourceTree = "<group>";
 		};
+		429336451BA4F0E0005E27C3 /* VCFloatingButtons */ = {
+			isa = PBXGroup;
+			children = (
+				429336361BA4F0D9005E27C3 /* FXBlurView.h */,
+				429336371BA4F0D9005E27C3 /* FXBlurView.m */,
+				429336381BA4F0D9005E27C3 /* TWTButton.swift */,
+				429336391BA4F0D9005E27C3 /* RAMPaperSwitch.swift */,
+				4293363A1BA4F0D9005E27C3 /* floatTableViewCell.h */,
+				4293363B1BA4F0D9005E27C3 /* floatTableViewCell.m */,
+				4293363C1BA4F0D9005E27C3 /* floatTableViewCell.xib */,
+				4293363D1BA4F0D9005E27C3 /* VCFloatingActionButton.h */,
+				4293363E1BA4F0D9005E27C3 /* VCFloatingActionButton.m */,
+			);
+			name = VCFloatingButtons;
+			sourceTree = "<group>";
+		};
 		48143ACC1B7FB1DC00330CFE /* ride.me WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -667,6 +699,7 @@
 		485C15911B6DFAEA00C583BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				429336451BA4F0E0005E27C3 /* VCFloatingButtons */,
 				4227B83A1BA4CE2E001E6417 /* Spring */,
 				4227B7F81BA43C8C001E6417 /* PullToRefreshView.swift */,
 				4227B7FA1BA43C99001E6417 /* PullToRefreshOption.swift */,
@@ -686,6 +719,7 @@
 				485C15FC1B6E231000C583BD /* Frameworks */,
 				485C15B61B6DFBDA00C583BD /* RideME FILES */,
 				485C15921B6DFAEA00C583BD /* Info.plist */,
+				429336351BA4F0D8005E27C3 /* ride.me-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1080,6 +1114,7 @@
 				4814D6601B708BBC008F98D9 /* appsignupbtn.png in Resources */,
 				485C15D61B6DFBDB00C583BD /* google-plus.png in Resources */,
 				4885BFD21BA3A86200020C4C /* rod.png in Resources */,
+				429336431BA4F0D9005E27C3 /* floatTableViewCell.xib in Resources */,
 				4885BFD11BA3A86200020C4C /* roadwaybuttonsignup.png in Resources */,
 				4227B8221BA4CE24001E6417 /* LoadingView.xib in Resources */,
 				485C15DF1B6DFBDB00C583BD /* ridemelogo.png in Resources */,
@@ -1165,6 +1200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429336441BA4F0D9005E27C3 /* VCFloatingActionButton.m in Sources */,
+				429336411BA4F0D9005E27C3 /* RAMPaperSwitch.swift in Sources */,
 				4885BFE71BA3D3CB00020C4C /* animatedMainVC.swift in Sources */,
 				488152691B77900D00E34D32 /* usermenu.swift in Sources */,
 				4227B82C1BA4CE24001E6417 /* KeyboardLayoutConstraint.swift in Sources */,
@@ -1174,6 +1211,7 @@
 				483C86D21B7A1745001527DE /* mainViewController.swift in Sources */,
 				4227B8331BA4CE24001E6417 /* SpringLabel.swift in Sources */,
 				4227B8301BA4CE24001E6417 /* SpringAnimation.swift in Sources */,
+				429336401BA4F0D9005E27C3 /* TWTButton.swift in Sources */,
 				4227B7E71BA405A4001E6417 /* MKLabel.swift in Sources */,
 				4227B82A1BA4CE24001E6417 /* DesignableTabBarController.swift in Sources */,
 				4885BFE11BA3A86200020C4C /* RoadwayLoginView.swift in Sources */,
@@ -1207,6 +1245,7 @@
 				485C16161B6E24C000C583BD /* loginvc.swift in Sources */,
 				4227B8371BA4CE24001E6417 /* TransitionManager.swift in Sources */,
 				48DAA3AF1B723F710072B459 /* animatedSignUpVC.swift in Sources */,
+				4293363F1BA4F0D9005E27C3 /* FXBlurView.m in Sources */,
 				4227B7F31BA43506001E6417 /* TimelineViewController.swift in Sources */,
 				4227B8211BA4CE24001E6417 /* LoadingView.swift in Sources */,
 				4227B7EC1BA405A4001E6417 /* MKTextField.swift in Sources */,
@@ -1214,6 +1253,7 @@
 				4227B81F1BA4CE24001E6417 /* AsyncImageView.swift in Sources */,
 				4227B8231BA4CE24001E6417 /* BlurView.swift in Sources */,
 				482956571B7912C200A26830 /* driveVC.swift in Sources */,
+				429336421BA4F0D9005E27C3 /* floatTableViewCell.m in Sources */,
 				4227B7FC1BA43C9A001E6417 /* PullToRefreshOption.swift in Sources */,
 				4885BFE31BA3A86200020C4C /* SettingsVCView.swift in Sources */,
 				4227B7E91BA405A4001E6417 /* MKButton.swift in Sources */,
@@ -1449,6 +1489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ride.me/ride.me.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1461,6 +1502,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ride.me/ride.me-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1469,6 +1512,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ride.me/ride.me.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1481,6 +1525,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ride.me/ride.me-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
