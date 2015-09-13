@@ -25,7 +25,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
     var blackView: UIView?
     
     var newIndexPathRow: Int? = nil
-    
+    var refreshControl:UIRefreshControl!
     @IBOutlet var menuItem : UIBarButtonItem!
     @IBOutlet var statusLabel: UILabel!
     var selectedParseObjectId = String()
@@ -192,6 +192,22 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
 //        
 //    retrieve()
         
+        
+        self.refreshControl = UIRefreshControl()
+        self.refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
+        self.refreshControl.addTarget(self, action: "refresh:", forControlEvents: UIControlEvents.ValueChanged)
+        self.tableView.addSubview(refreshControl)
+        
+    }
+    
+    func refresh(sender:AnyObject)
+    {
+        // Code to refresh table view
+        //SwiftSpinner.show("Refreshing")
+        retrieve()
+        //self?.retrieve()
+        //self?.tableView.reloadData()
+        //refreshControl.endRefreshing()
     }
     
     func retrieve() {
@@ -271,6 +287,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
                     // dispatch_async(dispatch_get_main_queue()) {
                     if self.profileImageFiles.count == self.userArray.count{
                         SwiftSpinner.hide()
+                        self.refreshControl.endRefreshing()
                         self.tableView.reloadData()
                     } else {
                         self.retrieve()
