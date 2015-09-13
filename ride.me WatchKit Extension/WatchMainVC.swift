@@ -12,6 +12,8 @@ import Parse
 
 class WatchMainVC: WKInterfaceController {
     
+    @IBOutlet var name: WKInterfaceLabel!
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -20,6 +22,10 @@ class WatchMainVC: WKInterfaceController {
         
         Parse.setApplicationId("8HWVCwLAEWaLHmXBQ9hKl77YhmfHKPAoiZFJM4Ds", clientKey:"LbugyjO6Pr2GPM5m4JexSCahNMG5e4qjFBq85Yec")
         // Configure interface objects here.
+        
+        let currentUser = PFUser.currentUser()?.username
+        name.setText("Hey, "+currentUser!+"!")
+        
     }
     
     override func willActivate() {
@@ -30,6 +36,7 @@ class WatchMainVC: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+        
     }
     
 }

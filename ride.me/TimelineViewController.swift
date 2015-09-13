@@ -188,7 +188,7 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
             query.limit = 25
             query.findObjectsInBackgroundWithBlock({ (objects, error) -> Void in
                 if error != nil {
-                    self.statusLabel.text = "No Internet. Try refreshing."
+                    //self.statusLabel.text = "No Internet. Try refreshing."
                 }
                 self.containsImage.removeAll(keepCapacity: false)
                 self.imageFiles.removeAll(keepCapacity: false)

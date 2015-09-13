@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yWB-fs-NHo">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yWB-fs-NHo">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
@@ -43,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="114" y="258"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Watch MainVC-->
         <scene sceneID="ePw-jZ-dyd">
             <objects>
-                <controller id="yWB-fs-NHo">
+                <controller id="yWB-fs-NHo" customClass="WatchMainVC" customModule="ride_me_WatchKit_Extension">
                     <items>
                         <label alignment="center" text="Hello, User" id="JOp-Q6-vIn">
                             <fontDescription key="font" type="system" weight="light" pointSize="18"/>
@@ -54,23 +54,24 @@
                         <separator width="0.50000000000000011" alignment="center" id="3ZE-xg-gld">
                             <color key="color" red="0.59999999999999998" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </separator>
-                        <table alignment="center" id="P4x-KN-5Cm">
+                        <table alignment="left" id="oqn-S4-u1t">
                             <items>
-                                <tableRow id="TIo-Cc-O6H">
-                                    <group key="rootItem" width="1" alignment="left" id="m25-uM-7e2"/>
-                                </tableRow>
-                                <tableRow id="oWa-vV-anx">
-                                    <group key="rootItem" width="1" alignment="left" id="11P-KX-XjE"/>
-                                </tableRow>
-                                <tableRow id="JRq-Zn-M8R">
-                                    <group key="rootItem" width="1" alignment="left" id="Bcf-20-QSh"/>
+                                <tableRow id="N7j-pi-4zs">
+                                    <group key="rootItem" width="1" alignment="left" contentMode="scaleAspectFill" layout="vertical" id="VFl-ov-lka">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="User1" id="a5C-76-YLg"/>
+                                        </items>
+                                    </group>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="name" destination="JOp-Q6-vIn" id="iuH-GK-hbt"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="371" y="245"/>
+            <point key="canvasLocation" x="369" y="251"/>
         </scene>
     </scenes>
 </document>
