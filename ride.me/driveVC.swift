@@ -24,15 +24,19 @@ class driveVC: UIViewController, UITextFieldDelegate {
     @IBOutlet var cityfrom: MKTextField!
     @IBOutlet var statefrom: MKTextField!
     @IBOutlet var zipfrom: MKTextField!
-    
+    var strDate = ""
     // DATE INPUT
     
     @IBOutlet var datepick: UIDatePicker!
     @IBAction func datepicker(sender: AnyObject) {
         var date:NSDate = datepick.date
+        
         Day = NSCalendar.currentCalendar().startOfDayForDate(date)
-        println(date)
-        println(Day)
+        var dateFormatter = NSDateFormatter()
+        
+        dateFormatter.dateStyle = NSDateFormatterStyle.ShortStyle
+        strDate = dateFormatter.stringFromDate(datepick.date)
+        println(strDate)
     }
  
     @IBAction func done(sender: AnyObject) {
@@ -58,14 +62,14 @@ class driveVC: UIViewController, UITextFieldDelegate {
         driveuser["username"] = PFUser.currentUser()?.username
         driveuser["text"] = message
         driveuser["startTime"] = CFAbsoluteTimeGetCurrent()
-        driveuser["date"] = Day as NSDate
+        driveuser["date"] = strDate // use date for search also
         //driveuser["cityto"] = cityto.text!
         //driveuser["stateto"] = stateto.text!
-        driveuser["zipto"] = zipto.text!
+        driveuser["zipto"] = zipto.text! // use zip to provide search
        // driveuser["cityfrom"] = cityfrom.text!
         //driveuser["statefrom"] = statefrom.text!
         driveuser["zipfrom"] = zipfrom.text!
-        
+        // provide contact info 
         driveuser.saveInBackgroundWithBlock {
                 (success: Bool, error: NSError?) -> Void in
                 if (success) {
