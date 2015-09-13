@@ -598,9 +598,17 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
         } else if(row == 3) {
             //LinkedIn
         } else if(row == 4){
-            //performSegueWithIdentifier("About", sender: self)
-            //new
-            SCLAlertView().showInfo("About-Terms", subTitle: "http://tarangkhanna.github.io/InspiratorAppPage/terms.html")
+            //log out
+            PFUser.logOut()
+            var currentUser = PFUser.currentUser()
+            if currentUser == nil{
+                dispatch_async(dispatch_get_main_queue()){
+                    var Storyboard = UIStoryboard(name: "Main", bundle: nil)
+                    var mainVC : UIViewController = Storyboard.instantiateViewControllerWithIdentifier("mainVC") as! UIViewController
+                    self.presentViewController(mainVC, animated: true, completion: nil)
+                }
+            }
+
         }
 
     }
