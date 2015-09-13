@@ -73,11 +73,29 @@ class TimelineViewController : UIViewController, UITableViewDelegate, UITableVie
     override func viewWillAppear(animated: Bool) {
        // self.navigationController!.navigationBar.hidden = false
         //self.navigationController?.setNavigationBarHidden(false, animated: true)
-        SwiftSpinner.show("Loading feed...")
-        if let currentUser = PFUser.currentUser()!.username {
+        
+        //USER INFO FOR STATS
+        var currentusername = PFUser.currentUser()?.username
+        
+        
+        //var currentUser: AnyObject? = PFUser.currentUser()?.username
+        if PFUser.currentUser()?.username == nil {
+                var Storyboard = UIStoryboard(name: "Main", bundle: nil)
+                var mainVC : UIViewController = Storyboard.instantiateViewControllerWithIdentifier("mainVC") as! UIViewController
+                self.presentViewController(mainVC, animated: true, completion: nil)
+            
+        }
+        
+        
+
+        SwiftSpinner.show("Loading feed...")x
+        
+        if let currentUser = PFUser.currentUser()?.username {
             currentUserId = PFUser.currentUser()?.objectId
+            var email = PFUser.currentUser()?.email
         } else {
-            performSegueWithIdentifier("signIn", sender: self)
+            //performSegueWithIdentifier("signIn", sender: self)
+            
         }
     }
     
